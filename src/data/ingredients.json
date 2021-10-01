@@ -1,0 +1,152 @@
+[
+  {
+    "id": "absinthe",
+    "name": "Absinthe",
+    "brand": "Pernod",
+    "available": false
+  },
+  {
+    "id": "amaretto-liqueur",
+    "name": "Amaretto",
+    "brand": "Disaronno Originale",
+    "available": true
+  },
+  {
+    "id": "aromatic-bitter",
+    "name": "Bitter aromatique",
+    "brand": "Angostura",
+    "available": true,
+    "filterable": false
+  },
+  {
+    "id": "creole-bitter",
+    "name": "Bitter créole",
+    "brand": "Peychaud",
+    "available": true,
+    "filterable": false
+  },
+  {
+    "id": "orange-bitter",
+    "name": "Bitter orange",
+    "brand": "Regans'",
+    "available": false,
+    "filterable": false
+  },
+  {
+    "id": "italian-red-bitter-liqueur",
+    "name": "Campari",
+    "available": true
+  },
+  {
+    "id": "bourbon-whiskey",
+    "name": "Bourbon",
+    "brand": "Maker's Mark",
+    "available": true
+  },
+  {
+    "id": "calvados",
+    "name": "Calvados",
+    "brand": "Christian Drouin Sélection",
+    "available": false
+  },
+  {
+    "id": "green-chartreuse",
+    "name": "Chartreuse verte",
+    "available": true
+  },
+  {
+    "id": "yellow-chartreuse",
+    "name": "Chartreuse jaune",
+    "available": true
+  },
+  {
+    "id": "cognac",
+    "name": "Cognac",
+    "brand": "Pierre Ferrand 1840",
+    "available": false
+  },
+  {
+    "id": "red-dubonnet",
+    "name": "Dubonnet rouge",
+    "available": false
+  },
+  {
+    "id": "london-dry-gin",
+    "name": "Gin London dry",
+    "brand": "Beefeater",
+    "available": true
+  },
+  {
+    "id": "old-tom-gin",
+    "name": "Gin Old tom",
+    "brand": "???",
+    "available": false
+  },
+  {
+    "id": "mezcal",
+    "name": "Mezcal",
+    "brand": "Del Maguey Vida",
+    "available": false
+  },
+  {
+    "id": "light-rum",
+    "name": "Rhum blanc",
+    "brand": "Havana Club 3 ans",
+    "available": false
+  },
+  {
+    "id": "aged-rum",
+    "name": "Rhum vieux",
+    "brand": "???",
+    "available": false
+  },
+  {
+    "id": "sugar-syrup",
+    "name": "Sirop de sucre",
+    "brand": "Giffard",
+    "available": false,
+    "filterable": false
+  },
+  {
+    "id": "triple-sec-liqueur",
+    "name": "Triple sec",
+    "brand": "Cointreau",
+    "available": false
+  },
+  {
+    "id": "dry-vermouth",
+    "name": "Vermouth sec",
+    "brand": "Dolin",
+    "available": true
+  },
+  {
+    "id": "red-vermouth",
+    "name": "Vermouth rouge",
+    "brand": "Cocchi",
+    "available": true
+  },
+  {
+    "id": "soda-water",
+    "name": "Eau gazeuse",
+    "available": true,
+    "filterable": false
+  },
+  {
+    "id": "rye-whiskey",
+    "name": "Whisky de seigle",
+    "brand": "Rittenhouse",
+    "available": true
+  },
+  {
+    "id": "scotch-whisky",
+    "name": "Whisky écossais",
+    "brand": "Monkey Shoulder",
+    "available": true
+  },
+  {
+    "id": "peated-whisky",
+    "name": "Whisky tourbé",
+    "brand": "Laphroaig 10 ans",
+    "available": false
+  }
+]

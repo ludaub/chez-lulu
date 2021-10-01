@@ -1,0 +1,357 @@
+[
+  {
+    "id": "alaska",
+    "name": "Alaska",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/514/alaska-straubs-1914-recipe",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/03/5e6276df0f603.jpg",
+    "ingredientIds": [
+      {
+        "id": "old-tom-gin",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "1",
+        "unit": "dash"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/61/americano",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2015/7/41/2015e59ddd7a93b2461d7165e20f90537661.jpg",
+    "ingredientIds": [
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "soda-water",
+        "quantity": "7.5",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-slice"
+      }
+    ],
+    "glassId": "collins"
+  },
+  {
+    "id": "ante",
+    "name": "Ante",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/524/ante",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/09/5f4f5ca772c64.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-dubonnet",
+        "quantity": "2",
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": "1",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "dash"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "bentley",
+    "name": "Bentley",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/205/bentley",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/03/2016f8b1f11a41a7a9375b74277ca9e145fe.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-dubonnet",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": "2",
+        "unit": "dash"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "bijou",
+    "name": "Bijou",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/4705/bijou-by-jamie-gordon",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2021/03/6040a89447b79.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "green-chartreuse",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": "0.75",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "boulevardier",
+    "name": "Boulevardier",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/2955/boulevardier-cocktail",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2015/12/38/20150b0f6ebbf712a12d96896a2efd97efbe.jpg",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": "3",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "bushranger",
+    "name": "Bushranger",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/3272/bushranger",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/23/2016d4d8bc125132042b0e7cc58e36380309.jpg",
+    "ingredientIds": [
+      {
+        "id": "light-rum",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-dubonnet",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "dash"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "cardinale",
+    "name": "Cardinale",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/572/cardinale",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/02/5c6fd76c44251.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "4",
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": "4",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "4",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-slice"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "episcopal",
+    "name": "Episcopal",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/721/episcopal",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/42/20168c1c0a3a757a6e31361707c42cfe2904.jpg",
+    "ingredientIds": [
+      {
+        "id": "green-chartreuse",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": "2.25",
+        "unit": "cl"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "godfather",
+    "name": "Godfather",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/864/godfather-cocktail",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/1/00/20161444164ffbeafc9c18d9834769f86d6f.jpg",
+    "ingredientIds": [
+      {
+        "id": "scotch-whisky",
+        "quantity": "6",
+        "unit": "cl"
+      },
+      {
+        "id": "amaretto-liqueur",
+        "quantity": "2",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/1392/negroni-cocktail",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2015/7/25/20153d9edca73fbc76ce9648f3e93498e916.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-wedge"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "old-fashioned",
+    "name": "Old Fashioned",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/4782/old-fashioned",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/07/5d35db08cfe6f.jpg",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": "6",
+        "unit": "cl"
+      },
+      {
+        "id": "sugar-syrup",
+        "quantity": "1.25",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "3",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  }
+]
