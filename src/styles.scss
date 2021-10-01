@@ -1,1 +1,123 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.dark-theme {
+  background-color: #303030;
+}
+
+.unavailable {
+  color: #8d8d8d !important;
+  text-decoration: line-through !important;
+}
+
+.silhouette {
+  color: transparent !important;
+  text-shadow: 0 0 0 #c7c7c7;
+  text-decoration: none !important;
+
+  &.unavailable {
+    text-shadow: 0 0 0 #8d8d8d;
+  }
+}
+
+.toggle-group {
+  .mat-button-toggle {
+    background-color: transparent;
+    color: #8d8d8d;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 8px;
+
+    &-checked.toggle-all {
+      color: #e0f7fa;
+
+      .mat-button-toggle-label-content {
+        text-shadow:
+          0 0 6px #e0f7fa,
+          0 0 12px #e0f7fa,
+          0 0 18px #00e5ff,
+          0 0 24px #00e5ff;
+      }
+    }
+
+    &-checked.toggle-available {
+      color: #e8f5e9;
+
+      .mat-button-toggle-label-content {
+        text-shadow:
+          0 0 6px #e8f5e9,
+          0 0 12px #e8f5e9,
+          0 0 18px #00e676,
+          0 0 24px #00e676;
+      }
+    }
+
+    &-checked.toggle-unavailable {
+      color: #f3e5f5;
+
+      .mat-button-toggle-label-content {
+        text-shadow:
+          0 0 6px #f3e5f5,
+          0 0 12px #f3e5f5,
+          0 0 18px #d500f9,
+          0 0 24px #d500f9;
+      }
+    }
+
+    &-checked.toggle-filter {
+      color: #fffde7;
+
+      .mat-button-toggle-label-content {
+        text-shadow:
+          0 0 6px #fffde7,
+          0 0 12px #fffde7,
+          0 0 18px #ffff00,
+          0 0 24px #ffff00;
+      }
+    }
+
+    .mat-button-toggle-label-content {
+      text-transform: uppercase;
+    }
+  }
+
+  &.toggle-group-availability {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  &.toggle-group-filter {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.filter-menu {
+  .filter-list {
+    .mat-list-option {
+      font-family: 'Libre Baskerville', serif;
+    }
+  }
+}
+
+.flicker-slow {
+  animation: flicker 30s linear infinite;
+}
+
+.flicker-fast {
+  animation: flicker 3s linear infinite;
+}
+
+@keyframes flicker {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: 0.99;
+	}
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
+}
