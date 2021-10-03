@@ -122,7 +122,8 @@
         letter-spacing: 2px;
 
         &-word {
-          //display: inline;
+          // display: inline;
+          display: inline-block; // FIXME: Removes `text-decoration`.
 
           &::first-letter {
             font-size: 28px !important;
