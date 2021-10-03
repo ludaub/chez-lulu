@@ -12,6 +12,17 @@
     "available": true
   },
   {
+    "id": "amaro",
+    "name": "Amaro",
+    "brand": "Montenegro",
+    "available": false
+  },
+  {
+    "id": "amaro-carciofo",
+    "name": "Cynar",
+    "available": false
+  },
+  {
     "id": "aromatic-bitter",
     "name": "Bitter aromatique",
     "brand": "Angostura",
@@ -72,14 +83,20 @@
   },
   {
     "id": "london-dry-gin",
-    "name": "Gin London dry",
+    "name": "Gin",
     "brand": "Beefeater",
     "available": true
   },
   {
     "id": "old-tom-gin",
-    "name": "Gin Old tom",
+    "name": "Gin old tom",
     "brand": "???",
+    "available": false
+  },
+  {
+    "id": "maraschino-liqueur",
+    "name": "Marasquin",
+    "brand": "Luxardo",
     "available": false
   },
   {
@@ -92,6 +109,12 @@
     "id": "light-rum",
     "name": "Rhum blanc",
     "brand": "Havana Club 3 ans",
+    "available": true
+  },
+  {
+    "id": "agricole-rum",
+    "name": "Rhum blanc agricole",
+    "brand": "???",
     "available": false
   },
   {
@@ -114,16 +137,27 @@
     "available": false
   },
   {
+    "id": "red-vermouth",
+    "name": "Vermouth rouge",
+    "brand": "Cocchi",
+    "available": true
+  },
+  {
     "id": "dry-vermouth",
     "name": "Vermouth sec",
     "brand": "Dolin",
     "available": true
   },
   {
-    "id": "red-vermouth",
-    "name": "Vermouth rouge",
-    "brand": "Cocchi",
-    "available": true
+    "id": "white-vermouth",
+    "name": "Vermouth blanc",
+    "brand": "Dolin",
+    "available": false
+  },
+  {
+    "id": "full-bodied-vermouth",
+    "name": "Punt E Mes",
+    "available": false
   },
   {
     "id": "soda-water",

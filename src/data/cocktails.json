@@ -1,5 +1,45 @@
 [
   {
+    "id": "1910",
+    "name": "1910",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/4834/1910",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/09/5d72586840748.jpg",
+    "ingredientIds": [
+      {
+        "id": "mezcal",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "cognac",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "maraschino-liqueur",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "full-bodied-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": "1",
+        "unit": "dash"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
     "id": "alaska",
     "name": "Alaska",
     "recipe": "",
@@ -250,6 +290,76 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "ce-soir",
+    "name": "Ce Soir",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/4858/ce-soir-this-evening",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/09/5d82293e6217b.jpg",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-carciofo",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": "1.25",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "1",
+        "unit": "dash"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "dash"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "discarded-lemon-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "dry-martini",
+    "name": "Dry Martini",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/676/dry-martini-51-ratio-dickens-preferred",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/1/31/2016efd4b6fceaef1db7798292a345c66f83.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "6.25",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "1.25",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "1",
+        "unit": "dash"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "chilled-olive-stick"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
     "id": "episcopal",
     "name": "Episcopal",
     "recipe": "",
@@ -284,6 +394,31 @@
       {
         "id": "amaretto-liqueur",
         "quantity": "2",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "m-and-m",
+    "name": "M & M",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/5588/m-and-m",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/08/5f2d18b5a30c9.jpg",
+    "ingredientIds": [
+      {
+        "id": "mezcal",
+        "quantity": "4",
+        "unit": "cl"
+      },
+      {
+        "id": "amaro",
+        "quantity": "4",
         "unit": "cl"
       }
     ],
