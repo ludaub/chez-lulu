@@ -12,12 +12,6 @@ import { Ingredient } from './ingredient';
 
 type Availability = 'all' | 'available' | 'unavailable';
 
-const GLASS_ICONS: { [key: string]: string } = {
-  collins: '🥛',
-  coupe: '🍸',
-  'old-fashioned': '🥃'
-};
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -176,7 +170,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   getGlassIconByCocktail(cocktail: Cocktail): string {
-    return GLASS_ICONS[cocktail.glassId];
+    return this.glasses.find(glass => glass.id === cocktail.glassId)!['icon'];
   }
 
   getFilterableIngredients(): Array<Ingredient> {

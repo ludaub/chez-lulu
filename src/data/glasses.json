@@ -1,14 +1,22 @@
 [
   {
     "id": "collins",
-    "name": "Collins"
+    "name": "Collins",
+    "icon": "🥛"
   },
   {
     "id": "coupe",
-    "name": "Coupe"
+    "name": "Coupe",
+    "icon": "🍸"
+  },
+  {
+    "id": "nick-&-nora",
+    "name": "Nick & Nora",
+    "icon": "🍸"
   },
   {
     "id": "old-fashioned",
-    "name": "Old Fashioned"
+    "name": "Old Fashioned",
+    "icon": "🥃"
   }
 ]
