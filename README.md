@@ -1,5 +1,7 @@
 # 🍸 Lulu's Bar 
 
+![Deploy to Firebase Hosting on merge](https://github.com/ludaub/lulu-s-bar/actions/workflows/firebase-hosting-merge.yml/badge.svg)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
 ## Development server
