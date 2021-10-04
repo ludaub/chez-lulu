@@ -1,8 +1,8 @@
 {
   "name": "Lulu's Bar",
   "short_name": "Lulu's Bar",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "theme_color": "black",
+  "background_color": "#303030",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
