@@ -91,6 +91,7 @@ export class AppComponent implements OnInit, OnDestroy {
   private readonly _filters = new BehaviorSubject<Array<Ingredient['id']>>([]);
   readonly filters$ = this._filters as Observable<Array<Ingredient['id']>>;
 
+  private readonly _wordSeparatorsRegexp = /[ -]/;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
   constructor(private _http: HttpClient) {}
@@ -167,6 +168,25 @@ export class AppComponent implements OnInit, OnDestroy {
       .map(ingredientId => ingredientId.id)
       .some(id => id === ingredient.id)
     );
+  }
+
+  getNameWordsFromCocktail(cocktail: Cocktail): Array<string> {
+    return cocktail.name.split(this._wordSeparatorsRegexp);
+  }
+
+  getWordSeparator(cocktail: Cocktail, index: number): string {
+    const indexes = [] as Array<number>;
+
+    // Get indexes of word separators characters from name of the cocktail.
+    for (const [i, letter] of [...cocktail.name].entries()) {
+      if (letter.match(this._wordSeparatorsRegexp)) {
+        indexes.push(i);
+      }
+    }
+
+    return cocktail.name.charAt(indexes[index]) === ' '
+      ? '&nbsp;'
+      : cocktail.name.charAt(indexes[index]);
   }
 
   getGlassIconByCocktail(cocktail: Cocktail): string {

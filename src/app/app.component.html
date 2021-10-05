@@ -7,27 +7,27 @@
         <span class="title-bar">Bar</span>
       </h1>
     </div>
-  
+
     <div class="toggle-group-container">
       <mat-button-toggle-group class="toggle-group toggle-group-availability"
                                name="toggle"
                                [value]="availabilities"
                                [disabled]="!cocktails.length"
                                multiple>
-  
+
         <mat-button-toggle class="toggle toggle-all" value="all" (change)="setAvailability($event)">
           Tout ({{ getCocktailsByAvailability('all').length }})
         </mat-button-toggle>
-  
+
         <mat-button-toggle class="toggle toggle-available" value="available" (change)="setAvailability($event)">
           Disponible ({{ getCocktailsByAvailability('available').length }})
         </mat-button-toggle>
-  
+
         <mat-button-toggle class="toggle toggle-unavailable" value="unavailable" (change)="setAvailability($event)">
           Indisponible ({{ getCocktailsByAvailability('unavailable').length }})
         </mat-button-toggle>
       </mat-button-toggle-group>
-  
+
       <mat-button-toggle-group class="toggle-group toggle-group-filter"
                                (change)="toggleFilter($event)"
                                [disabled]="!cocktails.length">
@@ -38,7 +38,7 @@
         </mat-button-toggle>
       </mat-button-toggle-group>
     </div>
-  
+
     <mat-menu #filterMenu="matMenu" class="filter-menu" xPosition="before" yPosition="below">
       <mat-selection-list #filterList
                           class="filter-list"
@@ -52,22 +52,25 @@
       </mat-selection-list>
     </mat-menu>
   </mat-toolbar>
-  
+
   <div class="cocktails-container">
     <ul class="cocktails">
       <li *ngFor="let cocktail of displayedCocktails" class="cocktail">
-        <span class="cocktail-icon silhouette" [class.unavailable]="!isCocktailAvailable(cocktail)">{{ getGlassIconByCocktail(cocktail) }}</span>
+        <span class="cocktail-icon silhouette"
+              [class.unavailable]="!isCocktailAvailable(cocktail)">{{ getGlassIconByCocktail(cocktail) }}</span>
 
         <div>
           <span class="cocktail-name" [class.unavailable]="!isCocktailAvailable(cocktail)">
-            <span class="cocktail-name-word" *ngFor="let word of cocktail.name.split(' '); let i = index"><!--
+            <span class="cocktail-name-word"
+                  *ngFor="let word of getNameWordsFromCocktail(cocktail); let i = index"><!--
               This comment prevents from additional white space.
               -->{{ word }}<!--
               This comment prevents from additional white space.
-              --><span *ngIf="i < cocktail.name.split(' ').length - 1">&nbsp;</span>
+              --><span *ngIf="i < getNameWordsFromCocktail(cocktail).length - 1"
+                       [innerHTML]="getWordSeparator(cocktail, i)"></span>
             </span>
           </span>
-          
+
           <ul class="cocktail-ingredients">
             <li class="cocktail-ingredient" *ngFor="let ingredient of cocktail.ingredients; let i = index">
               <span [class.unavailable]="!ingredient.available"
