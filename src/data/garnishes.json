@@ -1,5 +1,13 @@
 [
   {
+    "id": "grapefruit-zest-twist",
+    "name": "Grapefruit zest twist"
+  },
+  {
+    "id": "lemon-zest-twist",
+    "name": "Lemon zest twist"
+  },
+  {
     "id": "discarded-lemon-zest-twist",
     "name": "Lemon zest twist (discarded)"
   },

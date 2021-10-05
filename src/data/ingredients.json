@@ -6,6 +6,12 @@
     "available": false
   },
   {
+    "id": "americano-bianco",
+    "name": "Americano Bianco",
+    "brand": "Cocchi",
+    "available": true
+  },
+  {
     "id": "amaretto-liqueur",
     "name": "Amaretto",
     "brand": "Disaronno Originale",
@@ -20,6 +26,11 @@
   {
     "id": "amaro-carciofo",
     "name": "Cynar",
+    "available": false
+  },
+  {
+    "id": "benedictine-liqueur",
+    "name": "Bénédictine",
     "available": false
   },
   {
@@ -94,6 +105,54 @@
     "available": false
   },
   {
+    "id": "bergamot-liqueur",
+    "name": "Liqueur de bergamote",
+    "brand": "Italicus",
+    "available": false
+  },
+  {
+    "id": "coffee-liqueur",
+    "name": "Liqueur de café",
+    "brand": "Mr Black",
+    "available": false
+  },
+  {
+    "id": "cherry-liqueur",
+    "name": "Liqueur de cerise",
+    "brand": "Heering",
+    "available": false
+  },
+  {
+    "id": "gentian-liqueur",
+    "name": "Liqueur de gentiane",
+    "brand": "Suze",
+    "available": true
+  },
+  {
+    "id": "mandarin-liqueur",
+    "name": "Liqueur de mandarine",
+    "brand": "Napoléon",
+    "available": false
+  },
+  {
+    "id": "white-mint-liqueur",
+    "name": "Liqueur de menthe blanche",
+    "brand": "Giffard Menthe-Pastille",
+    "available": true
+  },
+  {
+    "id": "elderflower-liqueur",
+    "name": "Liqueur de sureau",
+    "brand": "St-Germain",
+    "available": false
+  },
+  {
+    "id": "whisky-liqueur",
+    "name": "Liqueur de whisky",
+    "brand": "Drambuie",
+    "available": false
+  },
+  {
     "id": "maraschino-liqueur",
     "name": "Marasquin",
     "brand": "Luxardo",
@@ -137,12 +196,6 @@
     "available": false
   },
   {
-    "id": "red-vermouth",
-    "name": "Vermouth rouge",
-    "brand": "Cocchi",
-    "available": true
-  },
-  {
     "id": "dry-vermouth",
     "name": "Vermouth sec",
     "brand": "Dolin",
@@ -153,6 +206,12 @@
     "name": "Vermouth blanc",
     "brand": "Dolin",
     "available": false
+  },
+  {
+    "id": "red-vermouth",
+    "name": "Vermouth rouge",
+    "brand": "Cocchi",
+    "available": true
   },
   {
     "id": "full-bodied-vermouth",

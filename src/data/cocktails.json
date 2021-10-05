@@ -29,7 +29,7 @@
       {
         "id": "creole-bitter",
         "quantity": "1",
-        "unit": "dash"
+        "unit": "traits"
       }
     ],
     "garnishIds": [
@@ -59,7 +59,7 @@
       {
         "id": "orange-bitter",
         "quantity": "1",
-        "unit": "dash"
+        "unit": "traits"
       }
     ],
     "garnishIds": [
@@ -124,7 +124,7 @@
       {
         "id": "aromatic-bitter",
         "quantity": "1",
-        "unit": "dash"
+        "unit": "traits"
       }
     ],
     "garnishIds": [
@@ -154,7 +154,7 @@
       {
         "id": "creole-bitter",
         "quantity": "2",
-        "unit": "dash"
+        "unit": "traits"
       }
     ],
     "garnishIds": [
@@ -249,7 +249,7 @@
       {
         "id": "aromatic-bitter",
         "quantity": "1",
-        "unit": "dash"
+        "unit": "traits"
       }
     ],
     "garnishIds": [
@@ -314,17 +314,52 @@
       {
         "id": "orange-bitter",
         "quantity": "1",
-        "unit": "dash"
+        "unit": "traits"
       },
       {
         "id": "aromatic-bitter",
         "quantity": "1",
-        "unit": "dash"
+        "unit": "traits"
       }
     ],
     "garnishIds": [
       {
         "id": "discarded-lemon-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "drunk-uncle",
+    "name": "Drunk Uncle",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/6015/drunk-uncle",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/09/5f74462370210.jpg",
+    "ingredientIds": [
+      {
+        "id": "scotch-whisky",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "peated-whisky",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "white-vermouth",
+        "quantity": "2.5",
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-carciofo",
+        "quantity": "1",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "grapefruit-zest-twist"
       }
     ],
     "glassId": "coupe"
@@ -349,7 +384,7 @@
       {
         "id": "orange-bitter",
         "quantity": "1",
-        "unit": "dash"
+        "unit": "traits"
       }
     ],
     "garnishIds": [
@@ -403,6 +438,46 @@
       }
     ],
     "glassId": "old-fashioned"
+  },
+  {
+    "id": "greenpoint",
+    "name": "Greenpoint",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/3635/greenpoint",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/2/59/2016c4caa996ef2ca7ecb4da9ca2257361d5.jpg",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": "5",
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "traits"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "1",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
   },
   {
     "id": "m-and-m",
@@ -485,6 +560,91 @@
     "garnishIds": [
       {
         "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "poets-dream",
+    "name": "Poet's Dream",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/1576/poets-dream",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2017/1/44/2017830fd3ed5d71bcb4ab71527d422b851c.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "2.25",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      }
+    ],
+    "glassId": "nick-&-nora"
+  },
+  {
+    "id": "vieille-place",
+    "name": "Vieille Place",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/4675/vieille-place",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/02/5c543a881065f.jpg",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": "2.5",
+        "unit": "cl"
+      },
+      {
+        "id": "cognac",
+        "quantity": "2.5",
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": "2",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "amaretto-liqueur",
+        "quantity": "0.5",
+        "unit": "cl"
+      },
+      {
+        "id": "sugar-syrup",
+        "quantity": "1",
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": "1",
+        "unit": "traits"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
       }
     ],
     "glassId": "old-fashioned"
