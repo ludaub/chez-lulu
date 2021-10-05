@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/lulu-s-bar",
+    "public": "dist/lulus-bar",
     "ignore": [
       "firebase.json",
       "**/.*",
