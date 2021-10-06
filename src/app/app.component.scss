@@ -98,8 +98,14 @@
 
     .cocktail {
       display: flex;
-      margin-bottom: 48px;
+      padding: 24px 0;
+      border-bottom: dotted #484848;
       font-family: 'Libre Baskerville', serif;
+      cursor: pointer;
+
+      &:last-of-type {
+        border-bottom: none;
+      }
 
       &-icon {
         display: block;

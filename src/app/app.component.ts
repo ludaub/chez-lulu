@@ -1,6 +1,7 @@
-import { HttpClient } from "@angular/common/http";
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { MatButtonToggleChange } from "@angular/material/button-toggle";
+import { HttpClient } from '@angular/common/http';
+import { Component, OnDestroy, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { MatButtonToggleChange } from '@angular/material/button-toggle';
+import { MatDialog } from '@angular/material/dialog';
 
 import { BehaviorSubject, Observable, Subject, forkJoin } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
@@ -91,10 +92,14 @@ export class AppComponent implements OnInit, OnDestroy {
   private readonly _filters = new BehaviorSubject<Array<Ingredient['id']>>([]);
   readonly filters$ = this._filters as Observable<Array<Ingredient['id']>>;
 
+  @ViewChild('cocktailDetailDialog') cocktailDetailDialog!: TemplateRef<any>;
   private readonly _wordSeparatorsRegexp = /[ -]/;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
-  constructor(private _http: HttpClient) {}
+  constructor(
+    private _dialog: MatDialog,
+    private _http: HttpClient
+  ) {}
 
   ngOnInit() {
     forkJoin(
@@ -170,23 +175,23 @@ export class AppComponent implements OnInit, OnDestroy {
     );
   }
 
-  getNameWordsFromCocktail(cocktail: Cocktail): Array<string> {
-    return cocktail.name.split(this._wordSeparatorsRegexp);
+  getWords(value: string): Array<string> {
+    return value.split(this._wordSeparatorsRegexp);
   }
 
-  getWordSeparator(cocktail: Cocktail, index: number): string {
+  getWordSeparator(value: string, index: number): string {
     const indexes = [] as Array<number>;
 
     // Get indexes of word separators characters from name of the cocktail.
-    for (const [i, letter] of [...cocktail.name].entries()) {
+    for (const [i, letter] of [...value].entries()) {
       if (letter.match(this._wordSeparatorsRegexp)) {
         indexes.push(i);
       }
     }
 
-    return cocktail.name.charAt(indexes[index]) === ' '
+    return value.charAt(indexes[index]) === ' '
       ? '&nbsp;'
-      : cocktail.name.charAt(indexes[index]);
+      : value.charAt(indexes[index]);
   }
 
   getGlassIconByCocktail(cocktail: Cocktail): string {
@@ -204,6 +209,14 @@ export class AppComponent implements OnInit, OnDestroy {
 
   isIngredientFiltered(ingredient: Ingredient): boolean {
     return this.filters.includes(ingredient.id);
+  }
+
+  getCocktailIngredientQuantity(cocktail: Cocktail, ingredient: Ingredient): number {
+    return cocktail.ingredientIds.find(ingredientId => ingredientId.id === ingredient.id)!['quantity'] ?? 0;
+  }
+
+  getCocktailIngredientUnit(cocktail: Cocktail, ingredient: Ingredient): string {
+    return cocktail.ingredientIds.find(ingredientId => ingredientId.id === ingredient.id)!['unit'] ?? '';
   }
 
   setAvailability(event: MatButtonToggleChange) {
@@ -245,6 +258,10 @@ export class AppComponent implements OnInit, OnDestroy {
 
   toggleFilter(event: MatButtonToggleChange) {
     event.source.buttonToggleGroup.value = null;
+  }
+
+  openCocktailDetailDialog(cocktail: Cocktail) {
+    this._dialog.open(this.cocktailDetailDialog, { data: cocktail, panelClass: 'cocktail-detail' });
   }
 
   ngOnDestroy() {

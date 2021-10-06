@@ -121,3 +121,72 @@ body {
 		opacity: 0.4;
 	}
 }
+
+.cocktail-detail {
+  .cocktail-name {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    &-word {
+      display: inline-block;
+
+      &::first-letter {
+        font-size: 28px !important;
+      }
+    }
+  }
+
+  .cocktail-ingredients {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .cocktail-ingredient {
+      display: flex;
+      gap: 12px;
+      height: 24px;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 18px;
+
+      &-quantity,
+      &-name {
+        display: inline-block;
+      }
+
+      &-name {
+        font-style: italic;
+
+        &-brand {
+          margin-left: 2px;
+          font-size: 13px;
+          font-style: normal;
+          text-transform: uppercase;
+
+          &-word {
+            display: inline-block;
+
+            &::first-letter {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+
+      &-quantity {
+        width: 76px;
+        font-style: italic;
+
+        &-unit {
+          margin-left: 2px;
+          font-size: 13px;
+          font-style: normal;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

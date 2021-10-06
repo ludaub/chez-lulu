@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from "@angular/common/http";
 import { FormsModule } from '@angular/forms';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
@@ -24,6 +25,7 @@ import { environment } from '../environments/environment';
     FormsModule,
     HttpClientModule,
     MatButtonToggleModule,
+    MatDialogModule,
     MatIconModule,
     MatListModule,
     MatMenuModule,
