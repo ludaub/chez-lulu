@@ -29,7 +29,7 @@
       {
         "id": "creole-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       }
     ],
     "garnishIds": [
@@ -59,7 +59,7 @@
       {
         "id": "orange-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       }
     ],
     "garnishIds": [
@@ -68,6 +68,74 @@
       }
     ],
     "glassId": "coupe"
+  },
+  {
+    "id": "amaroni",
+    "name": "Amaroni",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/6187/amaroni",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/10/5f8993db45657.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "amaro",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "amber-room",
+    "name": "Amber Room",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/2243/amber-room",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/05/2016fd6bcb38b0493a2f7369d94ec05cc56d.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "green-chartreuse",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "1",
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "discarded-lemon-zest-twist"
+      },
+      {
+        "id": "maraschino-cherry"
+      }
+    ],
+    "glassId": "old-fashioned"
   },
   {
     "id": "americano",
@@ -124,7 +192,7 @@
       {
         "id": "aromatic-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       }
     ],
     "garnishIds": [
@@ -249,7 +317,7 @@
       {
         "id": "aromatic-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       }
     ],
     "garnishIds": [
@@ -314,17 +382,165 @@
       {
         "id": "orange-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       },
       {
         "id": "aromatic-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       }
     ],
     "garnishIds": [
       {
         "id": "discarded-lemon-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "cin-cyn",
+    "name": "Cin-Cyn",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/5458/cin-cyn",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/07/5f196808082e7.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-carciofo",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "cornwall-negroni",
+    "name": "Cornwall Negroni",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/2356/cornwall-negroni",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/43/2016ac747c183bf1131cd6e8afa598f30091.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "6",
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "full-bodied-vermouth",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "1",
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "flamed-orange-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "crazy-crossing",
+    "name": "Crazy Crossing",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/4972/crazy-crossing",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/02/5e4fcfdc4c894.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "red-dubonnet",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "maraschino-liqueur",
+        "quantity": "0.25",
+        "unit": "cl"
+      },
+      {
+        "id": "mandarin-liqueur",
+        "quantity": "0.25",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "maraschino-cherry"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "dandy-dandy",
+    "name": "Dandy",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/617/dandy-cocktail",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/23/201686e9bc5ac9b6df2c27d2e48e439a0ce8.jpg",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-dubonnet",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      },
+      {
+        "id": "orange-zest-twist"
       }
     ],
     "glassId": "coupe"
@@ -384,7 +600,7 @@
       {
         "id": "orange-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       }
     ],
     "garnishIds": [
@@ -413,6 +629,61 @@
       }
     ],
     "glassId": "old-fashioned"
+  },
+  {
+    "id": "gen-tonique",
+    "name": "Gen Tonique",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/4351/gentonique",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2018/1/38/2018602640016249a6511ebe56aa8782418a.jpg",
+    "ingredientIds": [
+      {
+        "id": "gentian-liqueur",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "byrrh",
+        "quantity": "1.25",
+        "unit": "cl"
+      },
+      {
+        "id": "tonic-water",
+        "quantity": "9",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "gin-&-tonic",
+    "name": "Gin Tonic",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/835/gin-and-tonic",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/8/07/201642335eb2fd8d5d9dc53a1fccb8dd1015.jpg",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "5",
+        "unit": "cl"
+      },
+      {
+        "id": "tonic-water",
+        "quantity": "15",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lime-wedge"
+      }
+    ],
+    "glassId": "collins"
   },
   {
     "id": "godfather",
@@ -464,12 +735,12 @@
       {
         "id": "aromatic-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       },
       {
         "id": "orange-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       }
     ],
     "garnishIds": [
@@ -595,6 +866,41 @@
     "glassId": "nick-&-nora"
   },
   {
+    "id": "wardays",
+    "name": "Warday's",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/9077/wardays-cocktail",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2021/07/60f00e4816daa.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "london-dry-gin",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "red-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "green-chartreuse",
+        "quantity": "0.5",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
     "id": "vieille-place",
     "name": "Vieille Place",
     "recipe": "",
@@ -634,12 +940,12 @@
       {
         "id": "creole-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       },
       {
         "id": "aromatic-bitter",
         "quantity": "1",
-        "unit": "traits"
+        "unit": "trait"
       }
     ],
     "garnishIds": [

@@ -55,6 +55,11 @@
     "filterable": false
   },
   {
+    "id": "byrrh",
+    "name": "Byrrh",
+    "available": true
+  },
+  {
     "id": "italian-red-bitter-liqueur",
     "name": "Campari",
     "available": true
@@ -72,19 +77,24 @@
     "available": false
   },
   {
-    "id": "green-chartreuse",
-    "name": "Chartreuse verte",
+    "id": "yellow-chartreuse",
+    "name": "Chartreuse jaune",
     "available": true
   },
   {
-    "id": "yellow-chartreuse",
-    "name": "Chartreuse jaune",
+    "id": "green-chartreuse",
+    "name": "Chartreuse verte",
     "available": true
   },
   {
     "id": "cognac",
     "name": "Cognac",
     "brand": "Pierre Ferrand 1840",
+    "available": false
+  },
+  {
+    "id": "triple-sec-liqueur",
+    "name": "Cointreau",
     "available": false
   },
   {
@@ -102,6 +112,11 @@
     "id": "old-tom-gin",
     "name": "Gin old tom",
     "brand": "???",
+    "available": false
+  },
+  {
+    "id": "white-lillet",
+    "name": "Lillet blanc",
     "available": false
   },
   {
@@ -123,18 +138,6 @@
     "available": false
   },
   {
-    "id": "gentian-liqueur",
-    "name": "Liqueur de gentiane",
-    "brand": "Suze",
-    "available": true
-  },
-  {
-    "id": "mandarin-liqueur",
-    "name": "Liqueur de mandarine",
-    "brand": "Napoléon",
-    "available": false
-  },
-  {
     "id": "white-mint-liqueur",
     "name": "Liqueur de menthe blanche",
     "brand": "Giffard Menthe-Pastille",
@@ -153,6 +156,11 @@
     "available": false
   },
   {
+    "id": "mandarin-liqueur",
+    "name": "Mandarine Napoléon",
+    "available": false
+  },
+  {
     "id": "maraschino-liqueur",
     "name": "Marasquin",
     "brand": "Luxardo",
@@ -162,6 +170,11 @@
     "id": "mezcal",
     "name": "Mezcal",
     "brand": "Del Maguey Vida",
+    "available": false
+  },
+  {
+    "id": "amer",
+    "name": "Picon",
     "available": false
   },
   {
@@ -183,17 +196,9 @@
     "available": false
   },
   {
-    "id": "sugar-syrup",
-    "name": "Sirop de sucre",
-    "brand": "Giffard",
-    "available": false,
-    "filterable": false
-  },
-  {
-    "id": "triple-sec-liqueur",
-    "name": "Triple sec",
-    "brand": "Cointreau",
-    "available": false
+    "id": "gentian-liqueur",
+    "name": "Suze",
+    "available": true
   },
   {
     "id": "dry-vermouth",
@@ -219,12 +224,6 @@
     "available": false
   },
   {
-    "id": "soda-water",
-    "name": "Eau gazeuse",
-    "available": true,
-    "filterable": false
-  },
-  {
     "id": "rye-whiskey",
     "name": "Whisky de seigle",
     "brand": "Rittenhouse",
@@ -241,5 +240,25 @@
     "name": "Whisky tourbé",
     "brand": "Laphroaig 10 ans",
     "available": false
+  },
+  {
+    "id": "sugar-syrup",
+    "name": "Sirop de sucre",
+    "brand": "Giffard",
+    "available": false,
+    "filterable": false
+  },
+  {
+    "id": "soda-water",
+    "name": "Eau gazeuse",
+    "available": true,
+    "filterable": false
+  },
+  {
+    "id": "tonic-water",
+    "name": "Tonic",
+    "brand": "Fever Tree",
+    "available": true,
+    "filterable": false
   }
 ]

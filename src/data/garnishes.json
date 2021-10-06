@@ -1,5 +1,9 @@
 [
   {
+    "id": "maraschino-cherry",
+    "name": "Cerise au marasquin"
+  },
+  {
     "id": "grapefruit-zest-twist",
     "name": "Grapefruit zest twist"
   },
@@ -10,6 +14,10 @@
   {
     "id": "discarded-lemon-zest-twist",
     "name": "Lemon zest twist (discarded)"
+  },
+  {
+    "id": "lime-wedge",
+    "name": "Lime wedge"
   },
   {
     "id": "chilled-olive-stick",
@@ -26,5 +34,9 @@
   {
     "id": "orange-zest-twist",
     "name": "Orange zest twist"
+  },
+  {
+    "id": "flamed-orange-zest-twist",
+    "name": "Orange zest twist (flamed)"
   }
 ]

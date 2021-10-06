@@ -18,5 +18,10 @@
     "id": "old-fashioned",
     "name": "Old Fashioned",
     "icon": "🥃"
+  },
+  {
+    "id": "rock",
+    "name": "Rock",
+    "icon": "🥃"
   }
 ]
