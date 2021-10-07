@@ -1139,6 +1139,71 @@
     "glassId": "coupe"
   },
   {
+    "id": "widows-kiss",
+    "name": "Widow's Kiss",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/2098/widows-kiss",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2017/1/59/201779e0ed5e44c1e929fe33245c5b8340d2.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "2.5",
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": "1.25",
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": "1.25",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "2",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "mint-leaf"
+      }
+    ],
+    "glassId": "nick-&-nora"
+  },
+  {
+    "id": "yale-fence",
+    "name": "Yale Fence",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/9076/yale-fence",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2021/07/60f00d81c1714.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "london-dry-gin",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
     "id": "vieille-place",
     "name": "Vieille Place",
     "recipe": "",

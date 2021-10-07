@@ -25,7 +25,11 @@
   },
   {
     "id": "lime-wedge",
-    "name": "Lime wedge"
+    "name": "Quartier de citron vert"
+  },
+  {
+    "id": "mint-leaf",
+    "name": "Feuille de menthe"
   },
   {
     "id": "chilled-olive-stick",
@@ -33,11 +37,11 @@
   },
   {
     "id": "orange-slice",
-    "name": "Orange slice"
+    "name": "Tranche d'orange"
   },
   {
     "id": "orange-wedge",
-    "name": "Orange wedge"
+    "name": "Quartier d'orange"
   },
   {
     "id": "orange-zest-twist",
