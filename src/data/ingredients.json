@@ -51,7 +51,7 @@
     "id": "orange-bitter",
     "name": "Bitter orange",
     "brand": "Regans'",
-    "available": false,
+    "available": true,
     "filterable": false
   },
   {
@@ -74,7 +74,7 @@
     "id": "calvados",
     "name": "Calvados",
     "brand": "Christian Drouin Sélection",
-    "available": false
+    "available": true
   },
   {
     "id": "yellow-chartreuse",
