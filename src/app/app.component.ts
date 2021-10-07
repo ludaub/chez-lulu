@@ -182,7 +182,7 @@ export class AppComponent implements OnInit, OnDestroy {
   getWordSeparator(value: string, index: number): string {
     const indexes = [] as Array<number>;
 
-    // Get indexes of word separators characters from name of the cocktail.
+    // Get indexes of word separators characters from string value.
     for (const [i, letter] of [...value].entries()) {
       if (letter.match(this._wordSeparatorsRegexp)) {
         indexes.push(i);
