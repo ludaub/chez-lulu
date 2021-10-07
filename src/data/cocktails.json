@@ -87,7 +87,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "3",
         "unit": "cl"
       }
@@ -117,7 +117,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "1.5",
         "unit": "cl"
       },
@@ -150,7 +150,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "4.5",
         "unit": "cl"
       },
@@ -203,6 +203,36 @@
     "glassId": "coupe"
   },
   {
+    "id": "apple-blossom",
+    "name": "Apple Blossom",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/526/apple-blossom-cocktail",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/11/5faec5a6d7cf0.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": "6",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "2",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "apple-wedge"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
     "id": "bentley",
     "name": "Bentley",
     "recipe": "",
@@ -245,7 +275,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "3",
         "unit": "cl"
       },
@@ -280,7 +310,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "3",
         "unit": "cl"
       },
@@ -326,6 +356,36 @@
       }
     ],
     "glassId": "coupe"
+  },
+  {
+    "id": "calvados-&-tonic",
+    "name": "Calvados Tonic",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/5805/calvados-and-tonic",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/09/5f4f5cbf09e02.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "5",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "2",
+        "unit": "traits"
+      },
+      {
+        "id": "tonic-water",
+        "quantity": "10.5",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "apple-slice"
+      }
+    ],
+    "glassId": "collins"
   },
   {
     "id": "cardinale",
@@ -415,7 +475,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "3",
         "unit": "cl"
       }
@@ -450,7 +510,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "1.5",
         "unit": "cl"
       },
@@ -480,7 +540,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "2.25",
         "unit": "cl"
       },
@@ -508,7 +568,7 @@
     "glassId": "coupe"
   },
   {
-    "id": "dandy-dandy",
+    "id": "dandy",
     "name": "Dandy",
     "recipe": "",
     "url": "https://www.diffordsguide.com/cocktails/recipe/617/dandy-cocktail",
@@ -544,6 +604,76 @@
       }
     ],
     "glassId": "coupe"
+  },
+  {
+    "id": "derniere-minute",
+    "name": "Dernière Minute",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/3741/derniere-minute-last-minute",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/5/44/2016968346c8f0db26cb6c9d7b92210bf455.jpg",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": "5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-dubonnet",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "whisky-liqueur",
+        "quantity": "0.75",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "2",
+        "unit": "traits"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": "2",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "diamondback",
+    "name": "Diamondback",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/3058/diamondback",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/37/2016be4e5e74ae7b218119ee42c6fba11b64.jpg",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "calvados",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": "1.5",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "maraschino-cherry"
+      }
+    ],
+    "glassId": "nick-&-nora"
   },
   {
     "id": "drunk-uncle",
@@ -631,8 +761,43 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "fallen-leaves",
+    "name": "Fallen Leaves",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/2652/fallen-leaves",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/12/5fe47eaee3116.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "cognac",
+        "quantity": "0.75",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
     "id": "gen-tonique",
-    "name": "Gen Tonique",
+    "name": "Gen Tonic",
     "recipe": "",
     "url": "https://www.diffordsguide.com/cocktails/recipe/4351/gentonique",
     "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2018/1/38/2018602640016249a6511ebe56aa8782418a.jpg",
@@ -728,7 +893,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "1.5",
         "unit": "cl"
       },
@@ -751,7 +916,50 @@
     "glassId": "coupe"
   },
   {
-    "id": "m-and-m",
+    "id": "le-sang-jaune",
+    "name": "Le Sang Jaune",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/4231/la-sang-jaune-the-yellow-blood",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2017/6/21/201742cf02e92c499c311892cba9c1a32ab1.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "5",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "2",
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": "0.5",
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": "1",
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      },
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "m-&-m",
     "name": "M & M",
     "recipe": "",
     "url": "https://www.diffordsguide.com/cocktails/recipe/5588/m-and-m",
@@ -793,7 +1001,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "3",
         "unit": "cl"
       }
@@ -866,6 +1074,36 @@
     "glassId": "nick-&-nora"
   },
   {
+    "id": "pomme-&-sureau",
+    "name": "Pomme & Sureau",
+    "recipe": "",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/2737/pomme-et-sureau",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2017/1/20/2017aef2d05b5c2be9fba51c70949b42d872.jpg",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": "6",
+        "unit": "cl"
+      },
+      {
+        "id": "soda-water",
+        "quantity": "*",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "apple-wedge"
+      }
+    ],
+    "glassId": "collins"
+  },
+  {
     "id": "wardays",
     "name": "Warday's",
     "recipe": "",
@@ -883,7 +1121,7 @@
         "unit": "cl"
       },
       {
-        "id": "red-vermouth",
+        "id": "sweet-vermouth",
         "quantity": "3",
         "unit": "cl"
       },

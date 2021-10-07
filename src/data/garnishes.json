@@ -1,5 +1,13 @@
 [
   {
+    "id": "apple-slice",
+    "name": "Tranche de pomme"
+  },
+  {
+    "id": "apple-wedge",
+    "name": "Quartier de pomme"
+  },
+  {
     "id": "maraschino-cherry",
     "name": "Cerise au marasquin"
   },
