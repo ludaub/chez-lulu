@@ -76,7 +76,10 @@
               <span [class.unavailable]="!ingredient.available"
                     [class.filtered]="isIngredientFiltered(ingredient)">{{ ingredient.name }}</span><!--
               This comment prevents from additional white space.
-              --><span *ngIf="i < cocktail.ingredients.length - 1">,&nbsp;</span>
+              --><span class="word-separator" *ngIf="i === cocktail.ingredients.length - 2; else commaSeparator">&nbsp;&&nbsp;</span>
+              <ng-template #commaSeparator>
+                <span class="word-separator" *ngIf="i < cocktail.ingredients.length - 1">,&nbsp;</span>
+              </ng-template>
             </li>
           </ul>
         </div>
