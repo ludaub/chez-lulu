@@ -109,7 +109,7 @@
           </span>
         </span>
         <span class="cocktail-ingredient-name">
-          <span *ngIf="ingredient.brand; else noBrand">
+          <span *ngIf="ingredient.brand || ingredient.brand === ''; else noBrand">
             {{ ingredient.name }}
           </span>
           <ng-template #noBrand>

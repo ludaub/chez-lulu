@@ -111,7 +111,7 @@
   {
     "id": "old-tom-gin",
     "name": "Gin old tom",
-    "brand": "???",
+    "brand": "",
     "available": false
   },
   {
@@ -186,13 +186,13 @@
   {
     "id": "agricole-rum",
     "name": "Rhum blanc agricole",
-    "brand": "???",
+    "brand": "",
     "available": false
   },
   {
     "id": "aged-rum",
     "name": "Rhum vieux",
-    "brand": "???",
+    "brand": "",
     "available": false
   },
   {
@@ -251,6 +251,7 @@
   {
     "id": "soda-water",
     "name": "Eau gazeuse",
+    "brand": "",
     "available": true,
     "filterable": false
   },

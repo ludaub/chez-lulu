@@ -129,6 +129,7 @@ body {
     font-weight: bold;
     line-height: 28px;
     text-transform: uppercase;
+    word-spacing: 4px;
     letter-spacing: 2px;
 
     &-word {
@@ -148,9 +149,11 @@ body {
     .cocktail-ingredient {
       display: flex;
       gap: 12px;
-      height: 24px;
+      padding: 8px 0;
+      border-bottom: dotted #6d6d6d;
       font-family: 'Libre Baskerville', serif;
       font-size: 18px;
+      word-spacing: 2px;
 
       &-quantity,
       &-name {
@@ -161,10 +164,10 @@ body {
         font-style: italic;
 
         &-brand {
-          margin-left: 2px;
           font-size: 13px;
           font-style: normal;
           text-transform: uppercase;
+          letter-spacing: 1px;
 
           &-word {
             display: inline-block;
@@ -177,14 +180,15 @@ body {
       }
 
       &-quantity {
-        width: 76px;
+        width: 80px;
         font-style: italic;
 
         &-unit {
-          margin-left: 2px;
+          //margin-left: 2px;
           font-size: 13px;
           font-style: normal;
           text-transform: uppercase;
+          letter-spacing: 1px;
         }
       }
     }
