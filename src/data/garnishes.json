@@ -1,54 +1,54 @@
 [
   {
     "id": "apple-slice",
-    "name": "Tranche de pomme"
+    "name": "Une tranche de pomme"
   },
   {
     "id": "apple-wedge",
-    "name": "Quartier de pomme"
+    "name": "Un quartier de pomme"
   },
   {
     "id": "maraschino-cherry",
-    "name": "Cerise au marasquin"
+    "name": "Une cerise au marasquin"
   },
   {
     "id": "grapefruit-zest-twist",
-    "name": "Grapefruit zest twist"
+    "name": "Un zeste de pamplemousse"
   },
   {
     "id": "lemon-zest-twist",
-    "name": "Lemon zest twist"
+    "name": "Un zeste de citron"
   },
   {
     "id": "discarded-lemon-zest-twist",
-    "name": "Lemon zest twist (discarded)"
+    "name": "Un zeste de citron"
   },
   {
     "id": "lime-wedge",
-    "name": "Quartier de citron vert"
+    "name": "Un quartier de citron vert"
   },
   {
     "id": "mint-leaf",
-    "name": "Feuille de menthe"
+    "name": "Une feuille de menthe"
   },
   {
     "id": "chilled-olive-stick",
-    "name": "Chilled olive on stick"
+    "name": "Une olive froide sur cure-dent"
   },
   {
     "id": "orange-slice",
-    "name": "Tranche d'orange"
+    "name": "Une tranche d'orange"
   },
   {
     "id": "orange-wedge",
-    "name": "Quartier d'orange"
+    "name": "Un quartier d'orange"
   },
   {
     "id": "orange-zest-twist",
-    "name": "Orange zest twist"
+    "name": "Un zeste d'orange"
   },
   {
     "id": "flamed-orange-zest-twist",
-    "name": "Orange zest twist (flamed)"
+    "name": "Un zeste d'orange brûlé"
   }
 ]

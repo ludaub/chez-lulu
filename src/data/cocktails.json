@@ -916,6 +916,44 @@
     "glassId": "coupe"
   },
   {
+    "id": "home-on-the-range",
+    "name": "Home On The Range",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans un verre refroidi.",
+    "url": "https://www.diffordsguide.com/cocktails/recipe/4788/home-on-the-range",
+    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/08/5d552e758a83f.jpg",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "red-dubonnet",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": "0.5",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      },
+      {
+        "id": "orange-zest-twist"
+      }
+    ],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "le-sang-jaune",
     "name": "Le Sang Jaune",
     "recipe": "",
