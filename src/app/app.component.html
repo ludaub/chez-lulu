@@ -140,5 +140,18 @@
         </span>
       </li>
     </ul>
+    <p class="cocktail-recipe" *ngIf="data.recipe">
+      {{ data.recipe }}
+    </p>
+    <p class="cocktail-garnish" *ngIf="data.garnishIds">
+      Décorer avec
+      <span class="cocktail-garnish-name"
+            *ngFor="let garnish of data.garnishIds; let i = index">{{ getGarnishNameById(garnish.id) }}<!--
+          This comment prevents from additional white space.
+          --><span *ngIf="i === data.garnishIds.length - 2; else garnishCommaSeparator">&nbsp;&&nbsp;</span>
+        <ng-template #garnishCommaSeparator><span *ngIf="i < data.garnishIds.length - 1">,&nbsp;</span></ng-template><!--
+          This comment prevents from additional white space.
+        --></span>.
+    </p>
   </mat-dialog-content>
 </ng-template>

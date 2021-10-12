@@ -144,7 +144,7 @@ body {
   .cocktail-ingredients {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 8px 0;
 
     .cocktail-ingredient {
       display: flex;
@@ -191,6 +191,22 @@ body {
           letter-spacing: 1px;
         }
       }
+    }
+  }
+
+  .cocktail-recipe,
+  .cocktail-garnish {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+  }
+
+  .cocktail-recipe {
+    margin-top: 16px;
+  }
+
+  .cocktail-garnish {
+    &-name {
+      text-transform: lowercase;
     }
   }
 }

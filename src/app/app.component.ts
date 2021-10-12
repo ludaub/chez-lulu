@@ -219,6 +219,10 @@ export class AppComponent implements OnInit, OnDestroy {
     return cocktail.ingredientIds.find(ingredientId => ingredientId.id === ingredient.id)!['unit'] ?? '';
   }
 
+  getGarnishNameById(garnishId: Garnish['id']): Garnish['name'] {
+    return this.garnishes.find(garnish => garnish.id === garnishId)!['name'] ?? '';
+  }
+
   setAvailability(event: MatButtonToggleChange) {
     switch (event.value) {
       case 'all':
