@@ -175,6 +175,10 @@ export class AppComponent implements OnInit, OnDestroy {
     );
   }
 
+  identifyCocktail(index: number, cocktail: Cocktail): Cocktail['id'] {
+    return cocktail.id;
+  }
+
   getWords(value: string): Array<string> {
     return value.split(this._wordSeparatorsRegexp);
   }

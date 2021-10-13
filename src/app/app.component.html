@@ -55,7 +55,9 @@
 
   <div class="cocktails-container">
     <ul class="cocktails">
-      <li *ngFor="let cocktail of displayedCocktails" class="cocktail" (click)="openCocktailDetailDialog(cocktail)">
+      <li class="cocktail"
+          *ngFor="let cocktail of displayedCocktails; trackBy: identifyCocktail"
+          (click)="openCocktailDetailDialog(cocktail)">
         <span class="cocktail-icon silhouette"
               [class.unavailable]="!isCocktailAvailable(cocktail)">{{ getGlassIconByCocktail(cocktail) }}</span>
 
