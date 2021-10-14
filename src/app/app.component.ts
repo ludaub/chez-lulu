@@ -63,7 +63,8 @@ export class AppComponent implements OnInit, OnDestroy {
       cocktail.ingredients = [];
 
       for (const ingredientId of cocktail.ingredientIds) {
-        cocktail.ingredients.push(this.ingredients.find(ingredient => ingredient.id === ingredientId.id)!);
+        const ingredient = this.ingredients.find(ingredient => ingredient.id === ingredientId.id);
+        if (ingredient) cocktail.ingredients.push(ingredient);
       }
     }
   }
@@ -92,7 +93,7 @@ export class AppComponent implements OnInit, OnDestroy {
   private readonly _filters = new BehaviorSubject<Array<Ingredient['id']>>([]);
   readonly filters$ = this._filters as Observable<Array<Ingredient['id']>>;
 
-  @ViewChild('cocktailDetailDialog') cocktailDetailDialog!: TemplateRef<any>;
+  @ViewChild('cocktailDetailDialog') cocktailDetailDialog!: TemplateRef<{ cocktail: Cocktail} >;
   private readonly _wordSeparatorsRegexp = /[ -]/;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
@@ -101,7 +102,7 @@ export class AppComponent implements OnInit, OnDestroy {
     private _http: HttpClient
   ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     forkJoin(
       {
         cocktails: this._http.get<Array<Cocktail>>('data/cocktails.json'),
@@ -120,7 +121,7 @@ export class AppComponent implements OnInit, OnDestroy {
     });
   }
 
-  filterCocktails() {
+  filterCocktails(): void {
     if (this.availabilities.includes('all')) {
       this.displayedCocktails = [...this.cocktails];
     } else if (this.availabilities.includes('available')) {
@@ -134,7 +135,6 @@ export class AppComponent implements OnInit, OnDestroy {
     if (this.filters.length) {
       this.displayedCocktails = this.displayedCocktails.filter(cocktail => {
         const ingredientIds = cocktail.ingredientIds.map(ingredientId => ingredientId.id);
-
         return this.filters.every(filter => ingredientIds.includes(filter));
       });
     }
@@ -160,7 +160,6 @@ export class AppComponent implements OnInit, OnDestroy {
     if (this.filters.length) {
       cocktails = cocktails.filter(cocktail => {
         const ingredientIds = cocktail.ingredientIds.map(ingredientId => ingredientId.id);
-
         return this.filters.every(filter => ingredientIds.includes(filter));
       });
     }
@@ -193,13 +192,11 @@ export class AppComponent implements OnInit, OnDestroy {
       }
     }
 
-    return value.charAt(indexes[index]) === ' '
-      ? '&nbsp;'
-      : value.charAt(indexes[index]);
+    return value.charAt(indexes[index]) === ' ' ? '&nbsp;' : value.charAt(indexes[index]);
   }
 
   getGlassIconByCocktail(cocktail: Cocktail): string {
-    return this.glasses.find(glass => glass.id === cocktail.glassId)!['icon'];
+    return this.glasses.find(glass => glass.id === cocktail.glassId)?.icon ?? '';
   }
 
   getFilterableIngredients(): Array<Ingredient> {
@@ -216,18 +213,18 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   getCocktailIngredientQuantity(cocktail: Cocktail, ingredient: Ingredient): number {
-    return cocktail.ingredientIds.find(ingredientId => ingredientId.id === ingredient.id)!['quantity'] ?? 0;
+    return cocktail.ingredientIds.find(ingredientId => ingredientId.id === ingredient.id)?.quantity ?? 0;
   }
 
   getCocktailIngredientUnit(cocktail: Cocktail, ingredient: Ingredient): string {
-    return cocktail.ingredientIds.find(ingredientId => ingredientId.id === ingredient.id)!['unit'] ?? '';
+    return cocktail.ingredientIds.find(ingredientId => ingredientId.id === ingredient.id)?.unit ?? '';
   }
 
   getGarnishNameById(garnishId: Garnish['id']): Garnish['name'] {
-    return this.garnishes.find(garnish => garnish.id === garnishId)!['name'] ?? '';
+    return this.garnishes.find(garnish => garnish.id === garnishId)?.name ?? '';
   }
 
-  setAvailability(event: MatButtonToggleChange) {
+  setAvailability(event: MatButtonToggleChange): void {
     switch (event.value) {
       case 'all':
         this.availabilities = this.availabilities.includes('all')
@@ -264,16 +261,16 @@ export class AppComponent implements OnInit, OnDestroy {
     }
   }
 
-  toggleFilter(event: MatButtonToggleChange) {
+  toggleFilter(event: MatButtonToggleChange): void {
     event.source.buttonToggleGroup.value = null;
   }
 
-  openCocktailDetailDialog(cocktail: Cocktail) {
+  openCocktailDetailDialog(cocktail: Cocktail): void {
     this._dialog.open(this.cocktailDetailDialog, { data: cocktail, panelClass: 'cocktail-detail' });
   }
 
-  ngOnDestroy() {
-    this._destroyed$.next();
+  ngOnDestroy(): void {
+    this._destroyed$.next(null);
     this._destroyed$.complete();
   }
 }

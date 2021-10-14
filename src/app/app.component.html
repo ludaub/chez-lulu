@@ -92,25 +92,25 @@
   </div>
 </div>
 
-<ng-template #cocktailDetailDialog let-data>
+<ng-template #cocktailDetailDialog let-cocktail>
   <h2 mat-dialog-title class="cocktail-name">
     <span class="cocktail-name-word"
-          *ngFor="let word of getWords(data.name); let i = index"><!--
+          *ngFor="let word of getWords(cocktail.name); let i = index"><!--
       This comment prevents from additional white space.
       -->{{ word }}<!--
       This comment prevents from additional white space.
-      --><span *ngIf="i < getWords(data.name).length - 1"
-               [innerHTML]="getWordSeparator(data.name, i)"></span>
+      --><span *ngIf="i < getWords(cocktail.name).length - 1"
+               [innerHTML]="getWordSeparator(cocktail.name, i)"></span>
     </span>
   </h2>
 
   <mat-dialog-content>
     <ul class="cocktail-ingredients">
-      <li class="cocktail-ingredient" *ngFor="let ingredient of data.ingredients">
+      <li class="cocktail-ingredient" *ngFor="let ingredient of cocktail.ingredients">
         <span class="cocktail-ingredient-quantity">
-          {{ getCocktailIngredientQuantity(data, ingredient) }}
+          {{ getCocktailIngredientQuantity(cocktail, ingredient) }}
           <span class="cocktail-ingredient-quantity-unit">
-            {{ getCocktailIngredientUnit(data, ingredient) }}
+            {{ getCocktailIngredientUnit(cocktail, ingredient) }}
           </span>
         </span>
         <span class="cocktail-ingredient-name">
@@ -142,16 +142,16 @@
         </span>
       </li>
     </ul>
-    <p class="cocktail-recipe" *ngIf="data.recipe">
-      {{ data.recipe }}
+    <p class="cocktail-recipe" *ngIf="cocktail.recipe">
+      {{ cocktail.recipe }}
     </p>
-    <p class="cocktail-garnish" *ngIf="data.garnishIds">
+    <p class="cocktail-garnish" *ngIf="cocktail.garnishIds">
       Décorer avec
       <span class="cocktail-garnish-name"
-            *ngFor="let garnish of data.garnishIds; let i = index">{{ getGarnishNameById(garnish.id) }}<!--
+            *ngFor="let garnish of cocktail.garnishIds; let i = index">{{ getGarnishNameById(garnish.id) }}<!--
           This comment prevents from additional white space.
-          --><span *ngIf="i === data.garnishIds.length - 2; else garnishCommaSeparator">&nbsp;&&nbsp;</span>
-        <ng-template #garnishCommaSeparator><span *ngIf="i < data.garnishIds.length - 1">,&nbsp;</span></ng-template><!--
+          --><span *ngIf="i === cocktail.garnishIds.length - 2; else garnishCommaSeparator">&nbsp;&&nbsp;</span>
+        <ng-template #garnishCommaSeparator><span *ngIf="i < cocktail.garnishIds.length - 1">,&nbsp;</span></ng-template><!--
           This comment prevents from additional white space.
         --></span>.
     </p>
