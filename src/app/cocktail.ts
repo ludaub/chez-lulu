@@ -8,7 +8,7 @@ export interface Cocktail {
   recipe: string;
   description?: string;
   url: string;
-  photoUrl: string;  
+  photoUrl: string;
   ingredientIds: Array<{
     id: Ingredient['id'];
     quantity: number;
