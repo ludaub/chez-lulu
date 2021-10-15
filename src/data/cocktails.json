@@ -2,7 +2,7 @@
   {
     "id": "1910",
     "name": "1910",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "mezcal",
@@ -40,7 +40,7 @@
   {
     "id": "alaska",
     "name": "Alaska",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "old-tom-gin",
@@ -68,7 +68,7 @@
   {
     "id": "amaroni",
     "name": "Amaroni",
-    "recipe": "",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -96,7 +96,7 @@
   {
     "id": "amber-room",
     "name": "Amber Room",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -132,7 +132,7 @@
   {
     "id": "americano",
     "name": "Americano",
-    "recipe": "",
+    "recipe": "Verser tous les ingrédients dans le verre et compléter avec de la glace.",
     "ingredientIds": [
       {
         "id": "italian-red-bitter-liqueur",
@@ -160,7 +160,7 @@
   {
     "id": "ante",
     "name": "Ante",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -193,7 +193,7 @@
   {
     "id": "apple-blossom",
     "name": "Apple Blossom",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -221,7 +221,7 @@
   {
     "id": "bentley",
     "name": "Bentley",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -249,32 +249,35 @@
   {
     "id": "bijou",
     "name": "Bijou",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "3",
-        "unit": "cl"
-      },
-      {
-        "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": "2.5",
         "unit": "cl"
       },
       {
         "id": "green-chartreuse",
-        "quantity": "2.25",
+        "quantity": "1.5",
         "unit": "cl"
       },
       {
-        "id": "italian-red-bitter-liqueur",
-        "quantity": "0.75",
+        "id": "sweet-vermouth",
+        "quantity": "2.5",
         "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "1",
+        "unit": "trait"
       }
     ],
     "garnishIds": [
       {
-        "id": "orange-zest-twist"
+        "id": "discarded-lemon-zest-twist"
+      },
+      {
+        "id": "maraschino-cherry"
       }
     ],
     "glassId": "old-fashioned"
@@ -282,7 +285,7 @@
   {
     "id": "boulevardier",
     "name": "Boulevardier",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
@@ -310,7 +313,7 @@
   {
     "id": "bushranger",
     "name": "Bushranger",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
     "ingredientIds": [
       {
         "id": "light-rum",
@@ -338,7 +341,7 @@
   {
     "id": "calvados-&-tonic",
     "name": "Calvados Tonic",
-    "recipe": "",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -366,7 +369,7 @@
   {
     "id": "cardinale",
     "name": "Cardinale",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -394,7 +397,7 @@
   {
     "id": "ce-soir",
     "name": "Ce Soir",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "cognac",
@@ -432,7 +435,7 @@
   {
     "id": "cin-cyn",
     "name": "Cin-Cyn",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -460,7 +463,7 @@
   {
     "id": "cornwall-negroni",
     "name": "Cornwall Negroni",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -498,7 +501,7 @@
   {
     "id": "crazy-crossing",
     "name": "Crazy Crossing",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -536,7 +539,7 @@
   {
     "id": "dandy",
     "name": "Dandy",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
@@ -572,7 +575,7 @@
   {
     "id": "derniere-minute",
     "name": "Dernière Minute",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "cognac",
@@ -610,7 +613,7 @@
   {
     "id": "diamondback",
     "name": "Diamondback",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "rye-whiskey",
@@ -638,7 +641,7 @@
   {
     "id": "drunk-uncle",
     "name": "Drunk Uncle",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "scotch-whisky",
@@ -671,7 +674,7 @@
   {
     "id": "dry-martini",
     "name": "Dry Martini",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -699,7 +702,7 @@
   {
     "id": "episcopal",
     "name": "Episcopal",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
     "ingredientIds": [
       {
         "id": "green-chartreuse",
@@ -717,7 +720,7 @@
   {
     "id": "fallen-leaves",
     "name": "Fallen Leaves",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -750,7 +753,7 @@
   {
     "id": "gen-tonique",
     "name": "Gen Tonic",
-    "recipe": "",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
     "ingredientIds": [
       {
         "id": "gentian-liqueur",
@@ -778,7 +781,7 @@
   {
     "id": "gin-&-tonic",
     "name": "Gin Tonic",
-    "recipe": "",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -801,7 +804,7 @@
   {
     "id": "godfather",
     "name": "Godfather",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "scotch-whisky",
@@ -824,7 +827,7 @@
   {
     "id": "greenpoint",
     "name": "Greenpoint",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "rye-whiskey",
@@ -862,7 +865,7 @@
   {
     "id": "home-on-the-range",
     "name": "Home On The Range",
-    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans un verre refroidi.",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "rye-whiskey",
@@ -898,7 +901,7 @@
   {
     "id": "le-sang-jaune",
     "name": "Le Sang Jaune",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -939,7 +942,7 @@
   {
     "id": "m-&-m",
     "name": "M & M",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
     "ingredientIds": [
       {
         "id": "mezcal",
@@ -962,7 +965,7 @@
   {
     "id": "negroni",
     "name": "Negroni",
-    "recipe": "",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -990,7 +993,7 @@
   {
     "id": "old-fashioned",
     "name": "Old Fashioned",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
@@ -1018,7 +1021,7 @@
   {
     "id": "poets-dream",
     "name": "Poet's Dream",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -1046,7 +1049,7 @@
   {
     "id": "pomme-&-sureau",
     "name": "Pomme & Sureau",
-    "recipe": "",
+    "recipe": "Verser les deux premiers ingrédients dans le verre rempli de glace, compléter avec l'eau gazeuse et mélanger.",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -1072,103 +1075,9 @@
     "glassId": "collins"
   },
   {
-    "id": "wardays",
-    "name": "Warday's",
-    "recipe": "",
-    "ingredientIds": [
-      {
-        "id": "calvados",
-        "quantity": "3",
-        "unit": "cl"
-      },
-      {
-        "id": "london-dry-gin",
-        "quantity": "3",
-        "unit": "cl"
-      },
-      {
-        "id": "sweet-vermouth",
-        "quantity": "3",
-        "unit": "cl"
-      },
-      {
-        "id": "green-chartreuse",
-        "quantity": "0.5",
-        "unit": "cl"
-      }
-    ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      }
-    ],
-    "glassId": "coupe"
-  },
-  {
-    "id": "widows-kiss",
-    "name": "Widow's Kiss",
-    "recipe": "",
-    "ingredientIds": [
-      {
-        "id": "calvados",
-        "quantity": "2.5",
-        "unit": "cl"
-      },
-      {
-        "id": "benedictine-liqueur",
-        "quantity": "1.25",
-        "unit": "cl"
-      },
-      {
-        "id": "yellow-chartreuse",
-        "quantity": "1.25",
-        "unit": "cl"
-      },
-      {
-        "id": "aromatic-bitter",
-        "quantity": "2",
-        "unit": "traits"
-      }
-    ],
-    "garnishIds": [
-      {
-        "id": "mint-leaf"
-      }
-    ],
-    "glassId": "nick-&-nora"
-  },
-  {
-    "id": "yale-fence",
-    "name": "Yale Fence",
-    "recipe": "",
-    "ingredientIds": [
-      {
-        "id": "calvados",
-        "quantity": "3",
-        "unit": "cl"
-      },
-      {
-        "id": "london-dry-gin",
-        "quantity": "3",
-        "unit": "cl"
-      },
-      {
-        "id": "sweet-vermouth",
-        "quantity": "3",
-        "unit": "cl"
-      }
-    ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      }
-    ],
-    "glassId": "coupe"
-  },
-  {
     "id": "vieille-place",
     "name": "Vieille Place",
-    "recipe": "",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
@@ -1217,5 +1126,99 @@
       }
     ],
     "glassId": "old-fashioned"
+  },
+  {
+    "id": "wardays",
+    "name": "Warday's",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "london-dry-gin",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "green-chartreuse",
+        "quantity": "0.5",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "widows-kiss",
+    "name": "Widow's Kiss",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "2.5",
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": "1.25",
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": "1.25",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "2",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "mint-leaf"
+      }
+    ],
+    "glassId": "nick-&-nora"
+  },
+  {
+    "id": "yale-fence",
+    "name": "Yale Fence",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "london-dry-gin",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": [
+      {
+        "id": "lemon-zest-twist"
+      }
+    ],
+    "glassId": "coupe"
   }
 ]
