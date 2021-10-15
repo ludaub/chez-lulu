@@ -169,8 +169,8 @@
     </p>
     <p class="cocktail-garnish" *ngIf="cocktail.garnishIds">
       Décorer avec
-      <span class="cocktail-garnish-name" *ngFor="let garnish of cocktail.garnishIds; let i = index"
-        >{{ getGarnishNameById(garnish.id)
+      <span class="cocktail-garnish-name" *ngFor="let garnishId of cocktail.garnishIds; let i = index"
+        >{{ getGarnishNameById(garnishId)
         }}<!--
           This comment prevents from additional white space.
           --><span *ngIf="i === cocktail.garnishIds.length - 2; else garnishCommaSeparator">&nbsp;&&nbsp;</span>

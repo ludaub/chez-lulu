@@ -30,11 +30,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -58,11 +54,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -86,11 +78,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -119,14 +107,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "discarded-lemon-zest-twist"
-      },
-      {
-        "id": "maraschino-cherry"
-      }
-    ],
+    "garnishIds": ["discarded-lemon-zest-twist", "maraschino-cherry"],
     "glassId": "old-fashioned"
   },
   {
@@ -150,11 +131,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-slice"
-      }
-    ],
+    "garnishIds": ["orange-slice"],
     "glassId": "collins"
   },
   {
@@ -183,11 +160,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -211,11 +184,7 @@
         "unit": "traits"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "apple-wedge"
-      }
-    ],
+    "garnishIds": ["apple-wedge"],
     "glassId": "coupe"
   },
   {
@@ -239,11 +208,7 @@
         "unit": "traits"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -272,14 +237,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "discarded-lemon-zest-twist"
-      },
-      {
-        "id": "maraschino-cherry"
-      }
-    ],
+    "garnishIds": ["discarded-lemon-zest-twist", "maraschino-cherry"],
     "glassId": "old-fashioned"
   },
   {
@@ -303,11 +261,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -331,11 +285,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -359,11 +309,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "apple-slice"
-      }
-    ],
+    "garnishIds": ["apple-slice"],
     "glassId": "collins"
   },
   {
@@ -387,11 +333,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-slice"
-      }
-    ],
+    "garnishIds": ["orange-slice"],
     "glassId": "old-fashioned"
   },
   {
@@ -425,11 +367,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "discarded-lemon-zest-twist"
-      }
-    ],
+    "garnishIds": ["discarded-lemon-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -453,11 +391,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -491,11 +425,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "flamed-orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["flamed-orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -529,11 +459,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "maraschino-cherry"
-      }
-    ],
+    "garnishIds": ["maraschino-cherry"],
     "glassId": "coupe"
   },
   {
@@ -562,14 +488,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      },
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist", "orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -603,11 +522,7 @@
         "unit": "traits"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -631,11 +546,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "maraschino-cherry"
-      }
-    ],
+    "garnishIds": ["maraschino-cherry"],
     "glassId": "nick-&-nora"
   },
   {
@@ -664,11 +575,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "grapefruit-zest-twist"
-      }
-    ],
+    "garnishIds": ["grapefruit-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -692,11 +599,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "chilled-olive-stick"
-      }
-    ],
+    "garnishIds": ["chilled-olive-stick"],
     "glassId": "coupe"
   },
   {
@@ -743,11 +646,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -771,11 +670,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -794,11 +689,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lime-wedge"
-      }
-    ],
+    "garnishIds": ["lime-wedge"],
     "glassId": "collins"
   },
   {
@@ -817,11 +708,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -855,11 +742,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -888,14 +771,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      },
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist", "orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -929,14 +805,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      },
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist", "orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -955,11 +824,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -983,11 +848,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-wedge"
-      }
-    ],
+    "garnishIds": ["orange-wedge"],
     "glassId": "old-fashioned"
   },
   {
@@ -1011,11 +872,7 @@
         "unit": "traits"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "orange-zest-twist"
-      }
-    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -1039,11 +896,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist"],
     "glassId": "nick-&-nora"
   },
   {
@@ -1067,11 +920,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "apple-wedge"
-      }
-    ],
+    "garnishIds": ["apple-wedge"],
     "glassId": "collins"
   },
   {
@@ -1120,11 +969,7 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -1153,11 +998,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -1186,11 +1027,7 @@
         "unit": "traits"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "mint-leaf"
-      }
-    ],
+    "garnishIds": ["mint-leaf"],
     "glassId": "nick-&-nora"
   },
   {
@@ -1214,11 +1051,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [
-      {
-        "id": "lemon-zest-twist"
-      }
-    ],
+    "garnishIds": ["lemon-zest-twist"],
     "glassId": "coupe"
   }
 ]
