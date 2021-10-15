@@ -79,7 +79,11 @@
   },
   "jest": {
     "preset": "jest-preset-angular",
-    "coverageReporters": ["json", "json-summary", "text"],
+    "coverageReporters": [
+      "json",
+      "json-summary",
+      "text"
+    ],
     "setupFilesAfterEnv": [
       "<rootDir>/jest.setup.ts"
     ],
