@@ -15,6 +15,7 @@
     "build:prod": "ng build --prod --aot",
     "watch": "ng build --watch --configuration development",
     "test": "jest",
+    "test:ci": "jest --ci --runInBand --coverage",
     "test:coverage": "jest --coverage",
     "lint": "run-s -c lint:*",
     "lint:ng": "ng lint",
@@ -78,6 +79,7 @@
   },
   "jest": {
     "preset": "jest-preset-angular",
+    "coverageReporters": ["json", "json-summary", "text"],
     "setupFilesAfterEnv": [
       "<rootDir>/jest.setup.ts"
     ],
