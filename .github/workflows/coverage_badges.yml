@@ -4,7 +4,7 @@ name: Testing coverage
     branches:
       - master
 jobs:
-  build_and_deploy:
+  generate_coverage_badges:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
