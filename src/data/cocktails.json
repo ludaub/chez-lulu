@@ -3,8 +3,6 @@
     "id": "1910",
     "name": "1910",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/4834/1910",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/09/5d72586840748.jpg",
     "ingredientIds": [
       {
         "id": "mezcal",
@@ -43,8 +41,6 @@
     "id": "alaska",
     "name": "Alaska",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/514/alaska-straubs-1914-recipe",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/03/5e6276df0f603.jpg",
     "ingredientIds": [
       {
         "id": "old-tom-gin",
@@ -73,8 +69,6 @@
     "id": "amaroni",
     "name": "Amaroni",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/6187/amaroni",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/10/5f8993db45657.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -103,8 +97,6 @@
     "id": "amber-room",
     "name": "Amber Room",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/2243/amber-room",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/05/2016fd6bcb38b0493a2f7369d94ec05cc56d.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -141,8 +133,6 @@
     "id": "americano",
     "name": "Americano",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/61/americano",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2015/7/41/2015e59ddd7a93b2461d7165e20f90537661.jpg",
     "ingredientIds": [
       {
         "id": "italian-red-bitter-liqueur",
@@ -171,8 +161,6 @@
     "id": "ante",
     "name": "Ante",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/524/ante",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/09/5f4f5ca772c64.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -206,8 +194,6 @@
     "id": "apple-blossom",
     "name": "Apple Blossom",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/526/apple-blossom-cocktail",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/11/5faec5a6d7cf0.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -236,8 +222,6 @@
     "id": "bentley",
     "name": "Bentley",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/205/bentley",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/03/2016f8b1f11a41a7a9375b74277ca9e145fe.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -266,8 +250,6 @@
     "id": "bijou",
     "name": "Bijou",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/4705/bijou-by-jamie-gordon",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2021/03/6040a89447b79.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -301,8 +283,6 @@
     "id": "boulevardier",
     "name": "Boulevardier",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/2955/boulevardier-cocktail",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2015/12/38/20150b0f6ebbf712a12d96896a2efd97efbe.jpg",
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
@@ -331,8 +311,6 @@
     "id": "bushranger",
     "name": "Bushranger",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/3272/bushranger",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/23/2016d4d8bc125132042b0e7cc58e36380309.jpg",
     "ingredientIds": [
       {
         "id": "light-rum",
@@ -361,8 +339,6 @@
     "id": "calvados-&-tonic",
     "name": "Calvados Tonic",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/5805/calvados-and-tonic",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/09/5f4f5cbf09e02.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -391,8 +367,6 @@
     "id": "cardinale",
     "name": "Cardinale",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/572/cardinale",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/02/5c6fd76c44251.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -421,8 +395,6 @@
     "id": "ce-soir",
     "name": "Ce Soir",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/4858/ce-soir-this-evening",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/09/5d82293e6217b.jpg",
     "ingredientIds": [
       {
         "id": "cognac",
@@ -461,8 +433,6 @@
     "id": "cin-cyn",
     "name": "Cin-Cyn",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/5458/cin-cyn",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/07/5f196808082e7.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -491,8 +461,6 @@
     "id": "cornwall-negroni",
     "name": "Cornwall Negroni",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/2356/cornwall-negroni",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/43/2016ac747c183bf1131cd6e8afa598f30091.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -531,8 +499,6 @@
     "id": "crazy-crossing",
     "name": "Crazy Crossing",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/4972/crazy-crossing",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/02/5e4fcfdc4c894.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -571,8 +537,6 @@
     "id": "dandy",
     "name": "Dandy",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/617/dandy-cocktail",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/23/201686e9bc5ac9b6df2c27d2e48e439a0ce8.jpg",
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
@@ -609,8 +573,6 @@
     "id": "derniere-minute",
     "name": "Dernière Minute",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/3741/derniere-minute-last-minute",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/5/44/2016968346c8f0db26cb6c9d7b92210bf455.jpg",
     "ingredientIds": [
       {
         "id": "cognac",
@@ -649,8 +611,6 @@
     "id": "diamondback",
     "name": "Diamondback",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/3058/diamondback",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/37/2016be4e5e74ae7b218119ee42c6fba11b64.jpg",
     "ingredientIds": [
       {
         "id": "rye-whiskey",
@@ -679,8 +639,6 @@
     "id": "drunk-uncle",
     "name": "Drunk Uncle",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/6015/drunk-uncle",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/09/5f74462370210.jpg",
     "ingredientIds": [
       {
         "id": "scotch-whisky",
@@ -714,8 +672,6 @@
     "id": "dry-martini",
     "name": "Dry Martini",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/676/dry-martini-51-ratio-dickens-preferred",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/1/31/2016efd4b6fceaef1db7798292a345c66f83.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -744,8 +700,6 @@
     "id": "episcopal",
     "name": "Episcopal",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/721/episcopal",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/7/42/20168c1c0a3a757a6e31361707c42cfe2904.jpg",
     "ingredientIds": [
       {
         "id": "green-chartreuse",
@@ -764,8 +718,6 @@
     "id": "fallen-leaves",
     "name": "Fallen Leaves",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/2652/fallen-leaves",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/12/5fe47eaee3116.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -799,8 +751,6 @@
     "id": "gen-tonique",
     "name": "Gen Tonic",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/4351/gentonique",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2018/1/38/2018602640016249a6511ebe56aa8782418a.jpg",
     "ingredientIds": [
       {
         "id": "gentian-liqueur",
@@ -829,8 +779,6 @@
     "id": "gin-&-tonic",
     "name": "Gin Tonic",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/835/gin-and-tonic",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/8/07/201642335eb2fd8d5d9dc53a1fccb8dd1015.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -854,8 +802,6 @@
     "id": "godfather",
     "name": "Godfather",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/864/godfather-cocktail",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/1/00/20161444164ffbeafc9c18d9834769f86d6f.jpg",
     "ingredientIds": [
       {
         "id": "scotch-whisky",
@@ -879,8 +825,6 @@
     "id": "greenpoint",
     "name": "Greenpoint",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/3635/greenpoint",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2016/2/59/2016c4caa996ef2ca7ecb4da9ca2257361d5.jpg",
     "ingredientIds": [
       {
         "id": "rye-whiskey",
@@ -919,8 +863,6 @@
     "id": "home-on-the-range",
     "name": "Home On The Range",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans un verre refroidi.",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/4788/home-on-the-range",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/08/5d552e758a83f.jpg",
     "ingredientIds": [
       {
         "id": "rye-whiskey",
@@ -957,8 +899,6 @@
     "id": "le-sang-jaune",
     "name": "Le Sang Jaune",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/4231/la-sang-jaune-the-yellow-blood",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2017/6/21/201742cf02e92c499c311892cba9c1a32ab1.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -1000,8 +940,6 @@
     "id": "m-&-m",
     "name": "M & M",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/5588/m-and-m",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2020/08/5f2d18b5a30c9.jpg",
     "ingredientIds": [
       {
         "id": "mezcal",
@@ -1025,8 +963,6 @@
     "id": "negroni",
     "name": "Negroni",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/1392/negroni-cocktail",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2015/7/25/20153d9edca73fbc76ce9648f3e93498e916.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -1055,8 +991,6 @@
     "id": "old-fashioned",
     "name": "Old Fashioned",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/4782/old-fashioned",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/07/5d35db08cfe6f.jpg",
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
@@ -1085,8 +1019,6 @@
     "id": "poets-dream",
     "name": "Poet's Dream",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/1576/poets-dream",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2017/1/44/2017830fd3ed5d71bcb4ab71527d422b851c.jpg",
     "ingredientIds": [
       {
         "id": "london-dry-gin",
@@ -1115,8 +1047,6 @@
     "id": "pomme-&-sureau",
     "name": "Pomme & Sureau",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/2737/pomme-et-sureau",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2017/1/20/2017aef2d05b5c2be9fba51c70949b42d872.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -1145,8 +1075,6 @@
     "id": "wardays",
     "name": "Warday's",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/9077/wardays-cocktail",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2021/07/60f00e4816daa.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -1180,8 +1108,6 @@
     "id": "widows-kiss",
     "name": "Widow's Kiss",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/2098/widows-kiss",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2017/1/59/201779e0ed5e44c1e929fe33245c5b8340d2.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -1215,8 +1141,6 @@
     "id": "yale-fence",
     "name": "Yale Fence",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/9076/yale-fence",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2021/07/60f00d81c1714.jpg",
     "ingredientIds": [
       {
         "id": "calvados",
@@ -1245,8 +1169,6 @@
     "id": "vieille-place",
     "name": "Vieille Place",
     "recipe": "",
-    "url": "https://www.diffordsguide.com/cocktails/recipe/4675/vieille-place",
-    "photoUrl": "https://cdn.diffords.com/contrib/stock-images/2019/02/5c543a881065f.jpg",
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
