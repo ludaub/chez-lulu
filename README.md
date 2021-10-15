@@ -1,4 +1,4 @@
-# 🍸 Lulu's Bar 
+# 🍸 Lulu's Bar
 
 ![Deploy to Firebase Hosting on merge](https://github.com/ludaub/lulus-bar/actions/workflows/firebase-hosting-merge.yml/badge.svg)
 
