@@ -1,168 +1,149 @@
 .container {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
 }
 
 .toolbar {
+  background-color: #303030;
   flex-shrink: 0;
   flex-wrap: wrap;
   height: 408px;
-  padding-top: 48px;
-  background-color: #303030;
   overflow: hidden;
+  padding-top: 48px;
+}
 
-  .title-container {
+.title-container {
+  align-items: center;
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%;
 
-    .title {
-      display: flex;
-      font-size: 96px;
-      line-height: 120px;
-      text-align: center;
-    }
-
-    .neon {
-      padding: 36px 42px 42px 36px;
-      font-family: 'Pacifico', cursive;
-      color: #f3e5f5;
-      border: 8px solid #e8f5e9;
-      border-radius: 16px;
-      text-shadow:
-        0 0 6px #f3e5f5,
-        0 0 12px #f3e5f5,
-        0 0 18px #d500f9,
-        0 0 24px #d500f9,
-        0 0 48px #d500f9;
-      box-shadow:
-        0 0 6px #e8f5e9,
-        inset 0 0 6px #e8f5e9,
-        0 0 12px #e8f5e9,
-        inset 0 0 12px #e8f5e9,
-        0 0 18px #00e676,
-        inset 0 0 18px #00e676,
-        0 0 24px #00e676,
-        inset 0 0 24px #00e676,
-        0 0 48px #00e676,
-        inset 0 0 48px #00e676;
-
-      .title-lulus,
-      .title-bar {
-        display: block;
-        transform: rotate(-9deg);
-      }
-
-      .title-cocktail-glass {
-        margin: 0 112px 0 16px;
-        color: #e0f7fa;
-        font-size: 128px;
-        text-shadow:
-          0 0 6px #e0f7fa,
-          0 0 12px #e0f7fa,
-          0 0 18px #00e5ff,
-          0 0 24px #00e5ff,
-          0 0 48px #00e5ff;
-      }
-    }
+  .title {
+    display: flex;
+    font-size: 96px;
+    line-height: 120px;
+    text-align: center;
   }
 
-  .toggle-group-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 62px 0 24px;
+  .title.neon {
+    border: 8px solid #e8f5e9;
+    border-radius: 16px;
+    box-shadow: 0 0 6px #e8f5e9, inset 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, inset 0 0 12px #e8f5e9, 0 0 18px #00e676,
+      inset 0 0 18px #00e676, 0 0 24px #00e676, inset 0 0 24px #00e676, 0 0 48px #00e676, inset 0 0 48px #00e676;
+    color: #f3e5f5;
+    font-family: 'Pacifico', cursive;
+    padding: 36px 42px 42px 36px;
+    text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9, 0 0 48px #d500f9;
+  }
+
+  .title .title-lulus,
+  .title .title-bar {
+    display: block;
+    transform: rotate(-9deg);
+  }
+
+  .title .title-cocktail-glass {
+    color: #e0f7fa;
+    font-size: 128px;
+    margin: 0 112px 0 16px;
+    text-shadow: 0 0 6px #e0f7fa, 0 0 12px #e0f7fa, 0 0 18px #00e5ff, 0 0 24px #00e5ff, 0 0 48px #00e5ff;
   }
 }
 
+.toggle-group-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 62px 0 24px;
+  width: 100%;
+}
+
 .cocktails-container {
+  align-items: center;
   display: flex;
   flex-grow: 1;
-  align-items: center;
   justify-content: center;
-  width: 100%;
   overflow: auto;
+  width: 100%;
 
   .cocktails {
-    width: 720px;
     height: 100%;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    width: 720px;
+  }
 
-    .cocktail {
-      display: flex;
-      padding: 24px 0;
-      border-bottom: dotted #484848;
-      font-family: 'Libre Baskerville', serif;
-      cursor: pointer;
+  .cocktails .cocktail {
+    border-bottom: dotted #484848;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    padding: 24px 0;
+  }
 
-      &:last-of-type {
-        border-bottom: none;
-      }
+  .cocktails .cocktail:last-of-type {
+    border-bottom: 0;
+  }
 
-      &-icon {
-        display: block;
-        width: 54px;
-        height: 54px;
-        margin-right: 24px;
-        padding-bottom: 4px;
-        font-size: 48px;
-        line-height: 54px;
-      }
+  .cocktail-icon {
+    display: block;
+    font-size: 48px;
+    height: 54px;
+    line-height: 54px;
+    margin-right: 24px;
+    padding-bottom: 4px;
+    width: 54px;
+  }
 
-      &-name {
-        display: inline-block;
-        margin-bottom: 8px;
-        color: #fafafa;
-        font-size: 24px;
-        font-weight: bold;
-        line-height: 28px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
+  .cocktail-name {
+    color: #fafafa;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
 
-        &-word {
-          // display: inline;
-          display: inline-block; // FIXME: Removes `text-decoration`.
+  .cocktail-name-word {
+    // display: inline;
+    display: inline-block; // FIXME: Removes `text-decoration`.
+  }
 
-          &::first-letter {
-            font-size: 28px !important;
-          }
-        }
-      }
+  .cocktail-name-word::first-letter {
+    font-size: 28px !important;
+  }
 
-      &-ingredients {
-        list-style: none;
-        padding: 0;
-        margin: 0;
+  .cocktail-ingredients {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-        .cocktail-ingredient {
-          display: inline-block;
-          color: #bdbdbd;
-          font-size: 18px;
-          font-style: italic;
+  .cocktail-ingredient {
+    color: #bdbdbd;
+    display: inline-block;
+    font-size: 18px;
+    font-style: italic;
+  }
 
-          .filtered {
-            background-color: rgb(255, 253, 231, 0.1);
-            border-radius: 4px;
-          }
+  .cocktail-ingredient .filtered {
+    background-color: rgb(255, 253, 231, 0.1);
+    border-radius: 4px;
+  }
 
-          .word-separator {
-            font-style: normal;
-          }
-        }
-      }
-    }
+  .cocktail-ingredient .word-separator {
+    font-style: normal;
+  }
 
-    // HACK: Prevents from last `<li>` element `margin-bottom` being "cut";
-    // because of flex displaying?
-    .bottom-spacer {
-      padding-bottom: 0.1px;
-    }
+  // HACK: Prevents from last `<li>` element `margin-bottom` being "cut";
+  // because of flex displaying?
+  .bottom-spacer {
+    padding-bottom: 0.1px;
   }
 }

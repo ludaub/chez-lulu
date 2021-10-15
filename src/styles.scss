@@ -1,10 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html,
+body {
+  height: 100%;
+}
 
 body {
-  margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
+  margin: 0;
 }
 
 .dark-theme {
@@ -18,8 +21,8 @@ body {
 
 .silhouette {
   color: transparent !important;
-  text-shadow: 0 0 0 #c7c7c7;
   text-decoration: none !important;
+  text-shadow: 0 0 0 #c7c7c7;
 
   &.unavailable {
     text-shadow: 0 0 0 #8d8d8d;
@@ -32,76 +35,58 @@ body {
     color: #8d8d8d;
     font-family: 'Exo 2', sans-serif;
     letter-spacing: 8px;
+  }
 
-    &-checked.toggle-all {
-      color: #e0f7fa;
+  .mat-button-toggle-label-content {
+    text-transform: uppercase;
+  }
 
-      .mat-button-toggle-label-content {
-        text-shadow:
-          0 0 6px #e0f7fa,
-          0 0 12px #e0f7fa,
-          0 0 18px #00e5ff,
-          0 0 24px #00e5ff;
-      }
-    }
+  &-checked.toggle-all {
+    color: #e0f7fa;
+  }
 
-    &-checked.toggle-available {
-      color: #e8f5e9;
+  &-checked.toggle-all .mat-button-toggle-label-content {
+    text-shadow: 0 0 6px #e0f7fa, 0 0 12px #e0f7fa, 0 0 18px #00e5ff, 0 0 24px #00e5ff;
+  }
 
-      .mat-button-toggle-label-content {
-        text-shadow:
-          0 0 6px #e8f5e9,
-          0 0 12px #e8f5e9,
-          0 0 18px #00e676,
-          0 0 24px #00e676;
-      }
-    }
+  &-checked.toggle-available {
+    color: #e8f5e9;
+  }
 
-    &-checked.toggle-unavailable {
-      color: #f3e5f5;
+  &-checked.toggle-available .mat-button-toggle-label-content {
+    text-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676;
+  }
 
-      .mat-button-toggle-label-content {
-        text-shadow:
-          0 0 6px #f3e5f5,
-          0 0 12px #f3e5f5,
-          0 0 18px #d500f9,
-          0 0 24px #d500f9;
-      }
-    }
+  &-checked.toggle-unavailable {
+    color: #f3e5f5;
+  }
 
-    &-checked.toggle-filter {
-      color: #fffde7;
+  &-checked.toggle-unavailable .mat-button-toggle-label-content {
+    text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
+  }
 
-      .mat-button-toggle-label-content {
-        text-shadow:
-          0 0 6px #fffde7,
-          0 0 12px #fffde7,
-          0 0 18px #ffff00,
-          0 0 24px #ffff00;
-      }
-    }
+  &-checked.toggle-filter {
+    color: #fffde7;
+  }
 
-    .mat-button-toggle-label-content {
-      text-transform: uppercase;
-    }
+  &-checked.toggle-filter .mat-button-toggle-label-content {
+    text-shadow: 0 0 6px #fffde7, 0 0 12px #fffde7, 0 0 18px #ff0, 0 0 24px #ff0;
   }
 
   &.toggle-group-availability {
-    border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
   }
 
   &.toggle-group-filter {
-    border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
   }
 }
 
 .filter-menu {
-  .filter-list {
-    .mat-list-option {
-      font-family: 'Libre Baskerville', serif;
-    }
+  .mat-list-option {
+    font-family: 'Libre Baskerville', serif;
   }
 }
 
@@ -114,12 +99,25 @@ body {
 }
 
 @keyframes flicker {
-	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
     opacity: 0.99;
-	}
-	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
-		opacity: 0.4;
-	}
+  }
+
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
+    opacity: 0.4;
+  }
 }
 
 .cocktail-detail {
@@ -127,71 +125,70 @@ body {
     font-family: 'Libre Baskerville', serif;
     font-size: 24px;
     font-weight: bold;
+    letter-spacing: 2px;
     line-height: 28px;
     text-transform: uppercase;
     word-spacing: 4px;
-    letter-spacing: 2px;
+  }
 
-    &-word {
-      display: inline-block;
+  .cocktail-name-word {
+    display: inline-block;
+  }
 
-      &::first-letter {
-        font-size: 28px !important;
-      }
-    }
+  .cocktail-name-word::first-letter {
+    font-size: 28px !important;
   }
 
   .cocktail-ingredients {
     list-style: none;
+    margin: 0 0 8px;
     padding: 0;
-    margin: 0 0 8px 0;
+  }
 
-    .cocktail-ingredient {
-      display: flex;
-      gap: 12px;
-      padding: 8px 0;
-      border-bottom: dotted #6d6d6d;
-      font-family: 'Libre Baskerville', serif;
-      font-size: 18px;
-      word-spacing: 2px;
+  .cocktail-ingredient {
+    border-bottom: dotted #6d6d6d;
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    gap: 12px;
+    padding: 8px 0;
+    word-spacing: 2px;
+  }
 
-      &-quantity,
-      &-name {
-        display: inline-block;
-      }
+  .cocktail-ingredient-quantity,
+  .cocktail-ingredient-name {
+    display: inline-block;
+  }
 
-      &-name {
-        font-style: italic;
+  .cocktail-ingredient-name {
+    font-style: italic;
+  }
 
-        &-brand {
-          font-size: 13px;
-          font-style: normal;
-          text-transform: uppercase;
-          letter-spacing: 1px;
+  .cocktail-ingredient-name-brand {
+    font-size: 13px;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
 
-          &-word {
-            display: inline-block;
+  .cocktail-ingredient-name-word {
+    display: inline-block;
+  }
 
-            &::first-letter {
-              font-size: 18px !important;
-            }
-          }
-        }
-      }
+  .cocktail-ingredient-name-word::first-letter {
+    font-size: 18px !important;
+  }
 
-      &-quantity {
-        width: 80px;
-        font-style: italic;
+  .cocktail-ingredient-quantity {
+    font-style: italic;
+    width: 80px;
+  }
 
-        &-unit {
-          //margin-left: 2px;
-          font-size: 13px;
-          font-style: normal;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-        }
-      }
-    }
+  .cocktail-ingredient-quantity-unit {
+    font-size: 13px;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
   .cocktail-recipe,
@@ -204,9 +201,7 @@ body {
     margin-top: 16px;
   }
 
-  .cocktail-garnish {
-    &-name {
-      text-transform: lowercase;
-    }
+  .cocktail-garnish-name {
+    text-transform: lowercase;
   }
 }
