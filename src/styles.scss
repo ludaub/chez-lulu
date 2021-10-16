@@ -41,35 +41,35 @@ body {
     text-transform: uppercase;
   }
 
-  &-checked.toggle-all {
+  .mat-button-toggle-checked.toggle-all {
     color: #e0f7fa;
   }
 
-  &-checked.toggle-all .mat-button-toggle-label-content {
+  .mat-button-toggle-checked.toggle-all .mat-button-toggle-label-content {
     text-shadow: 0 0 6px #e0f7fa, 0 0 12px #e0f7fa, 0 0 18px #00e5ff, 0 0 24px #00e5ff;
   }
 
-  &-checked.toggle-available {
+  .mat-button-toggle-checked.toggle-available {
     color: #e8f5e9;
   }
 
-  &-checked.toggle-available .mat-button-toggle-label-content {
+  .mat-button-toggle-checked.toggle-available .mat-button-toggle-label-content {
     text-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676;
   }
 
-  &-checked.toggle-unavailable {
+  .mat-button-toggle-checked.toggle-unavailable {
     color: #f3e5f5;
   }
 
-  &-checked.toggle-unavailable .mat-button-toggle-label-content {
+  .mat-button-toggle-checked.toggle-unavailable .mat-button-toggle-label-content {
     text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
   }
 
-  &-checked.toggle-filter {
+  .mat-button-toggle-checked.toggle-filter {
     color: #fffde7;
   }
 
-  &-checked.toggle-filter .mat-button-toggle-label-content {
+  .mat-button-toggle-checked.toggle-filter .mat-button-toggle-label-content {
     text-shadow: 0 0 6px #fffde7, 0 0 12px #fffde7, 0 0 18px #ff0, 0 0 24px #ff0;
   }
 
