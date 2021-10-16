@@ -1,7 +1,7 @@
 # 🍸 Lulu's Bar
 
 ![Code coverage](./badges/coverage-global%20coverage.svg)
-![Build and deploy to Firebase Hosting](https://github.com/ludaub/lulus-bar/actions/workflows/firebase-hosting-merge.yml/badge.svg)
+![Build and deploy](https://github.com/ludaub/lulus-bar/actions/workflows/build-deploy.yml/badge.svg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
