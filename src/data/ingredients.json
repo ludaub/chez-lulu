@@ -95,7 +95,7 @@
   {
     "id": "triple-sec-liqueur",
     "name": "Cointreau",
-    "available": false
+    "available": true
   },
   {
     "id": "red-dubonnet",
@@ -158,7 +158,7 @@
   {
     "id": "mandarin-liqueur",
     "name": "Mandarine Napoléon",
-    "available": false
+    "available": true
   },
   {
     "id": "maraschino-liqueur",
