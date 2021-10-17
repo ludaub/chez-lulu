@@ -10,9 +10,28 @@
   background-color: #303030;
   flex-shrink: 0;
   flex-wrap: wrap;
-  height: 408px;
   overflow: hidden;
-  padding-top: 48px;
+}
+
+@media screen and (min-width: 320px) {
+  .toolbar {
+    height: 192px;
+    padding-top: 24px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .toolbar {
+    height: 224px;
+    padding-top: 36px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .toolbar {
+    height: 300px;
+    padding-top: 48px;
+  }
 }
 
 .title-container {
@@ -23,19 +42,38 @@
 
   .title {
     display: flex;
-    font-size: 96px;
-    line-height: 120px;
     text-align: center;
   }
 
+  @media screen and (min-width: 320px) {
+    .title {
+      font-size: 48px;
+      line-height: 60px;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .title {
+      font-size: 64px;
+      line-height: 80px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .title {
+      font-size: 96px;
+      line-height: 120px;
+    }
+  }
+
   .title.neon {
-    border: 8px solid #e8f5e9;
-    border-radius: 16px;
-    box-shadow: 0 0 6px #e8f5e9, inset 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, inset 0 0 12px #e8f5e9, 0 0 18px #00e676,
-      inset 0 0 18px #00e676, 0 0 24px #00e676, inset 0 0 24px #00e676, 0 0 48px #00e676, inset 0 0 48px #00e676;
+    // border: 8px solid #e8f5e9;
+    // border-radius: 16px;
+    // box-shadow: 0 0 6px #e8f5e9, inset 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, inset 0 0 12px #e8f5e9, 0 0 18px #00e676,
+    //   inset 0 0 18px #00e676, 0 0 24px #00e676, inset 0 0 24px #00e676, 0 0 48px #00e676, inset 0 0 48px #00e676;
     color: #f3e5f5;
     font-family: 'Pacifico', cursive;
-    padding: 36px 42px 42px 36px;
+    padding: 0 42px 0 36px;
     text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9, 0 0 48px #d500f9;
   }
 
@@ -45,20 +83,58 @@
     transform: rotate(-9deg);
   }
 
-  .title .title-cocktail-glass {
-    color: #e0f7fa;
-    font-size: 128px;
-    margin: 0 112px 0 16px;
-    text-shadow: 0 0 6px #e0f7fa, 0 0 12px #e0f7fa, 0 0 18px #00e5ff, 0 0 24px #00e5ff, 0 0 48px #00e5ff;
+  @media screen and (min-width: 320px) {
+    .title .title-lulus,
+    .title .title-bar {
+      margin: 0 6px;
+    }
   }
+
+  @media screen and (min-width: 425px) {
+    .title .title-lulus,
+    .title .title-bar {
+      margin: 0 9px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .title .title-lulus,
+    .title .title-bar {
+      margin: 0 12px;
+    }
+  }
+
+  // .title .title-cocktail-glass {
+  //   color: #e0f7fa;
+  //   font-size: 128px;
+  //   margin: 0 112px 0 16px;
+  //   text-shadow: 0 0 6px #e0f7fa, 0 0 12px #e0f7fa, 0 0 18px #00e5ff, 0 0 24px #00e5ff, 0 0 48px #00e5ff;
+  // }
 }
 
 .toggle-group-container {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin: 62px 0 24px;
   width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+  .toggle-group-container {
+    margin: 12px 0 6px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .toggle-group-container {
+    margin: 24px 0 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .toggle-group-container {
+    margin: 48px 0 24px;
+  }
 }
 
 .cocktails-container {
@@ -73,8 +149,25 @@
     height: 100%;
     list-style: none;
     margin: 0;
-    padding: 0;
-    width: 720px;
+    padding: 0 24px;
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktails {
+      width: 320px;
+    }
+  }
+  
+  @media screen and (min-width: 425px) {
+    .cocktails {
+      width: 425px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cocktails {
+      width: 720px;
+    }
   }
 
   .cocktails .cocktail {
@@ -82,7 +175,24 @@
     cursor: pointer;
     display: flex;
     font-family: 'Libre Baskerville', serif;
-    padding: 24px 0;
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktails .cocktail {
+      padding: 12px 0;
+    }
+  }
+  
+  @media screen and (min-width: 425px) {
+    .cocktails .cocktail {
+      padding: 18px 0;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cocktails .cocktail {
+      padding: 24px 0;
+    }
   }
 
   .cocktails .cocktail:last-of-type {
@@ -90,24 +200,75 @@
   }
 
   .cocktail-icon {
-    display: block;
-    font-size: 48px;
-    height: 54px;
-    line-height: 54px;
-    margin-right: 24px;
-    padding-bottom: 4px;
-    width: 54px;
+    display: block; 
+    
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktail-icon {
+      font-size: 32px;
+      height: 48px;
+      line-height: 38px;
+      margin-right: 12px;
+      padding-bottom: 4px;
+      width: 38px;
+    }
+  }
+  
+  @media screen and (min-width: 425px) {
+    .cocktail-icon {
+      font-size: 40px;
+      height: 46px;
+      line-height: 46px;
+      margin-right: 18px;
+      padding-bottom: 4px;
+      width: 46px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cocktail-icon {
+      font-size: 48px;
+      height: 54px;
+      line-height: 54px;
+      margin-right: 24px;
+      padding-bottom: 4px;
+      width: 54px;
+    }
   }
 
   .cocktail-name {
     color: #fafafa;
     display: inline-block;
-    font-size: 24px;
     font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 28px;
-    margin-bottom: 8px;
     text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 320px) {
+    .coktail-name {
+      font-size: 16px;
+      letter-spacing: 1px;
+      line-height: 18px;
+      margin-bottom: 4px;
+    }
+  }
+  
+  @media screen and (min-width: 425px) {
+    .cocktail-name {
+      font-size: 20px;
+      letter-spacing: 2px;
+      line-height: 22px;
+      margin-bottom: 6px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cocktail-name {
+      font-size: 24px;
+      letter-spacing: 2px;
+      line-height: 28px;
+      margin-bottom: 8px;
+    }
   }
 
   .cocktail-name-word {
@@ -115,8 +276,22 @@
     display: inline-block; // FIXME: Removes `text-decoration`.
   }
 
-  .cocktail-name-word::first-letter {
-    font-size: 28px !important;
+  @media screen and (min-width: 320px) {
+    .cocktail-name-word::first-letter {
+      font-size: 18px !important;
+    }
+  }
+  
+  @media screen and (min-width: 425px) {
+    .cocktail-name-word::first-letter {
+      font-size: 22px !important;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cocktail-name-word::first-letter {
+      font-size: 28px !important;
+    }
   }
 
   .cocktail-ingredients {
@@ -128,8 +303,25 @@
   .cocktail-ingredient {
     color: #bdbdbd;
     display: inline-block;
-    font-size: 18px;
     font-style: italic;
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktail-ingredient {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (min-width: 425px) {
+    .cocktail-ingredient {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cocktail-ingredient {
+      font-size: 18px;
+    }
   }
 
   .cocktail-ingredient .filtered {
