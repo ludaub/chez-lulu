@@ -188,6 +188,45 @@
     "glassId": "coupe"
   },
   {
+    "id": "argentina",
+    "name": "Argentina",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": "0.75",
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": "0.75",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "1",
+        "unit": "trait"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "nick-&-nora"
+  },
+  {
     "id": "bentley",
     "name": "Bentley",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -239,6 +278,35 @@
     ],
     "garnishIds": ["discarded-lemon-zest-twist", "maraschino-cherry"],
     "glassId": "old-fashioned"
+  },
+  {
+    "id": "black-feather",
+    "name": "Black Feather",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": "1.25",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
   },
   {
     "id": "boulevardier",
@@ -463,6 +531,35 @@
     "glassId": "coupe"
   },
   {
+    "id": "cuban-liberal",
+    "name": "Cuban Liberal",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "light-rum",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "amer",
+        "quantity": "0.25",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "2",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "dandy",
     "name": "Dandy",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -603,6 +700,35 @@
     "glassId": "coupe"
   },
   {
+    "id": "dry-orange-martini",
+    "name": "Dry Orange Martini",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "6",
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": "0.75",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "2",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["grapefruit-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "episcopal",
     "name": "Episcopal",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
@@ -648,6 +774,35 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "coupe"
+  },
+  {
+    "id": "fin-de-siecle",
+    "name": "Fin de Siècle",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "amer",
+        "quantity": "0.75",
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": "1",
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "nick-&-nora"
   },
   {
     "id": "gen-tonique",
@@ -809,6 +964,35 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "joy-division",
+    "name": "Joy Division",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "6",
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": "3",
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": "1.5",
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": "3",
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["grapefruit-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "m-&-m",
     "name": "M & M",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
@@ -849,6 +1033,40 @@
       }
     ],
     "garnishIds": ["orange-wedge"],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "oh-cecilie",
+    "name": "Oh Cecilie!",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": "4.5",
+        "unit": "cl"
+      },
+      {
+        "id": "bittersweet-aperitivo",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": "2.25",
+        "unit": "cl"
+      },
+      {
+        "id": "amer",
+        "quantity": "0.75",
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": "1",
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["grapefruit-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
