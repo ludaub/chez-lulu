@@ -20,6 +20,13 @@
   }
 }
 
+@media screen and (min-width: 320px) {
+  .toolbar {
+    height: 204px;
+    padding-top: 24px;
+  }
+}
+
 @media screen and (min-width: 425px) {
   .toolbar {
     height: 224px;
@@ -49,6 +56,13 @@
     .title {
       font-size: 48px;
       line-height: 60px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .title {
+      font-size: 54px;
+      line-height: 72px;
     }
   }
 
@@ -154,17 +168,11 @@
 
   @media screen and (min-width: 320px) {
     .cocktails {
-      width: 320px;
+      width: 100%;
     }
   }
 
-  @media screen and (min-width: 425px) {
-    .cocktails {
-      width: 425px;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 720px) {
     .cocktails {
       width: 720px;
     }
