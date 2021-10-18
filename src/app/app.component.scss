@@ -15,28 +15,28 @@
 
 @media screen and (min-width: 320px) {
   .toolbar {
-    height: 192px;
+    height: 154px;
     padding-top: 24px;
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 375px) {
   .toolbar {
-    height: 204px;
+    height: 166px;
     padding-top: 24px;
   }
 }
 
 @media screen and (min-width: 425px) {
   .toolbar {
-    height: 224px;
+    height: 204px;
     padding-top: 36px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .toolbar {
-    height: 300px;
+    height: 290px;
     padding-top: 48px;
   }
 }
@@ -135,13 +135,19 @@
 
 @media screen and (min-width: 320px) {
   .toggle-group-container {
-    margin: 12px 0 6px;
+    margin: 24px 0 12px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .toggle-group-container {
+    margin: 24px 0 12px;
   }
 }
 
 @media screen and (min-width: 425px) {
   .toggle-group-container {
-    margin: 24px 0 12px;
+    margin: 36px 0 18px;
   }
 }
 
