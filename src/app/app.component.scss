@@ -157,13 +157,13 @@
       width: 320px;
     }
   }
-  
+
   @media screen and (min-width: 425px) {
     .cocktails {
       width: 425px;
     }
   }
-  
+
   @media screen and (min-width: 768px) {
     .cocktails {
       width: 720px;
@@ -182,13 +182,13 @@
       padding: 12px 0;
     }
   }
-  
+
   @media screen and (min-width: 425px) {
     .cocktails .cocktail {
       padding: 18px 0;
     }
   }
-  
+
   @media screen and (min-width: 768px) {
     .cocktails .cocktail {
       padding: 24px 0;
@@ -200,8 +200,7 @@
   }
 
   .cocktail-icon {
-    display: block; 
-    
+    display: block;
   }
 
   @media screen and (min-width: 320px) {
@@ -214,7 +213,7 @@
       width: 38px;
     }
   }
-  
+
   @media screen and (min-width: 425px) {
     .cocktail-icon {
       font-size: 40px;
@@ -225,7 +224,7 @@
       width: 46px;
     }
   }
-  
+
   @media screen and (min-width: 768px) {
     .cocktail-icon {
       font-size: 48px;
@@ -252,7 +251,7 @@
       margin-bottom: 4px;
     }
   }
-  
+
   @media screen and (min-width: 425px) {
     .cocktail-name {
       font-size: 20px;
@@ -261,7 +260,7 @@
       margin-bottom: 6px;
     }
   }
-  
+
   @media screen and (min-width: 768px) {
     .cocktail-name {
       font-size: 24px;
@@ -281,13 +280,13 @@
       font-size: 18px !important;
     }
   }
-  
+
   @media screen and (min-width: 425px) {
     .cocktail-name-word::first-letter {
       font-size: 22px !important;
     }
   }
-  
+
   @media screen and (min-width: 768px) {
     .cocktail-name-word::first-letter {
       font-size: 28px !important;
@@ -311,13 +310,13 @@
       font-size: 12px;
     }
   }
-  
+
   @media screen and (min-width: 425px) {
     .cocktail-ingredient {
       font-size: 14px;
     }
   }
-  
+
   @media screen and (min-width: 768px) {
     .cocktail-ingredient {
       font-size: 18px;
