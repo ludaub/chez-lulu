@@ -1,0 +1,52 @@
+@use '~@angular/material' as mat;
+
+@include mat.core();
+
+$dark-theme-pink: (
+  50: #fae0fe,
+  100: #f2b3fd,
+  200: #ea80fc,
+  300: #e24dfb,
+  400: #db26fa,
+  500: #d500f9,
+  600: #d000f8,
+  700: #ca00f7,
+  800: #c400f6,
+  900: #ba00f5,
+  A100: #fff,
+  A200: #f9e8ff,
+  A400: #ebb5ff,
+  A700: #e49cff,
+  contrast: (
+    50: #000,
+    100: #000,
+    200: #000,
+    300: #000,
+    400: #fff,
+    500: #fff,
+    600: #fff,
+    700: #fff,
+    800: #fff,
+    900: #fff,
+    A100: #000,
+    A200: #000,
+    A400: #000,
+    A700: #000,
+  ),
+);
+
+$dark-theme-primary: mat.define-palette($dark-theme-pink, 500);
+$dark-theme-accent: mat.define-palette($dark-theme-pink, 500);
+
+$dark-theme: mat.define-dark-theme(
+  (
+    color: (
+      primary: $dark-theme-primary,
+      accent: $dark-theme-accent,
+    ),
+  )
+);
+
+.dark-theme {
+  @include mat.all-component-themes($dark-theme);
+}
