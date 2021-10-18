@@ -68,7 +68,10 @@
 
         <div>
           <span class="cocktail-name" [class.unavailable]="!isCocktailAvailable(cocktail)">
-            <span class="cocktail-name-word" *ngFor="let word of getWords(cocktail.name); let i = index"
+            <span
+              class="cocktail-name-word"
+              [class.uppercase]="isNumber(word)"
+              *ngFor="let word of getWords(cocktail.name); let i = index"
               ><!--
               This comment prevents from additional white space.
               -->{{ word
@@ -106,7 +109,10 @@
 
 <ng-template #cocktailDetailDialog let-cocktail>
   <h2 mat-dialog-title class="cocktail-name">
-    <span class="cocktail-name-word" *ngFor="let word of getWords(cocktail.name); let i = index"
+    <span
+      class="cocktail-name-word"
+      [class.uppercase]="isNumber(word)"
+      *ngFor="let word of getWords(cocktail.name); let i = index"
       ><!--
       This comment prevents from additional white space.
       -->{{ word
@@ -133,6 +139,7 @@
             <span class="cocktail-ingredient-name-brand">
               <span
                 class="cocktail-ingredient-name-brand-word"
+                [class.uppercase]="isNumber(word)"
                 *ngFor="let word of getWords(ingredient.name); let i = index"
                 ><!--
                 This comment prevents from additional white space.
@@ -149,6 +156,7 @@
           <span *ngIf="ingredient.brand" class="cocktail-ingredient-name-brand">
             <span
               class="cocktail-ingredient-name-brand-word"
+              [class.uppercase]="isNumber(word)"
               *ngFor="let word of getWords(ingredient.brand); let i = index"
               ><!--
               This comment prevents from additional white space.

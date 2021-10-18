@@ -284,6 +284,10 @@ export class AppComponent implements OnInit, OnDestroy {
     this._dialog.open(this.cocktailDetailDialog, { data: cocktail, panelClass: 'cocktail-detail' });
   }
 
+  isNumber(value: string): boolean {
+    return !isNaN(Number(value));
+  }
+
   ngOnDestroy(): void {
     this._destroyed$.next(null);
     this._destroyed$.complete();

@@ -296,16 +296,28 @@
     .cocktail-name-word::first-letter {
       font-size: 18px !important;
     }
+
+    .cocktail-name-word.uppercase {
+      font-size: 18px !important;
+    }
   }
 
   @media screen and (min-width: 425px) {
     .cocktail-name-word::first-letter {
       font-size: 22px !important;
     }
+
+    .cocktail-name-word.uppercase {
+      font-size: 22px !important;
+    }
   }
 
   @media screen and (min-width: 768px) {
     .cocktail-name-word::first-letter {
+      font-size: 28px !important;
+    }
+
+    .cocktail-name-word.uppercase {
       font-size: 28px !important;
     }
   }
