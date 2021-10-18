@@ -157,20 +157,72 @@ body {
 .cocktail-detail {
   .cocktail-name {
     font-family: 'Libre Baskerville', serif;
-    font-size: 24px;
     font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 28px;
     text-transform: uppercase;
-    word-spacing: 4px;
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktail-name {
+      font-size: 16px;
+      letter-spacing: 1px;
+      line-height: 18px;
+      word-spacing: 2px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktail-name {
+      font-size: 16px;
+      letter-spacing: 1px;
+      line-height: 18px;
+      word-spacing: 2px;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .cocktail-name {
+      font-size: 20px;
+      letter-spacing: 2px;
+      line-height: 22px;
+      word-spacing: 4px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .cocktail-name {
+      font-size: 24px;
+      letter-spacing: 2px;
+      line-height: 28px;
+      word-spacing: 4px;
+    }
   }
 
   .cocktail-name-word {
     display: inline-block;
   }
 
-  .cocktail-name-word::first-letter {
-    font-size: 28px !important;
+  @media screen and (min-width: 320px) {
+    .cocktail-name-word::first-letter {
+      font-size: 18px !important;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktail-name-word::first-letter {
+      font-size: 18px !important;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .cocktail-name-word::first-letter {
+      font-size: 22px !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .cocktail-name-word::first-letter {
+      font-size: 28px !important;
+    }
   }
 
   .cocktail-ingredients {
@@ -183,10 +235,42 @@ body {
     border-bottom: dotted #6d6d6d;
     display: flex;
     font-family: 'Libre Baskerville', serif;
-    font-size: 18px;
-    gap: 12px;
-    padding: 8px 0;
-    word-spacing: 2px;
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktail-ingredient {
+      font-size: 12px;
+      gap: 6px;
+      padding: 4px 0;
+      word-spacing: 0;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktail-ingredient {
+      font-size: 12px;
+      gap: 8px;
+      padding: 4px 0;
+      word-spacing: 1px;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .cocktail-ingredient {
+      font-size: 16px;
+      gap: 10px;
+      padding: 6px 0;
+      word-spacing: 2px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .cocktail-ingredient {
+      font-size: 18px;
+      gap: 12px;
+      padding: 8px 0;
+      word-spacing: 2px;
+    }
   }
 
   .cocktail-ingredient-quantity,
@@ -199,40 +283,190 @@ body {
   }
 
   .cocktail-ingredient-name-brand {
-    font-size: 13px;
     font-style: normal;
-    letter-spacing: 1px;
     text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktail-ingredient-name-brand {
+      font-size: 9px;
+      letter-spacing: 0;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktail-ingredient-name-brand {
+      font-size: 10px;
+      letter-spacing: 0.5px;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .cocktail-ingredient-name-brand {
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .cocktail-ingredient-name-brand {
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
   }
 
   .cocktail-ingredient-name-brand-word {
     display: inline-block;
   }
 
-  .cocktail-ingredient-name-brand-word::first-letter {
-    font-size: 18px !important;
+  @media screen and (min-width: 320px) {
+    .cocktail-ingredient-name-brand-word::first-letter {
+      font-size: 12px !important;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktail-ingredient-name-brand-word::first-letter {
+      font-size: 12px !important;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .cocktail-ingredient-name-brand-word::first-letter {
+      font-size: 16px !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .cocktail-ingredient-name-brand-word::first-letter {
+      font-size: 18px !important;
+    }
   }
 
   .cocktail-ingredient-quantity {
     font-style: italic;
-    width: 80px;
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktail-ingredient-quantity {
+      min-width: 50px;
+      width: 50px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktail-ingredient-quantity {
+      min-width: 58px;
+      width: 58px;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .cocktail-ingredient-quantity {
+      min-width: 74px;
+      width: 74px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .cocktail-ingredient-quantity {
+      min-width: 80px;
+      width: 80px;
+    }
   }
 
   .cocktail-ingredient-quantity-unit {
-    font-size: 13px;
     font-style: normal;
-    letter-spacing: 1px;
     text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktail-ingredient-quantity-unit {
+      font-size: 9px;
+      letter-spacing: 0;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktail-ingredient-quantity-unit {
+      font-size: 10px;
+      letter-spacing: 0.5px;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .cocktail-ingredient-quantity-unit {
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .cocktail-ingredient-quantity-unit {
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
   }
 
   .cocktail-recipe,
   .cocktail-garnish {
     font-family: 'Libre Baskerville', serif;
-    font-size: 18px;
   }
 
-  .cocktail-recipe {
-    margin-top: 16px;
+  @media screen and (min-width: 320px) {
+    .cocktail-recipe,
+    .cocktail-garnish {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktail-recipe,
+    .cocktail-garnish {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .cocktail-recipe,
+    .cocktail-garnish {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .cocktail-recipe,
+    .cocktail-garnish {
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (min-width: 320px) {
+    .cocktail-recipe {
+      margin-top: 12px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktail-recipe {
+      margin-top: 12px;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .cocktail-recipe {
+      margin-top: 16px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .cocktail-recipe {
+      margin-top: 16px;
+    }
+  }
+
+  .cocktail-garnish {
+    margin-bottom: 0;
   }
 
   .cocktail-garnish-name {
