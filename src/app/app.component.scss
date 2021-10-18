@@ -91,29 +91,29 @@
     text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9, 0 0 48px #d500f9;
   }
 
-  .title .title-lulus,
-  .title .title-bar {
+  .title .title-chez,
+  .title .title-lulu {
     display: block;
     transform: rotate(-9deg);
   }
 
   @media screen and (min-width: 320px) {
-    .title .title-lulus,
-    .title .title-bar {
+    .title .title-chez,
+    .title .title-lulu {
       margin: 0 6px;
     }
   }
 
   @media screen and (min-width: 425px) {
-    .title .title-lulus,
-    .title .title-bar {
+    .title .title-chez,
+    .title .title-lulu {
       margin: 0 9px;
     }
   }
 
   @media screen and (min-width: 768px) {
-    .title .title-lulus,
-    .title .title-bar {
+    .title .title-chez,
+    .title .title-lulu {
       margin: 0 12px;
     }
   }

@@ -1,12 +1,12 @@
 {
-  "name": "lulus-bar",
+  "name": "chez-lulu",
   "description": "A personal and interactive cocktail menu",
   "version": "0.0.1",
   "author": "ludaub",
-  "homepage": "https://github.com/ludaub/lulus-bar",
+  "homepage": "https://chez-lulu-bar.web.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ludaub/lulus-bar.git"
+    "url": "https://github.com/ludaub/chez-lulu.git"
   },
   "scripts": {
     "ng": "ng",
