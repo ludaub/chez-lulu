@@ -252,11 +252,12 @@
   }
 
   @media screen and (min-width: 320px) {
-    .coktail-name {
+    .cocktail-name {
       font-size: 16px;
       letter-spacing: 1px;
       line-height: 18px;
       margin-bottom: 4px;
+      word-spacing: 2px;
     }
   }
 
@@ -266,6 +267,7 @@
       letter-spacing: 2px;
       line-height: 22px;
       margin-bottom: 6px;
+      word-spacing: 4px;
     }
   }
 
@@ -275,6 +277,7 @@
       letter-spacing: 2px;
       line-height: 28px;
       margin-bottom: 8px;
+      word-spacing: 4px;
     }
   }
 
