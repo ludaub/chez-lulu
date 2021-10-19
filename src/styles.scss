@@ -10,33 +10,7 @@ body {
   margin: 0;
 }
 
-.dark-theme {
-  background-color: #303030;
-}
-
-.unavailable {
-  color: #8d8d8d !important;
-  text-decoration: line-through !important;
-}
-
-.silhouette {
-  color: transparent !important;
-  text-decoration: none !important;
-  text-shadow: 0 0 0 #c7c7c7;
-
-  &.unavailable {
-    text-shadow: 0 0 0 #8d8d8d;
-  }
-}
-
 .toggle-group {
-  .mat-button-toggle {
-    background-color: transparent;
-    color: #8d8d8d;
-    font-family: 'Exo 2', sans-serif;
-    letter-spacing: 8px;
-  }
-
   @media screen and (min-width: 320px) {
     .mat-button-toggle {
       font-size: 8px !important;
@@ -83,44 +57,6 @@ body {
 
   .mat-button-toggle-label-content {
     text-transform: uppercase;
-  }
-
-  .mat-button-toggle-checked.toggle-all {
-    // color: #e0f7fa;
-    color: #f3e5f5;
-  }
-
-  .mat-button-toggle-checked.toggle-all .mat-button-toggle-label-content {
-    // text-shadow: 0 0 6px #e0f7fa, 0 0 12px #e0f7fa, 0 0 18px #00e5ff, 0 0 24px #00e5ff;
-    text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
-  }
-
-  .mat-button-toggle-checked.toggle-available {
-    // color: #e8f5e9;
-    color: #f3e5f5;
-  }
-
-  .mat-button-toggle-checked.toggle-available .mat-button-toggle-label-content {
-    // text-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676;
-    text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
-  }
-
-  .mat-button-toggle-checked.toggle-unavailable {
-    color: #f3e5f5;
-  }
-
-  .mat-button-toggle-checked.toggle-unavailable .mat-button-toggle-label-content {
-    text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
-  }
-
-  .mat-button-toggle-checked.toggle-filter {
-    // color: #fffde7;
-    color: #f3e5f5;
-  }
-
-  .mat-button-toggle-checked.toggle-filter .mat-button-toggle-label-content {
-    // text-shadow: 0 0 6px #fffde7, 0 0 12px #fffde7, 0 0 18px #ff0, 0 0 24px #ff0;
-    text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
   }
 
   &.toggle-group-availability {
@@ -320,7 +256,6 @@ body {
   }
 
   .cocktail-ingredient {
-    border-bottom: dotted #6d6d6d;
     display: flex;
     font-family: 'Libre Baskerville', serif;
   }

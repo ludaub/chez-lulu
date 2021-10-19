@@ -1,8 +1,12 @@
 @use '~@angular/material' as mat;
 
+// stylelint-disable no-invalid-position-at-import-rule
+@import 'app/app.component.dark-theme';
+@import 'app/app.component.light-theme';
+
 @include mat.core();
 
-$dark-theme-pink: (
+$dark-theme-purple: (
   50: #fae0fe,
   100: #f2b3fd,
   200: #ea80fc,
@@ -35,8 +39,41 @@ $dark-theme-pink: (
   ),
 );
 
-$dark-theme-primary: mat.define-palette($dark-theme-pink, 500);
-$dark-theme-accent: mat.define-palette($dark-theme-pink, 500);
+$light-theme-brown: (
+  50: #e8e5e5,
+  100: #c5bebd,
+  200: #9f9391,
+  300: #786865,
+  400: #5b4744,
+  500: #3e2723,
+  600: #38231f,
+  700: #301d1a,
+  800: #281715,
+  900: #1b0e0c,
+  A100: #ff6b5d,
+  A200: #ff3d2a,
+  A400: #f61600,
+  A700: #dc1400,
+  contrast: (
+    50: #000,
+    100: #000,
+    200: #000,
+    300: #fff,
+    400: #fff,
+    500: #fff,
+    600: #fff,
+    700: #fff,
+    800: #fff,
+    900: #fff,
+    A100: #000,
+    A200: #fff,
+    A400: #fff,
+    A700: #fff,
+  ),
+);
+
+$dark-theme-primary: mat.define-palette($dark-theme-purple, 500);
+$dark-theme-accent: mat.define-palette($dark-theme-purple, 500);
 
 $dark-theme: mat.define-dark-theme(
   (
@@ -47,6 +84,116 @@ $dark-theme: mat.define-dark-theme(
   )
 );
 
+$light-theme-primary: mat.define-palette($light-theme-brown, 500);
+$light-theme-accent: mat.define-palette($light-theme-brown, 500);
+
+$light-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $light-theme-primary,
+      accent: $light-theme-accent,
+    ),
+  )
+);
+
+@mixin global-theme($theme) {
+  $primary: map-get(
+    $map: $theme,
+    $key: primary,
+  );
+}
+
 .dark-theme {
   @include mat.all-component-themes($dark-theme);
+  @include global-theme($dark-theme);
+  @include app-dark-theme($dark-theme);
+
+  background-color: #303030;
+
+  .unavailable {
+    color: #8d8d8d !important;
+    text-decoration: line-through !important;
+  }
+
+  .silhouette {
+    color: transparent !important;
+    text-decoration: none !important;
+    text-shadow: 0 0 0 #c7c7c7;
+  }
+
+  .silhouette.unavailable {
+    text-shadow: 0 0 0 #8d8d8d;
+  }
+
+  .toggle-group .mat-button-toggle {
+    background-color: transparent;
+    color: #8d8d8d;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 8px;
+  }
+
+  .toggle-group .mat-button-toggle-checked {
+    color: #f3e5f5 !important;
+  }
+
+  .mat-button-toggle-checked .mat-button-toggle-label-content {
+    text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
+  }
+
+  .cocktail-detail .cocktail-ingredient {
+    border-bottom: dotted #6d6d6d;
+  }
+}
+
+.light-theme {
+  @include mat.all-component-themes($light-theme);
+  @include global-theme($light-theme);
+  @include app-light-theme($light-theme);
+
+  background-color: #fffde7;
+  color: #3e2723;
+
+  .unavailable {
+    color: #bcaaa4 !important;
+    text-decoration: line-through !important;
+  }
+
+  .silhouette {
+    color: transparent !important;
+    text-decoration: none !important;
+    text-shadow: 0 0 0 #725b53;
+  }
+
+  .silhouette.unavailable {
+    text-shadow: 0 0 0 #bcaaa4;
+  }
+
+  .mat-menu-panel,
+  .mat-dialog-container {
+    background: #fffff0;
+  }
+
+  .mat-list-option,
+  .mat-dialog-container {
+    color: #3e2723 !important;
+  }
+
+  .toggle-group {
+    border-radius: 4px;
+  }
+
+  .toggle-group .mat-button-toggle {
+    background-color: transparent;
+    color: #bcaaa4;
+    font-family: 'Mina', sans-serif;
+    letter-spacing: 8px;
+  }
+
+  .toggle-group .mat-button-toggle-checked {
+    color: #3e2723 !important;
+  }
+
+  .cocktail-detail .cocktail-ingredient {
+    border-bottom: 4px double #bcaaa4;
+  }
 }

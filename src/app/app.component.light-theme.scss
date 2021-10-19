@@ -1,0 +1,81 @@
+@use '~@angular/material' as mat;
+
+@mixin app-light-theme($theme) {
+  $primary: map-get($theme, primary);
+  $background: map-get($theme, background);
+  $foreground: map-get($theme, foreground);
+
+  .toolbar {
+    background-color: #fffde7;
+  }
+
+  .title {
+    color: #3e2723;
+    display: flex;
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 0;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 320px) {
+    .title {
+      font-size: 36px;
+      line-height: 60px;
+    }
+
+    .title .title-chez::first-letter,
+    .title .title-lulu::first-letter {
+      font-size: 48px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .title {
+      font-size: 42px;
+      line-height: 72px;
+    }
+
+    .title .title-chez::first-letter,
+    .title .title-lulu::first-letter {
+      font-size: 54px;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .title {
+      font-size: 52px;
+      line-height: 80px;
+    }
+
+    .title .title-chez::first-letter,
+    .title .title-lulu::first-letter {
+      font-size: 64px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .title {
+      font-size: 84px;
+      line-height: 120px;
+    }
+
+    .title .title-chez::first-letter,
+    .title .title-lulu::first-letter {
+      font-size: 96px;
+    }
+  }
+
+  .cocktails-container {
+    .cocktails .cocktail {
+      border-bottom: 4px double #bcaaa4;
+    }
+
+    .cocktails .cocktail-name {
+      color: #3e2723;
+    }
+
+    .cocktail-ingredient {
+      color: #6a4f4b;
+    }
+  }
+}
