@@ -25,7 +25,7 @@
     "format:ng": "ng lint --fix",
     "format:prettier": "npm run prettier -- --write",
     "format:style": "npm run lint:style -- --fix",
-    "prettier": "prettier \"**/*.{html,css,less,sass,scss,js,ts,json,yml,md}\"",
+    "prettier": "prettier \"**/*.{js,ts,html,css,less,sass,scss,json,yml,md}\"",
     "prepare": "husky install"
   },
   "private": true,
@@ -100,6 +100,7 @@
   },
   "lint-staged": {
     "*.{js,ts,html}": "eslint --cache --fix",
-    "*.{css,less,sass,scss}": "stylelint --fix"
+    "*.{css,less,sass,scss}": "stylelint --fix",
+    "*.{js,ts,html,css,less,sass,scss,json,yml,md}": "prettier --write"
   }
 }
