@@ -39,45 +39,45 @@ body {
 
   @media screen and (min-width: 320px) {
     .mat-button-toggle {
-      font-size: 8px;
-      letter-spacing: 0;
+      font-size: 8px !important;
+      letter-spacing: 0 !important;
     }
 
     .mat-button-toggle-label-content {
-      line-height: 8px;
+      line-height: 8px !important;
     }
   }
 
   @media screen and (min-width: 375px) {
     .mat-button-toggle {
-      font-size: 10px;
-      letter-spacing: 1px;
+      font-size: 10px !important;
+      letter-spacing: 1px !important;
     }
 
     .mat-button-toggle-label-content {
-      line-height: 10px;
+      line-height: 10px !important;
     }
   }
 
   @media screen and (min-width: 425px) {
     .mat-button-toggle {
-      font-size: 12px;
-      letter-spacing: 2px;
+      font-size: 12px !important;
+      letter-spacing: 2px !important;
     }
 
     .mat-button-toggle-label-content {
-      line-height: 12px;
+      line-height: 12px !important;
     }
   }
 
   @media screen and (min-width: 768px) {
     .mat-button-toggle {
-      font-size: 20px;
-      letter-spacing: 8px;
+      font-size: 20px !important;
+      letter-spacing: 8px !important;
     }
 
     .mat-button-toggle-label-content {
-      line-height: 48px;
+      line-height: 48px !important;
     }
   }
 
@@ -137,13 +137,13 @@ body {
 @media screen and (min-width: 320px) {
   .toggle-group-filter {
     .mat-button-toggle-label-content {
-      line-height: 12px;
+      line-height: 12px !important;
     }
 
     .toggle-filter-icon {
-      font-size: 12px;
-      height: 12px;
-      width: 12px;
+      font-size: 12px !important;
+      height: 12px !important;
+      width: 12px !important;
     }
   }
 }
@@ -151,13 +151,13 @@ body {
 @media screen and (min-width: 375px) {
   .toggle-group-filter {
     .mat-button-toggle-label-content {
-      line-height: 14px;
+      line-height: 14px !important;
     }
 
     .toggle-filter-icon {
-      font-size: 14px;
-      height: 14px;
-      width: 14px;
+      font-size: 14px !important;
+      height: 14px !important;
+      width: 14px !important;
     }
   }
 }
@@ -165,13 +165,13 @@ body {
 @media screen and (min-width: 425px) {
   .toggle-group-filter {
     .mat-button-toggle-label-content {
-      line-height: 16px;
+      line-height: 16px !important;
     }
 
     .toggle-filter-icon {
-      font-size: 16px;
-      height: 16px;
-      width: 16px;
+      font-size: 16px !important;
+      height: 16px !important;
+      width: 16px !important;
     }
   }
 }
@@ -179,13 +179,13 @@ body {
 @media screen and (min-width: 768px) {
   .toggle-group-filter {
     .mat-button-toggle-label-content {
-      line-height: 48px;
+      line-height: 48px !important;
     }
 
     .toggle-filter-icon {
-      font-size: 24px;
-      height: 24px;
-      width: 24px;
+      font-size: 24px !important;
+      height: 24px !important;
+      width: 24px !important;
     }
   }
 }
