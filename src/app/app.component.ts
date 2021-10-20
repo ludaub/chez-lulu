@@ -121,7 +121,7 @@ export class AppComponent implements OnInit, OnDestroy {
   private readonly _wordSeparatorsRegexp = /[ -]/;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
-  constructor(private _dialog: MatDialog, private _http: HttpClient, private _theme: ThemeService) {}
+  constructor(public theme: ThemeService, private _dialog: MatDialog, private _http: HttpClient) {}
 
   ngOnInit(): void {
     forkJoin({
@@ -139,7 +139,7 @@ export class AppComponent implements OnInit, OnDestroy {
         this.availabilities = ['all', 'available', 'unavailable'];
       });
 
-    this._theme.theme$.pipe(takeUntil(this._destroyed$)).subscribe((theme) => {
+    this.theme.theme$.pipe(takeUntil(this._destroyed$)).subscribe((theme) => {
       this._class = theme;
     });
   }

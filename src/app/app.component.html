@@ -17,15 +17,16 @@
         multiple
       >
         <mat-button-toggle class="toggle toggle-all" value="all" (change)="setAvailability($event)">
-          Tout ({{ getCocktailsByAvailability('all').length }})
+          Tout <span class="availability-counter">({{ getCocktailsByAvailability('all').length }})</span>
         </mat-button-toggle>
 
         <mat-button-toggle class="toggle toggle-available" value="available" (change)="setAvailability($event)">
-          Disponible ({{ getCocktailsByAvailability('available').length }})
+          Disponible <span class="availability-counter">({{ getCocktailsByAvailability('available').length }})</span>
         </mat-button-toggle>
 
         <mat-button-toggle class="toggle toggle-unavailable" value="unavailable" (change)="setAvailability($event)">
-          Indisponible ({{ getCocktailsByAvailability('unavailable').length }})
+          Indisponible
+          <span class="availability-counter">({{ getCocktailsByAvailability('unavailable').length }})</span>
         </mat-button-toggle>
       </mat-button-toggle-group>
 
@@ -39,7 +40,18 @@
           [checked]="filterList.selectedOptions.selected.length > 0"
           [matMenuTriggerFor]="filterMenu"
         >
-          <mat-icon class="toggle-filter-icon">filter_list</mat-icon>
+          <mat-icon class="toggle-icon toggle-filter-icon">filter_list</mat-icon>
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+
+      <mat-button-toggle-group class="toggle-group toggle-group-theme">
+        <mat-button-toggle class="toggle toggle-theme" [checked]="true" [matMenuTriggerFor]="themeMenu">
+          <mat-icon class="toggle-icon toggle-theme-icon" *ngIf="theme.theme === 'light-theme'; else darkThemeIcon"
+            >light_mode</mat-icon
+          >
+          <ng-template #darkThemeIcon>
+            <mat-icon class="toggle-icon toggle-theme-icon">dark_mode</mat-icon>
+          </ng-template>
         </mat-button-toggle>
       </mat-button-toggle-group>
     </div>
@@ -52,6 +64,13 @@
           </span>
         </mat-list-option>
       </mat-selection-list>
+    </mat-menu>
+
+    <mat-menu #themeMenu="matMenu" class="theme-menu" xPosition="before" yPosition="below">
+      <mat-radio-group class="theme-radio-group" [(ngModel)]="theme.theme">
+        <mat-radio-button class="theme-radio-button" value="light-theme">Thème clair</mat-radio-button>
+        <mat-radio-button class="theme-radio-button" value="dark-theme">Thème sombre</mat-radio-button>
+      </mat-radio-group>
     </mat-menu>
   </mat-toolbar>
 
