@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnDestroy, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { Component, HostBinding, OnDestroy, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import { MatButtonToggleChange } from '@angular/material/button-toggle';
 import { MatDialog } from '@angular/material/dialog';
 
@@ -10,6 +10,7 @@ import { Cocktail } from './cocktail';
 import { Garnish } from './garnish';
 import { Glass } from './glass';
 import { Ingredient } from './ingredient';
+import { ThemeService } from './theme.service';
 
 type Availability = 'all' | 'available' | 'unavailable';
 
@@ -116,10 +117,11 @@ export class AppComponent implements OnInit, OnDestroy {
   readonly filters$ = this._filters as Observable<Array<Ingredient['id']>>;
 
   @ViewChild('cocktailDetailDialog') cocktailDetailDialog!: TemplateRef<{ cocktail: Cocktail }>;
+  @HostBinding('class') private _class!: string;
   private readonly _wordSeparatorsRegexp = /[ -]/;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
-  constructor(private _dialog: MatDialog, private _http: HttpClient) {}
+  constructor(private _dialog: MatDialog, private _http: HttpClient, private _theme: ThemeService) {}
 
   ngOnInit(): void {
     forkJoin({
@@ -136,6 +138,10 @@ export class AppComponent implements OnInit, OnDestroy {
         this.ingredients = result.ingredients;
         this.availabilities = ['all', 'available', 'unavailable'];
       });
+
+    this._theme.theme$.pipe(takeUntil(this._destroyed$)).subscribe((theme) => {
+      this._class = theme;
+    });
   }
 
   filterCocktails(): void {
