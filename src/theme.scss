@@ -123,6 +123,21 @@ $light-theme: mat.define-light-theme(
     text-shadow: 0 0 0 #8d8d8d;
   }
 
+  .mat-pseudo-checkbox-checked {
+    background-color: #f3e5f5 !important;
+    box-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
+    color: #d500f9 !important;
+  }
+
+  .mat-radio-checked .mat-radio-inner-circle {
+    background-color: #f3e5f5 !important;
+  }
+
+  .mat-radio-checked .mat-radio-outer-circle {
+    border-color: #f3e5f5 !important;
+    box-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
+  }
+
   .toggle-group .mat-button-toggle {
     background-color: transparent;
     color: #8d8d8d;
