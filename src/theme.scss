@@ -195,7 +195,7 @@ $light-theme: mat.define-light-theme(
   }
 
   .toggle-group {
-    border-radius: 4px;
+    border-color: #bcaaa4;
   }
 
   .toggle-group .mat-button-toggle {
@@ -207,6 +207,10 @@ $light-theme: mat.define-light-theme(
 
   .toggle-group .mat-button-toggle-checked {
     color: #3e2723 !important;
+  }
+
+  .mat-button-toggle + .mat-button-toggle {
+    border-color: #bcaaa4;
   }
 
   .cocktail-detail .cocktail-ingredient {
