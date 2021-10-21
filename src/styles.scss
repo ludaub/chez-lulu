@@ -13,7 +13,7 @@ body {
 .toggle-group {
   @media screen and (min-width: 320px) {
     .mat-button-toggle {
-      font-size: 12px !important;
+      font-size: 11px !important;
       letter-spacing: 0 !important;
     }
 
@@ -24,23 +24,23 @@ body {
 
   @media screen and (min-width: 375px) {
     .mat-button-toggle {
-      font-size: 15px !important;
+      font-size: 14px !important;
       letter-spacing: 1px !important;
     }
 
     .mat-button-toggle-label-content {
-      line-height: 15px !important;
+      line-height: 14px !important;
     }
   }
 
   @media screen and (min-width: 425px) {
     .mat-button-toggle {
-      font-size: 18px !important;
+      font-size: 16px !important;
       letter-spacing: 2px !important;
     }
 
     .mat-button-toggle-label-content {
-      line-height: 18px !important;
+      line-height: 16px !important;
     }
   }
 
@@ -64,6 +64,10 @@ body {
     border-top-right-radius: 0;
   }
 
+  &.toggle-group-availability .mat-button-toggle {
+    flex-grow: 1;
+  }
+
   &.toggle-group-filter {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -72,6 +76,8 @@ body {
 
 @media screen and (min-width: 320px) {
   .toggle-group-filter {
+    min-width: 32px;
+
     .mat-button-toggle-label-content {
       line-height: 16px !important;
       padding: 0 8px !important;
@@ -87,6 +93,8 @@ body {
 
 @media screen and (min-width: 375px) {
   .toggle-group-filter {
+    min-width: 34px;
+
     .mat-button-toggle-label-content {
       line-height: 18px !important;
       padding: 0 8px !important;
@@ -102,6 +110,8 @@ body {
 
 @media screen and (min-width: 425px) {
   .toggle-group-filter {
+    min-width: 36px;
+
     .mat-button-toggle-label-content {
       line-height: 20px !important;
     }
@@ -116,6 +126,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .toggle-group-filter {
+    min-width: 48px;
+
     .mat-button-toggle-label-content {
       line-height: 48px !important;
       padding: 0 12px !important;
