@@ -20,8 +20,20 @@
 
   @media screen and (min-width: 320px) {
     .title {
-      font-size: 36px;
+      font-size: 30px;
       line-height: 60px;
+    }
+
+    .title .title-chez::first-letter,
+    .title .title-lulu::first-letter {
+      font-size: 42px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .title {
+      font-size: 36px;
+      line-height: 72px;
     }
 
     .title .title-chez::first-letter,
@@ -30,27 +42,15 @@
     }
   }
 
-  @media screen and (min-width: 375px) {
-    .title {
-      font-size: 42px;
-      line-height: 72px;
-    }
-
-    .title .title-chez::first-letter,
-    .title .title-lulu::first-letter {
-      font-size: 54px;
-    }
-  }
-
   @media screen and (min-width: 425px) {
     .title {
-      font-size: 52px;
+      font-size: 46px;
       line-height: 80px;
     }
 
     .title .title-chez::first-letter,
     .title .title-lulu::first-letter {
-      font-size: 64px;
+      font-size: 58px;
     }
   }
 
