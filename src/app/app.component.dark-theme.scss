@@ -71,6 +71,13 @@
     }
   }
 
+  .theme-button-container {
+    .theme-button-icon {
+      color: #f3e5f5;
+      text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
+    }
+  }
+
   .cocktails-container {
     background-color: #303030;
 

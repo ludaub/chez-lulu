@@ -8,6 +8,17 @@
       </h1>
     </div>
 
+    <div class="theme-button-container">
+      <button mat-icon-button [matMenuTriggerFor]="themeMenu">
+        <mat-icon class="theme-button-icon" *ngIf="theme.theme === 'light-theme'; else darkThemeIcon"
+          >light_mode</mat-icon
+        >
+        <ng-template #darkThemeIcon>
+          <mat-icon class="theme-button-icon flicker-fast">dark_mode</mat-icon>
+        </ng-template>
+      </button>
+    </div>
+
     <div class="toggle-group-container">
       <mat-button-toggle-group
         class="toggle-group toggle-group-availability"
@@ -41,17 +52,6 @@
           [matMenuTriggerFor]="filterMenu"
         >
           <mat-icon class="toggle-icon toggle-filter-icon">filter_list</mat-icon>
-        </mat-button-toggle>
-      </mat-button-toggle-group>
-
-      <mat-button-toggle-group class="toggle-group toggle-group-theme">
-        <mat-button-toggle class="toggle toggle-theme" [checked]="true" [matMenuTriggerFor]="themeMenu">
-          <mat-icon class="toggle-icon toggle-theme-icon" *ngIf="theme.theme === 'light-theme'; else darkThemeIcon"
-            >light_mode</mat-icon
-          >
-          <ng-template #darkThemeIcon>
-            <mat-icon class="toggle-icon toggle-theme-icon">dark_mode</mat-icon>
-          </ng-template>
         </mat-button-toggle>
       </mat-button-toggle-group>
     </div>
