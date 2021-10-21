@@ -23,19 +23,18 @@
       <mat-button-toggle-group
         class="toggle-group toggle-group-availability"
         name="toggle"
-        [value]="availabilities"
         [disabled]="!cocktails.length"
-        multiple
+        [(ngModel)]="availability"
       >
-        <mat-button-toggle class="toggle toggle-all" value="all" (change)="setAvailability($event)">
+        <mat-button-toggle class="toggle toggle-all" value="all">
           Tout <span class="availability-counter">({{ getCocktailsByAvailability('all').length }})</span>
         </mat-button-toggle>
 
-        <mat-button-toggle class="toggle toggle-available" value="available" (change)="setAvailability($event)">
+        <mat-button-toggle class="toggle toggle-available" value="available">
           Disponible <span class="availability-counter">({{ getCocktailsByAvailability('available').length }})</span>
         </mat-button-toggle>
 
-        <mat-button-toggle class="toggle toggle-unavailable" value="unavailable" (change)="setAvailability($event)">
+        <mat-button-toggle class="toggle toggle-unavailable" value="unavailable">
           Indisponible
           <span class="availability-counter">({{ getCocktailsByAvailability('unavailable').length }})</span>
         </mat-button-toggle>

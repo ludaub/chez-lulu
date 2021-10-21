@@ -91,17 +91,17 @@ export class AppComponent implements OnInit, OnDestroy {
   readonly ingredients$ = this._ingredients as Observable<Array<Ingredient>>;
 
   /**
-   * Availabilities. Used as value by availability toggle.
+   * Availability. Used as value by availability toggle.
    */
-  get availabilities(): Array<Availability> {
-    return this._availabilities.getValue();
+  get availability(): Availability {
+    return this._availability.getValue();
   }
-  set availabilities(values: Array<Availability>) {
-    this._availabilities.next(values);
+  set availability(availability: Availability) {
+    this._availability.next(availability);
     this.filterCocktails();
   }
-  private readonly _availabilities = new BehaviorSubject<Array<Availability>>([]);
-  readonly availabilities$ = this._availabilities as Observable<Array<Availability>>;
+  private readonly _availability = new BehaviorSubject<Availability>('all');
+  readonly availability$ = this._availability as Observable<Availability>;
 
   /**
    * Filters (ingredient IDs).
@@ -136,7 +136,7 @@ export class AppComponent implements OnInit, OnDestroy {
         this.garnishes = result.garnishes;
         this.glasses = result.glasses;
         this.ingredients = result.ingredients;
-        this.availabilities = ['all', 'available', 'unavailable'];
+        this.availability = 'all'; // Triggers filtering.
       });
 
     this.theme.theme$.pipe(takeUntil(this._destroyed$)).subscribe((theme) => {
@@ -145,14 +145,18 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   filterCocktails(): void {
-    if (this.availabilities.includes('all')) {
-      this.displayedCocktails = [...this.cocktails];
-    } else if (this.availabilities.includes('available')) {
-      this.displayedCocktails = this.cocktails.filter((cocktail) => this.isCocktailAvailable(cocktail));
-    } else if (this.availabilities.includes('unavailable')) {
-      this.displayedCocktails = this.cocktails.filter((cocktail) => !this.isCocktailAvailable(cocktail));
-    } else {
-      this.displayedCocktails = [];
+    switch (this.availability) {
+      case 'all':
+        this.displayedCocktails = [...this.cocktails];
+        break;
+      case 'available':
+        this.displayedCocktails = this.cocktails.filter((cocktail) => this.isCocktailAvailable(cocktail));
+        break;
+      case 'unavailable':
+        this.displayedCocktails = this.cocktails.filter((cocktail) => !this.isCocktailAvailable(cocktail));
+        break;
+      default:
+        this.displayedCocktails = [];
     }
 
     if (this.filters.length) {
@@ -245,41 +249,6 @@ export class AppComponent implements OnInit, OnDestroy {
 
   getGarnishNameById(garnishId: Garnish['id']): Garnish['name'] {
     return this.garnishes.find((garnish) => garnish.id === garnishId)?.name ?? '';
-  }
-
-  setAvailability(event: MatButtonToggleChange): void {
-    switch (event.value) {
-      case 'all':
-        this.availabilities = this.availabilities.includes('all') ? [] : ['all', 'available', 'unavailable'];
-        break;
-      case 'available':
-        if (!this.availabilities.length) {
-          this.availabilities = ['available'];
-        } else if (this.availabilities.includes('all')) {
-          this.availabilities = ['unavailable'];
-        } else if (this.availabilities.length === 1 && this.availabilities.includes('unavailable')) {
-          this.availabilities = ['all', 'available', 'unavailable'];
-        } else {
-          this.availabilities = [];
-        }
-
-        break;
-      case 'unavailable':
-        if (!this.availabilities.length) {
-          this.availabilities = ['unavailable'];
-        } else if (this.availabilities.includes('all')) {
-          this.availabilities = ['available'];
-        } else if (this.availabilities.length === 1 && this.availabilities.includes('available')) {
-          this.availabilities = ['all', 'available', 'unavailable'];
-        } else {
-          this.availabilities = [];
-        }
-
-        break;
-      default:
-        this.availabilities = [];
-        break;
-    }
   }
 
   toggleFilter(event: MatButtonToggleChange): void {
