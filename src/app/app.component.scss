@@ -21,21 +21,21 @@
 
 @media screen and (min-width: 375px) {
   .toolbar {
-    height: 166px;
+    height: 162px;
     padding-top: 24px;
   }
 }
 
 @media screen and (min-width: 425px) {
   .toolbar {
-    height: 204px;
+    height: 188px;
     padding-top: 36px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .toolbar {
-    height: 290px;
+    height: 284px;
     padding-top: 48px;
   }
 }
@@ -62,30 +62,29 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 @media screen and (min-width: 320px) {
   .toggle-group-container {
-    margin: 18px 0 12px;
+    margin: 12px 0 18px;
   }
 }
 
 @media screen and (min-width: 375px) {
   .toggle-group-container {
-    margin: 24px 0 12px;
+    margin: 14px 0 18px;
   }
 }
 
 @media screen and (min-width: 425px) {
   .toggle-group-container {
-    margin: 36px 0 18px;
+    margin: 20px 0 18px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .toggle-group-container {
-    margin: 48px 0 24px;
+    margin: 42px 0 24px;
   }
 }
 
@@ -139,17 +138,39 @@
     .cocktails .cocktail {
       padding: 12px 0;
     }
+
+    .cocktails .cocktail:first-of-type {
+      padding: 0 0 12px;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .cocktails .cocktail {
+      padding: 12px 0;
+    }
+
+    .cocktails .cocktail:first-of-type {
+      padding: 2px 0 12px;
+    }
   }
 
   @media screen and (min-width: 425px) {
     .cocktails .cocktail {
       padding: 18px 0;
     }
+
+    .cocktails .cocktail:first-of-type {
+      padding: 6px 0 18px;
+    }
   }
 
   @media screen and (min-width: 768px) {
     .cocktails .cocktail {
       padding: 24px 0;
+    }
+
+    .cocktails .cocktail:first-of-type {
+      padding: 12px 0 24px;
     }
   }
 
