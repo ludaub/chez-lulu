@@ -332,10 +332,6 @@ body {
     display: inline-block;
   }
 
-  .cocktail-ingredient-name {
-    font-style: italic;
-  }
-
   .cocktail-ingredient-name-brand {
     font-style: normal;
     text-transform: uppercase;
@@ -414,7 +410,6 @@ body {
   }
 
   .cocktail-ingredient-quantity {
-    font-style: italic;
     text-align: end;
   }
 
@@ -482,6 +477,7 @@ body {
   .cocktail-recipe,
   .cocktail-garnish {
     font-family: 'Libre Baskerville', serif;
+    font-style: italic;
   }
 
   @media screen and (min-width: 320px) {
