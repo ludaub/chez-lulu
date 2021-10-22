@@ -100,7 +100,7 @@ export class AppComponent implements OnInit, OnDestroy {
     this._availability.next(availability);
     this.filterCocktails();
   }
-  private readonly _availability = new BehaviorSubject<Availability>('all');
+  private readonly _availability = new BehaviorSubject<Availability>('available');
   readonly availability$ = this._availability as Observable<Availability>;
 
   /**
@@ -136,7 +136,7 @@ export class AppComponent implements OnInit, OnDestroy {
         this.garnishes = result.garnishes;
         this.glasses = result.glasses;
         this.ingredients = result.ingredients;
-        this.availability = 'all'; // Triggers filtering.
+        this.availability = 'available'; // Triggers filtering.
       });
 
     this.theme.theme$.pipe(takeUntil(this._destroyed$)).subscribe((theme) => {
