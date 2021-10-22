@@ -314,4 +314,8 @@ $light-theme: mat.define-light-theme(
   .filters-dialog .mat-list-item:last-of-type {
     border: 0;
   }
+
+  .filters-dialog .mat-pseudo-checkbox {
+    color: #bcaaa4;
+  }
 }
