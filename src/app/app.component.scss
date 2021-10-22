@@ -258,8 +258,7 @@
   }
 
   .cocktail-name-word {
-    // display: inline;
-    display: inline-block; // FIXME: Removes `text-decoration`.
+    display: inline-block;
   }
 
   @media screen and (min-width: 320px) {

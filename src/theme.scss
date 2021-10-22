@@ -110,7 +110,6 @@ $light-theme: mat.define-light-theme(
 
   .unavailable {
     color: #8d8d8d !important;
-    text-decoration: line-through !important;
   }
 
   .silhouette {
@@ -160,6 +159,12 @@ $light-theme: mat.define-light-theme(
   .cocktail-detail .cocktail-ingredient {
     border-bottom: dotted #6d6d6d;
   }
+
+  // stylelint-disable selector-max-compound-selectors
+  .cocktail-name.unavailable + .cocktail-ingredients .cocktail-ingredient {
+    color: #8d8d8d !important;
+  }
+  // stylelint-enable selector-max-compound-selectors
 }
 
 .light-theme {
@@ -171,7 +176,6 @@ $light-theme: mat.define-light-theme(
 
   .unavailable {
     color: #bcaaa4 !important;
-    text-decoration: line-through !important;
   }
 
   .silhouette {
@@ -262,7 +266,15 @@ $light-theme: mat.define-light-theme(
     color: #7f0000;
   }
 
+  // stylelint-disable no-descending-specificity
   .cocktail-detail .cocktail-ingredient {
     border-bottom: 4px double #bcaaa4;
   }
+  // stylelint-enable no-descending-specificity
+
+  // stylelint-disable selector-max-compound-selectors
+  .cocktail-name.unavailable + .cocktail-ingredients .cocktail-ingredient {
+    color: #bcaaa4 !important;
+  }
+  // stylelint-enable selector-max-compound-selectors
 }
