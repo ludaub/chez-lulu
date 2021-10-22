@@ -117,6 +117,7 @@ export class AppComponent implements OnInit, OnDestroy {
   readonly filters$ = this._filters as Observable<Array<Ingredient['id']>>;
 
   @ViewChild('cocktailDetailDialog') cocktailDetailDialog!: TemplateRef<{ cocktail: Cocktail }>;
+  @ViewChild('filtersDialog') filtersDialog!: TemplateRef<any>;
   @HostBinding('class') private _class!: string;
   private readonly _wordSeparatorsRegexp = /[ -]/;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
@@ -257,6 +258,14 @@ export class AppComponent implements OnInit, OnDestroy {
 
   openCocktailDetailDialog(cocktail: Cocktail): void {
     this._dialog.open(this.cocktailDetailDialog, { data: cocktail, panelClass: 'cocktail-detail' });
+  }
+
+  openfiltersDialog(): void {
+    this._dialog.open(this.filtersDialog, { panelClass: 'filters-dialog' });
+  }
+
+  resetFilters(): void {
+    this.filters = [];
   }
 
   isNumber(value: string): boolean {

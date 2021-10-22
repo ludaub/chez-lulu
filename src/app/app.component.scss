@@ -65,7 +65,7 @@
   width: 100%;
 
   .toggle-group-availability {
-    max-width: 672px;
+    max-width: 720px;
     width: 100%;
   }
 }
@@ -101,6 +101,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .toggle-group-availability .toggle {
+    width: 33%;
+  }
+
   .availability-counter {
     display: inline-block;
     vertical-align: top;
@@ -332,4 +336,10 @@
   .bottom-spacer {
     padding-bottom: 0.1px;
   }
+}
+
+.filters-fab {
+  bottom: 24px;
+  position: absolute;
+  right: 24px;
 }

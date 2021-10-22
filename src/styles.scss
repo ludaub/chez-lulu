@@ -63,91 +63,8 @@ body {
     text-transform: uppercase;
   }
 
-  &.toggle-group-availability {
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-  }
-
   &.toggle-group-availability .mat-button-toggle {
     flex-grow: 1;
-  }
-
-  &.toggle-group-filter {
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-  }
-}
-
-@media screen and (min-width: 320px) {
-  .toggle-group-filter {
-    min-width: 32px;
-
-    .mat-button-toggle-label-content {
-      line-height: 16px !important;
-      padding: 0 8px !important;
-    }
-  }
-
-  .toggle-icon {
-    font-size: 16px !important;
-    height: 16px !important;
-    width: 16px !important;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .toggle-group-filter {
-    min-width: 34px;
-
-    .mat-button-toggle-label-content {
-      line-height: 18px !important;
-      padding: 0 8px !important;
-    }
-  }
-
-  .toggle-icon {
-    font-size: 18px !important;
-    height: 18px !important;
-    width: 18px !important;
-  }
-}
-
-@media screen and (min-width: 425px) {
-  .toggle-group-filter {
-    min-width: 36px;
-
-    .mat-button-toggle-label-content {
-      line-height: 20px !important;
-    }
-  }
-
-  .toggle-icon {
-    font-size: 20px !important;
-    height: 20px !important;
-    width: 20px !important;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .toggle-group-filter {
-    min-width: 48px;
-
-    .mat-button-toggle-label-content {
-      line-height: 48px !important;
-      padding: 0 12px !important;
-    }
-  }
-
-  .toggle-icon {
-    font-size: 24px !important;
-    height: 24px !important;
-    width: 24px !important;
-  }
-}
-
-.filter-menu {
-  .mat-list-option {
-    font-family: 'Libre Baskerville', serif;
   }
 }
 
@@ -542,5 +459,78 @@ body {
 
   .cocktail-garnish-name {
     text-transform: lowercase;
+  }
+}
+
+.filters-dialog {
+  .filters-dialog-title {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 320px) {
+    .filters-dialog-title {
+      font-size: 16px;
+      letter-spacing: 1px;
+      line-height: 18px;
+      word-spacing: 2px;
+
+      &::first-letter {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .filters-dialog-title {
+      font-size: 16px;
+      letter-spacing: 1px;
+      line-height: 18px;
+      word-spacing: 2px;
+
+      &::first-letter {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .filters-dialog-title {
+      font-size: 20px;
+      letter-spacing: 2px;
+      line-height: 22px;
+      word-spacing: 4px;
+
+      &::first-letter {
+        font-size: 22px !important;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .filters-dialog-title {
+      font-size: 24px;
+      letter-spacing: 2px;
+      line-height: 28px;
+      word-spacing: 4px;
+
+      &::first-letter {
+        font-size: 28px !important;
+      }
+    }
+  }
+
+  .mat-list-option {
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .mat-list-item-content {
+    padding: 0 !important;
+  }
+
+  .filters-dialog-button {
+    text-transform: uppercase;
   }
 }
