@@ -3,6 +3,7 @@ import { OverlayContainer } from '@angular/cdk/overlay';
 import { ApplicationRef, Injectable } from '@angular/core';
 
 import { BehaviorSubject } from 'rxjs';
+import { distinctUntilChanged } from 'rxjs/operators';
 
 type Theme = 'dark-theme' | 'light-theme' | 'system-theme';
 
@@ -19,8 +20,8 @@ export class ThemeService {
   set theme(theme: Theme) {
     this._theme.next(theme);
   }
-  private readonly _theme = new BehaviorSubject<Theme>('light-theme');
-  readonly theme$ = new BehaviorSubject<Theme>('light-theme');
+  private readonly _theme: BehaviorSubject<Theme>;
+  readonly theme$: BehaviorSubject<Theme>;
 
   readonly hasThemeMediaQuery: boolean = false;
   private _themes = ['dark-theme', 'light-theme'];
@@ -35,7 +36,17 @@ export class ThemeService {
       this._app.tick();
     };
 
-    this._theme.subscribe((theme) => {
+    if (localStorage.getItem('theme')) {
+      this._theme = new BehaviorSubject<Theme>(localStorage.getItem('theme') as Theme);
+      this.theme$ = new BehaviorSubject<Theme>(localStorage.getItem('theme') as Theme);
+    } else {
+      this._theme = new BehaviorSubject<Theme>('light-theme');
+      this.theme$ = new BehaviorSubject<Theme>('light-theme');
+    }
+
+    this._theme.pipe(distinctUntilChanged()).subscribe((theme) => {
+      localStorage.setItem('theme', theme);
+
       if (theme === 'system-theme') {
         theme = darkModeQuery.matches ? 'dark-theme' : 'light-theme';
         darkModeQuery.addEventListener('change', listener);
@@ -46,7 +57,7 @@ export class ThemeService {
       this.theme$.next(theme);
     });
 
-    this.theme$.subscribe((theme) => {
+    this.theme$.pipe(distinctUntilChanged()).subscribe((theme) => {
       this._overlayContainer.getContainerElement().classList.remove(...this._themes);
       this._overlayContainer.getContainerElement().classList.add(theme);
     });

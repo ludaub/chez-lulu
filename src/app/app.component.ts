@@ -4,7 +4,7 @@ import { MatButtonToggleChange } from '@angular/material/button-toggle';
 import { MatDialog } from '@angular/material/dialog';
 
 import { BehaviorSubject, Observable, Subject, forkJoin } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
+import { distinctUntilChanged, takeUntil } from 'rxjs/operators';
 
 import { Cocktail } from './cocktail';
 import { Garnish } from './garnish';
@@ -140,7 +140,7 @@ export class AppComponent implements OnInit, OnDestroy {
         this.availability = 'available'; // Triggers filtering.
       });
 
-    this.theme.theme$.pipe(takeUntil(this._destroyed$)).subscribe((theme) => {
+    this.theme.theme$.pipe(distinctUntilChanged(), takeUntil(this._destroyed$)).subscribe((theme) => {
       this._class = theme;
     });
   }
