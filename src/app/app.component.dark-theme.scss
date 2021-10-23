@@ -99,11 +99,19 @@
   }
 
   .filters-fab {
-    background-color: #f3e5f5 !important;
-    color: #303030 !important;
+    background-color: #424242 !important;
+    color: #fafafa !important;
 
     &.has-filters {
+      background-color: #f3e5f5 !important;
       box-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9 !important;
+      color: #303030 !important;
+    }
+
+    .mat-badge-content {
+      background-color: #f3e5f5 !important;
+      box-shadow: 0 0 3px #f3e5f5, 0 0 6px #f3e5f5, 0 0 9px #d500f9, 0 0 12px #d500f9 !important;
+      color: #303030 !important;
     }
   }
 }
