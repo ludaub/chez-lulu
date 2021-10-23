@@ -53,6 +53,9 @@
       <mat-radio-group class="theme-radio-group" [(ngModel)]="theme.theme">
         <mat-radio-button class="theme-radio-button" value="light-theme">Thème clair</mat-radio-button>
         <mat-radio-button class="theme-radio-button" value="dark-theme">Thème sombre</mat-radio-button>
+        <mat-radio-button class="theme-radio-button" *ngIf="theme.hasThemeMediaQuery" value="system-theme"
+          >Thème système</mat-radio-button
+        >
       </mat-radio-group>
     </mat-menu>
   </mat-toolbar>
