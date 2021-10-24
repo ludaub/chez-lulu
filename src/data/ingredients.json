@@ -229,19 +229,19 @@
   },
   {
     "id": "rye-whiskey",
-    "name": "Whisky de seigle",
+    "name": "Rye whiskey",
     "brand": "Rittenhouse",
     "available": true
   },
   {
     "id": "scotch-whisky",
-    "name": "Whisky écossais",
+    "name": "Scotch whisky",
     "brand": "Monkey Shoulder",
     "available": true
   },
   {
     "id": "peated-whisky",
-    "name": "Whisky tourbé",
+    "name": "Scotch whisky tourbé",
     "brand": "Laphroaig 10 ans",
     "available": false
   },

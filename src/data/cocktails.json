@@ -691,7 +691,8 @@
       }
     ],
     "garnishIds": ["lemon-zest-twist"],
-    "glassId": "coupe"
+    "glassId": "coupe",
+    "displayed": false
   },
   {
     "id": "diamondback",
@@ -744,7 +745,8 @@
       }
     ],
     "garnishIds": ["grapefruit-zest-twist"],
-    "glassId": "coupe"
+    "glassId": "coupe",
+    "displayed": false
   },
   {
     "id": "dry-martini",
