@@ -31,7 +31,8 @@
       }
     ],
     "garnishIds": ["orange-zest-twist"],
-    "glassId": "coupe"
+    "glassId": "coupe",
+    "displayed": false
   },
   {
     "id": "alaska",
@@ -39,7 +40,7 @@
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
-        "id": "old-tom-gin",
+        "id": "london-dry-gin",
         "quantity": "4.5",
         "unit": "cl"
       },
@@ -1009,7 +1010,8 @@
       }
     ],
     "garnishIds": ["orange-zest-twist"],
-    "glassId": "old-fashioned"
+    "glassId": "old-fashioned",
+    "displayed": false
   },
   {
     "id": "negroni",
