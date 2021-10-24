@@ -12,8 +12,16 @@
     "name": "Une cerise au marasquin"
   },
   {
+    "id": "cucumber-slice",
+    "name": "Une rondelle de concombre"
+  },
+  {
     "id": "grapefruit-zest-twist",
     "name": "Un zeste de pamplemousse"
+  },
+  {
+    "id": "lemon-wedge",
+    "name": "Un quartier de citron"
   },
   {
     "id": "lemon-zest-twist",

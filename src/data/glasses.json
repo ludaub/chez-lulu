@@ -23,5 +23,10 @@
     "id": "rock",
     "name": "Rock",
     "icon": "🥃"
+  },
+  {
+    "id": "wine",
+    "name": "Wine",
+    "icon": "🍷"
   }
 ]

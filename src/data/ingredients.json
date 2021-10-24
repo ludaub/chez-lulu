@@ -114,20 +114,14 @@
     "available": true
   },
   {
-    "id": "old-tom-gin",
-    "name": "Gin old tom",
-    "brand": "",
-    "available": false
-  },
-  {
     "id": "white-lillet",
     "name": "Lillet blanc",
-    "available": false
+    "available": true
   },
   {
     "id": "cognac-orange-liqueur",
     "name": "Grand Marnier",
-    "available": false
+    "available": true
   },
   {
     "id": "bergamot-liqueur",
@@ -269,7 +263,6 @@
     "id": "tonic-water",
     "name": "Tonic",
     "brand": "Fever Tree",
-    "available": true,
-    "filterable": false
+    "available": true
   }
 ]
