@@ -14,4 +14,10 @@ export interface Cocktail {
   ingredients: Array<Ingredient>;
   garnishIds?: Array<Garnish['id']>;
   glassId: Glass['id'];
+
+  /**
+   * Cocktail will be displayed if let undefined;
+   * has to be explicitly set to false to not be displayed.
+   */
+  displayed?: boolean;
 }

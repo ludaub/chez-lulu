@@ -133,7 +133,7 @@ export class AppComponent implements OnInit, OnDestroy {
     })
       .pipe(takeUntil(this._destroyed$))
       .subscribe((result) => {
-        this.cocktails = result.cocktails;
+        this.cocktails = result.cocktails.filter((cocktail) => cocktail.displayed || cocktail.displayed === undefined);
         this.garnishes = result.garnishes;
         this.glasses = result.glasses;
         this.ingredients = result.ingredients;
