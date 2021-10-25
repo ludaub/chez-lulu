@@ -241,7 +241,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   getCocktailIngredientQuantity(cocktail: Cocktail, ingredient: Ingredient): number | string {
-    return cocktail.ingredientIds.find((ingredientId) => ingredientId.id === ingredient.id)?.quantity ?? 0;
+    return cocktail.ingredientIds.find((ingredientId) => ingredientId.id === ingredient.id)?.quantity ?? '';
   }
 
   getCocktailIngredientUnit(cocktail: Cocktail, ingredient: Ingredient): string {
