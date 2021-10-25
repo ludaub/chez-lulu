@@ -416,6 +416,54 @@
     "glassId": "coupe"
   },
   {
+    "id": "butlers-triple",
+    "name": "Butler's Triple",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 1,
+        "unit": "cl"
+      },
+      {
+        "id": "sugar-syrup",
+        "quantity": 0.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "nick-&-nora"
+  },
+  {
+    "id": "byrrh-special",
+    "name": "Byrrh Special",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "byrrh",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "calvados-&-tonic",
     "name": "Calvados Tonic",
     "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
@@ -1021,7 +1069,7 @@
   },
   {
     "id": "milanese-g-&-t",
-    "name": "Gin Tonic Milanais",
+    "name": "Milanese Gin Tonic",
     "recipe": "Verser les deux premiers ingrédients dans le verre rempli de glace, compléter avec le tonic et mélanger.",
     "ingredientIds": [
       {
@@ -1097,6 +1145,69 @@
     "glassId": "coupe"
   },
   {
+    "id": "harvard-2",
+    "name": "Harvard No. 2",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "byrrh",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "lheritage",
+    "name": "L'Héritage",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "white-lillet",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 1,
+        "unit": "cl"
+      },
+      {
+        "id": "sugar-syrup",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist", "maraschino-cherry"],
+    "glassId": "coupe"
+  },
+  {
     "id": "home-on-the-range",
     "name": "Home On The Range",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -1152,6 +1263,35 @@
       }
     ],
     "garnishIds": ["grapefruit-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "keyser-suze",
+    "name": "Keyser Suze",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "gentian-liqueur",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "white-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -1357,6 +1497,40 @@
     "glassId": "coupe"
   },
   {
+    "id": "monets-moment",
+    "name": "Monet's Moment",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "byrrh",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sugar-syrup",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["discarded-orange-zest-twist"],
+    "glassId": "goblet"
+  },
+  {
     "id": "negroni",
     "name": "Negroni",
     "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
@@ -1378,6 +1552,64 @@
       }
     ],
     "garnishIds": ["orange-wedge"],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "amber-negroni",
+    "name": "Amber Negroni",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "byrrh",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "amer",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-slice"],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "charente-white-negroni",
+    "name": "Charente White Negroni",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "white-lillet",
+        "quantity": 3,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["grapefruit-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -1413,6 +1645,54 @@
     ],
     "garnishIds": ["flamed-orange-zest-twist"],
     "glassId": "coupe"
+  },
+  {
+    "id": "violet-negroni",
+    "name": "Violet Negroni",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "byrrh",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "white-negroni",
+    "name": "White Negroni",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "white-lillet",
+        "quantity": 3,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["grapefruit-zest-twist"],
+    "glassId": "old-fashioned"
   },
   {
     "id": "oh-cecilie",
@@ -1579,6 +1859,64 @@
     "glassId": "coupe"
   },
   {
+    "id": "pterodactyl",
+    "name": "Pterodactyl",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 0.25,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "reno",
+    "name": "Reno",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "amaro",
+        "quantity": 3.5,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 2,
+        "unit": "cl"
+      },
+      {
+        "id": "americano-bianco",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "bergamot-liqueur",
+        "quantity": 0.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["burnt-lemon-wedge"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "salome",
     "name": "Salome",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -1661,6 +1999,89 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "sazerac",
+    "name": "Sazerac",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi rincé à l'absinthe.",
+    "ingredientIds": [
+      {
+        "id": "absinthe"
+      },
+      {
+        "id": "rye-whiskey",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sugar-syrup",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "glassId": "rocks",
+    "garnishIds": ["lemon-zest-twist"]
+  },
+  {
+    "id": "suzerac",
+    "name": "Suzerac",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi rincé à l'absinthe.",
+    "ingredientIds": [
+      {
+        "id": "absinthe"
+      },
+      {
+        "id": "rye-whiskey",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "sugar-syrup",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "glassId": "nick-&-nora",
+    "garnishIds": ["lemon-zest-twist"]
+  },
+  {
+    "id": "smoky-mizu",
+    "name": "Smoky Mizu",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "scotch-whisky",
+        "quantity": 4,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 2,
+        "unit": "cl"
+      },
+      {
+        "id": "white-lillet",
+        "quantity": 2,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["smouldering-cinnamon-stick"],
+    "glassId": "wine"
+  },
+  {
     "id": "suze-tonic",
     "name": "Suze Tonic",
     "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
@@ -1678,6 +2099,108 @@
     ],
     "garnishIds": ["lemon-wedge"],
     "glassId": "collins"
+  },
+  {
+    "id": "la-tour-eiffel",
+    "name": "La Tour Eiffel",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 7.5,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "flute"
+  },
+  {
+    "id": "vieux-carre",
+    "name": "Vieux Carré",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "carre-nouveau",
+    "name": "Carré Nouveau",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "white-lillet",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
   },
   {
     "id": "vieille-place",

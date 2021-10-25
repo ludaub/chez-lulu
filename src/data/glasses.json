@@ -10,6 +10,16 @@
     "icon": "🍸"
   },
   {
+    "id": "flute",
+    "name": "Flute",
+    "icon": "🍷"
+  },
+  {
+    "id": "goblet",
+    "name": "Goblet",
+    "icon": "🍷"
+  },
+  {
     "id": "nick-&-nora",
     "name": "Nick & Nora",
     "icon": "🍸"
@@ -20,8 +30,8 @@
     "icon": "🥃"
   },
   {
-    "id": "rock",
-    "name": "Rock",
+    "id": "rocks",
+    "name": "Rocks",
     "icon": "🥃"
   },
   {

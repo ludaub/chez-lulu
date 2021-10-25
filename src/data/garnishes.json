@@ -12,6 +12,10 @@
     "name": "Une cerise au marasquin"
   },
   {
+    "id": "smouldering-cinnamon-stick",
+    "name": "Un bâton de canelle fumant"
+  },
+  {
     "id": "cucumber-slice",
     "name": "Une rondelle de concombre"
   },
@@ -22,6 +26,10 @@
   {
     "id": "lemon-wedge",
     "name": "Un quartier de citron"
+  },
+  {
+    "id": "burnt-lemon-wedge",
+    "name": "Un quartier de citron brûlé"
   },
   {
     "id": "lemon-zest-twist",
@@ -53,6 +61,10 @@
   },
   {
     "id": "orange-zest-twist",
+    "name": "Un zeste d'orange"
+  },
+  {
+    "id": "discarded-orange-zest-twist",
     "name": "Un zeste d'orange"
   },
   {
