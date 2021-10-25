@@ -246,6 +246,13 @@
     "available": false
   },
   {
+    "id": "grenadine-syrup",
+    "name": "Sirop de grenadine",
+    "brand": "Giffard",
+    "available": false,
+    "filterable": false
+  },
+  {
     "id": "sugar-syrup",
     "name": "Sirop de sucre",
     "brand": "Giffard",

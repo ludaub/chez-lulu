@@ -20,6 +20,16 @@
     "icon": "🍷"
   },
   {
+    "id": "highball",
+    "name": "Highball",
+    "icon": "🥛"
+  },
+  {
+    "id": "martini",
+    "name": "Martini",
+    "icon": "🍸"
+  },
+  {
     "id": "nick-&-nora",
     "name": "Nick & Nora",
     "icon": "🍸"

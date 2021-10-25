@@ -339,6 +339,40 @@
     "glassId": "coupe"
   },
   {
+    "id": "black-rose",
+    "name": "Black Rose",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "grenadine-syrup",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 3,
+        "unit": "traits"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "boulevardier",
     "name": "Boulevardier",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
@@ -413,6 +447,34 @@
       }
     ],
     "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "bushwick",
+    "name": "Bushwick",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "maraschino-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "amer",
+        "quantity": 0.75,
+        "unit": "cl"
+      }
+    ],
     "glassId": "coupe"
   },
   {
@@ -569,6 +631,40 @@
     "glassId": "coupe"
   },
   {
+    "id": "chas",
+    "name": "Chas",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "amaretto-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "nick-&-nora"
+  },
+  {
     "id": "cin-cyn",
     "name": "Cin-Cyn",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
@@ -586,6 +682,69 @@
       {
         "id": "sweet-vermouth",
         "quantity": 3,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "the-colonial-cooler",
+    "name": "The Colonial Cooler",
+    "recipe": "Mélanger les cinq premiers ingrédients avec de la glace, filtrer dans le verre rempli de glace et compléter avec l'eau gazeuse.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "amer",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      },
+      {
+        "id": "soda-water",
+        "quantity": "*",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["mint-sprig", "pineapple-wedge"],
+    "glassId": "collins"
+  },
+  {
+    "id": "copper-illusion",
+    "name": "Copper Illusion",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": 2.25,
         "unit": "cl"
       }
     ],
@@ -1025,6 +1184,35 @@
     "glassId": "coupe"
   },
   {
+    "id": "foghorn",
+    "name": "Foghorn",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "white-lillet",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "gen-tonique",
     "name": "Gen Tonic",
     "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
@@ -1205,6 +1393,30 @@
       }
     ],
     "garnishIds": ["orange-zest-twist", "maraschino-cherry"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "the-holland-house",
+    "name": "The Holland House",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -1647,6 +1859,54 @@
     "glassId": "coupe"
   },
   {
+    "id": "tradewinds-negroni",
+    "name": "Tradewinds Negroni",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "sweet-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 2.25,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "unusual-negroni",
+    "name": "Unusual Negroni",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "bittersweet-aperitivo",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "white-lillet",
+        "quantity": 3,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "violet-negroni",
     "name": "Violet Negroni",
     "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
@@ -1785,6 +2045,35 @@
     ],
     "garnishIds": ["orange-zest-twist"],
     "glassId": "nick-&-nora"
+  },
+  {
+    "id": "picon-punch",
+    "name": "Picon Punch",
+    "recipe": "Verser les deux premiers ingrédients dans le verre rempli de glace, compléter avec l'eau gazeuse, mélanger et ajouter le cognac.",
+    "ingredientIds": [
+      {
+        "id": "amer",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "grenadine-syrup",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "soda-water",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac",
+        "quantity": 1.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "highball"
   },
   {
     "id": "poets-dream",
@@ -2128,6 +2417,35 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "flute"
+  },
+  {
+    "id": "trilby-2",
+    "name": "Trilby No. 2",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "dry-vermouth",
+        "quantity": 9,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "scotch-whisky",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "martini"
   },
   {
     "id": "vieux-carre",

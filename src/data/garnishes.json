@@ -48,6 +48,10 @@
     "name": "Une feuille de menthe"
   },
   {
+    "id": "mint-sprig",
+    "name": "Une tige de menthe"
+  },
+  {
     "id": "chilled-olive-stick",
     "name": "Une olive froide sur cure-dent"
   },
@@ -70,5 +74,9 @@
   {
     "id": "flamed-orange-zest-twist",
     "name": "Un zeste d'orange brûlé"
+  },
+  {
+    "id": "pineapple-wedge",
+    "name": "Un quartier d'ananas"
   }
 ]
