@@ -6,27 +6,27 @@
     "ingredientIds": [
       {
         "id": "mezcal",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "cognac",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "maraschino-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "full-bodied-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "creole-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -41,17 +41,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "yellow-chartreuse",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -65,17 +65,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "amaro",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       }
     ],
@@ -89,22 +89,22 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "green-chartreuse",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -118,17 +118,17 @@
     "ingredientIds": [
       {
         "id": "italian-red-bitter-liqueur",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "soda-water",
-        "quantity": "7.5",
+        "quantity": 7.5,
         "unit": "cl"
       }
     ],
@@ -142,22 +142,22 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "5",
+        "quantity": 5,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -171,17 +171,17 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       }
     ],
@@ -195,32 +195,32 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "0.75",
+        "quantity": 0.75,
         "unit": "cl"
       },
       {
         "id": "benedictine-liqueur",
-        "quantity": "0.75",
+        "quantity": 0.75,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -234,22 +234,22 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       }
     ],
@@ -263,17 +263,17 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "creole-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       }
     ],
@@ -287,22 +287,22 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       },
       {
         "id": "green-chartreuse",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -316,22 +316,22 @@
     "ingredientIds": [
       {
         "id": "cognac",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "1.25",
+        "quantity": 1.25,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -345,17 +345,17 @@
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "italian-red-bitter-liqueur",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       }
     ],
@@ -369,22 +369,22 @@
     "ingredientIds": [
       {
         "id": "rye-whiskey",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "amer",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       },
       {
         "id": "maraschino-liqueur",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       }
     ],
@@ -398,17 +398,17 @@
     "ingredientIds": [
       {
         "id": "light-rum",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -422,17 +422,17 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "5",
+        "quantity": 5,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       },
       {
         "id": "tonic-water",
-        "quantity": "10.5",
+        "quantity": 10.5,
         "unit": "cl"
       }
     ],
@@ -446,17 +446,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       },
       {
         "id": "italian-red-bitter-liqueur",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       }
     ],
@@ -470,27 +470,27 @@
     "ingredientIds": [
       {
         "id": "cognac",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "amaro-carciofo",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "yellow-chartreuse",
-        "quantity": "1.25",
+        "quantity": 1.25,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -504,17 +504,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "italian-red-bitter-liqueur",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       }
     ],
@@ -527,17 +527,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "amaro-carciofo",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       }
     ],
@@ -551,17 +551,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "calvados",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       }
     ],
@@ -574,27 +574,27 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "maraschino-liqueur",
-        "quantity": "0.25",
+        "quantity": 0.25,
         "unit": "cl"
       },
       {
         "id": "mandarin-liqueur",
-        "quantity": "0.25",
+        "quantity": 0.25,
         "unit": "cl"
       }
     ],
@@ -608,22 +608,22 @@
     "ingredientIds": [
       {
         "id": "light-rum",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "amer",
-        "quantity": "0.25",
+        "quantity": 0.25,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       }
     ],
@@ -637,22 +637,22 @@
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -666,22 +666,22 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       },
       {
         "id": "cognac",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       }
     ],
@@ -695,27 +695,27 @@
     "ingredientIds": [
       {
         "id": "cognac",
-        "quantity": "5",
+        "quantity": 5,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "whisky-liqueur",
-        "quantity": "0.75",
+        "quantity": 0.75,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       },
       {
         "id": "creole-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       }
     ],
@@ -730,22 +730,22 @@
     "ingredientIds": [
       {
         "id": "bourbon-whishey",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "0.75",
+        "quantity": 0.75,
         "unit": "cl"
       },
       {
         "id": "creole-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       }
     ],
@@ -759,17 +759,17 @@
     "ingredientIds": [
       {
         "id": "rye-whiskey",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "calvados",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "yellow-chartreuse",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       }
     ],
@@ -783,22 +783,22 @@
     "ingredientIds": [
       {
         "id": "scotch-whisky",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "peated-whisky",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "white-vermouth",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       },
       {
         "id": "amaro-carciofo",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       }
     ],
@@ -813,17 +813,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "6.25",
+        "quantity": 6.25,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "1.25",
+        "quantity": 1.25,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -837,22 +837,22 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "0.75",
+        "quantity": 0.75,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       }
     ],
@@ -866,12 +866,12 @@
     "ingredientIds": [
       {
         "id": "green-chartreuse",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "yellow-chartreuse",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       }
     ],
@@ -884,22 +884,22 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "cognac",
-        "quantity": "0.75",
+        "quantity": 0.75,
         "unit": "cl"
       }
     ],
@@ -913,22 +913,22 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "amer",
-        "quantity": "0.75",
+        "quantity": 0.75,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -942,17 +942,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       },
       {
         "id": "cognac-orange-liqueur",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       }
     ],
@@ -965,12 +965,12 @@
     "ingredientIds": [
       {
         "id": "cognac",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       },
       {
         "id": "byrrh",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       }
     ],
@@ -983,17 +983,17 @@
     "ingredientIds": [
       {
         "id": "gentian-liqueur",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "byrrh",
-        "quantity": "1.25",
+        "quantity": 1.25,
         "unit": "cl"
       },
       {
         "id": "tonic-water",
-        "quantity": "9",
+        "quantity": 9,
         "unit": "cl"
       }
     ],
@@ -1007,12 +1007,12 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "5",
+        "quantity": 5,
         "unit": "cl"
       },
       {
         "id": "tonic-water",
-        "quantity": "15",
+        "quantity": 15,
         "unit": "cl"
       }
     ],
@@ -1022,21 +1022,21 @@
   {
     "id": "milanese-g-&-t",
     "name": "Gin Tonic Milanais",
-    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
+    "recipe": "Verser les deux premiers ingrédients dans le verre rempli de glace, compléter avec le tonic et mélanger.",
     "ingredientIds": [
       {
         "id": "italian-red-bitter-liqueur",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "london-dry-gin",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "tonic-water",
-        "quantity": "15",
+        "quantity": "*",
         "unit": "cl"
       }
     ],
@@ -1050,12 +1050,12 @@
     "ingredientIds": [
       {
         "id": "scotch-whisky",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "amaretto-liqueur",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "cl"
       }
     ],
@@ -1069,27 +1069,27 @@
     "ingredientIds": [
       {
         "id": "rye-whiskey",
-        "quantity": "5",
+        "quantity": 5,
         "unit": "cl"
       },
       {
         "id": "yellow-chartreuse",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       },
       {
         "id": "orange-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -1103,22 +1103,22 @@
     "ingredientIds": [
       {
         "id": "rye-whiskey",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "0.5",
+        "quantity": 0.5,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -1132,22 +1132,22 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "absinthe",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "traits"
       }
     ],
@@ -1161,12 +1161,12 @@
     "ingredientIds": [
       {
         "id": "white-lillet",
-        "quantity": "5",
+        "quantity": 5,
         "unit": "cl"
       },
       {
         "id": "tonic-water",
-        "quantity": "10",
+        "quantity": 10,
         "unit": "cl"
       }
     ],
@@ -1180,22 +1180,22 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "italian-red-bitter-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       }
     ],
@@ -1209,12 +1209,12 @@
     "ingredientIds": [
       {
         "id": "mezcal",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       },
       {
         "id": "amaro",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       }
     ],
@@ -1229,17 +1229,17 @@
     "ingredientIds": [
       {
         "id": "rye-whiskey",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -1253,22 +1253,22 @@
     "ingredientIds": [
       {
         "id": "bourbon",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "elderflower-liqueur",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       }
     ],
@@ -1282,22 +1282,22 @@
     "ingredientIds": [
       {
         "id": "cognac",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "maraschino-liqueur",
-        "quantity": "0.5",
+        "quantity": 0.5,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "traits"
       }
     ],
@@ -1311,27 +1311,27 @@
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "cognac",
-        "quantity": "0.75",
+        "quantity": 0.75,
         "unit": "cl"
       },
       {
         "id": "benedictine-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "traits"
       }
     ],
@@ -1345,12 +1345,12 @@
     "ingredientIds": [
       {
         "id": "byrrh",
-        "quantity": "5",
+        "quantity": 5,
         "unit": "cl"
       },
       {
         "id": "cognac-orange-liqueur",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       }
     ],
@@ -1363,17 +1363,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "italian-red-bitter-liqueur",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       }
     ],
@@ -1387,27 +1387,27 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "italian-red-bitter-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "full-bodied-vermouth",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -1421,27 +1421,27 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "bittersweet-aperitivo",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "amer",
-        "quantity": "0.75",
+        "quantity": 0.75,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -1455,17 +1455,17 @@
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "sugar-syrup",
-        "quantity": "1.25",
+        "quantity": 1.25,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "traits"
       }
     ],
@@ -1479,27 +1479,27 @@
     "ingredientIds": [
       {
         "id": "gin",
-        "quantity": "4.5",
+        "quantity": 4.5,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "cl"
       },
       {
         "id": "maraschino-liqueur",
-        "quantity": "0.5",
+        "quantity": 0.5,
         "unit": "cl"
       },
       {
         "id": "mandarin-liqueur",
-        "quantity": "0.5",
+        "quantity": 0.5,
         "unit": "cl"
       },
       {
         "id": "orange-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       }
     ],
@@ -1513,17 +1513,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       },
       {
         "id": "benedictine-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "2.25",
+        "quantity": 2.25,
         "unit": "cl"
       }
     ],
@@ -1537,12 +1537,12 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "elderflower-liqueur",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
@@ -1561,17 +1561,17 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "5",
+        "quantity": 5,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       }
     ],
@@ -1585,17 +1585,17 @@
     "ingredientIds": [
       {
         "id": "london-dry-gin",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "red-dubonnet",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       }
     ],
@@ -1609,17 +1609,17 @@
     "ingredientIds": [
       {
         "id": "red-dubonnet",
-        "quantity": "6",
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "amer",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "triple-sec-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       }
     ],
@@ -1633,27 +1633,27 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "5",
+        "quantity": 5,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "cl"
       },
       {
         "id": "elderflower-liqueur",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "gentian-liqueur",
-        "quantity": "0.5",
+        "quantity": 0.5,
         "unit": "cl"
       },
       {
         "id": "absinthe",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -1667,12 +1667,12 @@
     "ingredientIds": [
       {
         "id": "gentian-liqueur",
-        "quantity": "4",
+        "quantity": 4,
         "unit": "cl"
       },
       {
         "id": "tonic-water",
-        "quantity": "8",
+        "quantity": 8,
         "unit": "cl"
       }
     ],
@@ -1686,42 +1686,42 @@
     "ingredientIds": [
       {
         "id": "bourbon-whiskey",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       },
       {
         "id": "cognac",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       },
       {
         "id": "gentian-liqueur",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "cl"
       },
       {
         "id": "dry-vermouth",
-        "quantity": "1.5",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "amaretto-liqueur",
-        "quantity": "0.5",
+        "quantity": 0.5,
         "unit": "cl"
       },
       {
         "id": "sugar-syrup",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "cl"
       },
       {
         "id": "creole-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "1",
+        "quantity": 1,
         "unit": "trait"
       }
     ],
@@ -1735,22 +1735,22 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "london-dry-gin",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "green-chartreuse",
-        "quantity": "0.5",
+        "quantity": 0.5,
         "unit": "cl"
       }
     ],
@@ -1764,22 +1764,22 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "2.5",
+        "quantity": 2.5,
         "unit": "cl"
       },
       {
         "id": "benedictine-liqueur",
-        "quantity": "1.25",
+        "quantity": 1.25,
         "unit": "cl"
       },
       {
         "id": "yellow-chartreuse",
-        "quantity": "1.25",
+        "quantity": 1.25,
         "unit": "cl"
       },
       {
         "id": "aromatic-bitter",
-        "quantity": "2",
+        "quantity": 2,
         "unit": "traits"
       }
     ],
@@ -1793,17 +1793,17 @@
     "ingredientIds": [
       {
         "id": "calvados",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "london-dry-gin",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       },
       {
         "id": "sweet-vermouth",
-        "quantity": "3",
+        "quantity": 3,
         "unit": "cl"
       }
     ],

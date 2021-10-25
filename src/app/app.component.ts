@@ -240,7 +240,7 @@ export class AppComponent implements OnInit, OnDestroy {
     return this.filters.includes(ingredient.id);
   }
 
-  getCocktailIngredientQuantity(cocktail: Cocktail, ingredient: Ingredient): number {
+  getCocktailIngredientQuantity(cocktail: Cocktail, ingredient: Ingredient): number | string {
     return cocktail.ingredientIds.find((ingredientId) => ingredientId.id === ingredient.id)?.quantity ?? 0;
   }
 
