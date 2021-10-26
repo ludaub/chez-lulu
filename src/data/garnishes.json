@@ -24,6 +24,10 @@
     "name": "Un zeste de pamplemousse"
   },
   {
+    "id": "lemon-slice",
+    "name": "Une tranche de citron"
+  },
+  {
     "id": "lemon-wedge",
     "name": "Un quartier de citron"
   },

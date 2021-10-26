@@ -373,6 +373,74 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "bobby-burns",
+    "name": "Bobby Burns",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "scotch-whisky",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "nick-&-nora"
+  },
+  {
+    "id": "bourbonella",
+    "name": "Bourbonella",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 5.25,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "grenadine-syrup",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["maraschino-cherry"],
+    "glassId": "martini"
+  },
+  {
     "id": "boulevardier",
     "name": "Boulevardier",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
@@ -665,6 +733,30 @@
     "glassId": "nick-&-nora"
   },
   {
+    "id": "chrysanthemum",
+    "name": "Chrysanthemum",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "nick-&-nora"
+  },
+  {
     "id": "cin-cyn",
     "name": "Cin-Cyn",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
@@ -931,12 +1023,104 @@
     "displayed": false
   },
   {
+    "id": "de-la-louisiane",
+    "name": "De La Louisiane",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["maraschino-cherry"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "de-la-louisiane-1",
+    "name": "De La Louisiane No. 1",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "de-la-louisiane-2",
+    "name": "De La Louisiane No. 2",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["maraschino-cherry"],
+    "glassId": "coupe"
+  },
+  {
     "id": "de-la-louisiane-3",
     "name": "De La Louisiane No. 3",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
-        "id": "bourbon-whishey",
+        "id": "bourbon-whiskey",
         "quantity": 4.5,
         "unit": "cl"
       },
@@ -982,6 +1166,45 @@
     ],
     "garnishIds": ["maraschino-cherry"],
     "glassId": "nick-&-nora"
+  },
+  {
+    "id": "downhill-daring",
+    "name": "Downhill Daring",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "full-bodied-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "americano-bianco",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
   },
   {
     "id": "drunk-uncle",
@@ -1143,47 +1366,6 @@
     "glassId": "nick-&-nora"
   },
   {
-    "id": "forum",
-    "name": "Forum",
-    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
-    "ingredientIds": [
-      {
-        "id": "london-dry-gin",
-        "quantity": 2.5,
-        "unit": "cl"
-      },
-      {
-        "id": "dry-vermouth",
-        "quantity": 2.5,
-        "unit": "cl"
-      },
-      {
-        "id": "cognac-orange-liqueur",
-        "quantity": 1,
-        "unit": "cl"
-      }
-    ],
-    "glassId": "coupe"
-  },
-  {
-    "id": "france",
-    "name": "France",
-    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
-    "ingredientIds": [
-      {
-        "id": "cognac",
-        "quantity": 4,
-        "unit": "cl"
-      },
-      {
-        "id": "byrrh",
-        "quantity": 4,
-        "unit": "cl"
-      }
-    ],
-    "glassId": "coupe"
-  },
-  {
     "id": "foghorn",
     "name": "Foghorn",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -1210,6 +1392,100 @@
       }
     ],
     "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "forum",
+    "name": "Forum",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 1,
+        "unit": "cl"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "ford",
+    "name": "Ford",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 4,
+        "unit": "cl"
+      },
+      {
+        "id": "byrrh",
+        "quantity": 4,
+        "unit": "cl"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
+    "id": "froupe",
+    "name": "Froupe",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 0.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -1396,6 +1672,35 @@
     "glassId": "coupe"
   },
   {
+    "id": "highland-highball",
+    "name": "Highland Highball",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "scotch-whisky",
+        "quantity": 2,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "soda-water",
+        "quantity": 7.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-slice"],
+    "glassId": "highball"
+  },
+  {
     "id": "the-holland-house",
     "name": "The Holland House",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -1524,6 +1829,30 @@
     ],
     "garnishIds": ["cucumber-slice"],
     "glassId": "wine"
+  },
+  {
+    "id": "london-gypsy",
+    "name": "London Gypsy",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["grapefruit-zest-twist"],
+    "glassId": "nick-&-nora"
   },
   {
     "id": "lucien-gaudin",
@@ -1709,6 +2038,40 @@
     "glassId": "coupe"
   },
   {
+    "id": "merry-widower",
+    "name": "Merry Widow(er)",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 1,
+        "unit": "trait"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "martini"
+  },
+  {
     "id": "monets-moment",
     "name": "Monet's Moment",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
@@ -1741,6 +2104,30 @@
     ],
     "garnishIds": ["discarded-orange-zest-twist"],
     "glassId": "goblet"
+  },
+  {
+    "id": "monte-carlo",
+    "name": "Monte Carlo",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "old-fashioned"
   },
   {
     "id": "negroni",
@@ -2124,6 +2511,35 @@
     "glassId": "collins"
   },
   {
+    "id": "preakness",
+    "name": "Preakness",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "princess-marys-pride",
     "name": "Princess Mary's Pride",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -2175,6 +2591,30 @@
     ],
     "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
+  },
+  {
+    "id": "purgatory",
+    "name": "Purgatory",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 4,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1,
+        "unit": "cl"
+      },
+      {
+        "id": "green-chartreuse",
+        "quantity": 1,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "nick-&-nora"
   },
   {
     "id": "reno",
@@ -2388,6 +2828,30 @@
     ],
     "garnishIds": ["lemon-wedge"],
     "glassId": "collins"
+  },
+  {
+    "id": "tip-top",
+    "name": "Tip Top",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "dry-vermouth",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
   },
   {
     "id": "la-tour-eiffel",
