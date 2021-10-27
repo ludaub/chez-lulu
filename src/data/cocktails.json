@@ -257,6 +257,25 @@
     "glassId": "coupe"
   },
   {
+    "id": "b-&-b",
+    "name": "B & B",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac",
+        "quantity": 4.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "bentley",
     "name": "Bentley",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -616,6 +635,35 @@
     ],
     "garnishIds": ["apple-slice"],
     "glassId": "collins"
+  },
+  {
+    "id": "caprice",
+    "name": "Caprice",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "martini"
   },
   {
     "id": "cardinale",
@@ -1395,29 +1443,6 @@
     "glassId": "coupe"
   },
   {
-    "id": "forum",
-    "name": "Forum",
-    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
-    "ingredientIds": [
-      {
-        "id": "london-dry-gin",
-        "quantity": 2.5,
-        "unit": "cl"
-      },
-      {
-        "id": "dry-vermouth",
-        "quantity": 2.5,
-        "unit": "cl"
-      },
-      {
-        "id": "cognac-orange-liqueur",
-        "quantity": 1,
-        "unit": "cl"
-      }
-    ],
-    "glassId": "coupe"
-  },
-  {
     "id": "ford",
     "name": "Ford",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -1447,6 +1472,29 @@
     "glassId": "coupe"
   },
   {
+    "id": "forum",
+    "name": "Forum",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 1,
+        "unit": "cl"
+      }
+    ],
+    "glassId": "coupe"
+  },
+  {
     "id": "france",
     "name": "France",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -1463,6 +1511,25 @@
       }
     ],
     "glassId": "coupe"
+  },
+  {
+    "id": "french-connection",
+    "name": "French Connection",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "amaretto-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "old-fashioned"
   },
   {
     "id": "froupe",
@@ -2910,6 +2977,40 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "martini"
+  },
+  {
+    "id": "vancouver",
+    "name": "Vancouver",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 5,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 2,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
   },
   {
     "id": "vieux-carre",
