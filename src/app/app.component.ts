@@ -6,10 +6,10 @@ import { MatDialog } from '@angular/material/dialog';
 import { BehaviorSubject, Observable, Subject, forkJoin } from 'rxjs';
 import { distinctUntilChanged, takeUntil } from 'rxjs/operators';
 
-import { Cocktail } from './cocktail';
-import { Garnish } from './garnish';
-import { Glass } from './glass';
-import { Ingredient } from './ingredient';
+import { Cocktail } from './shared/models/cocktail';
+import { Garnish } from './shared/models/garnish';
+import { Glass } from './shared/models/glass';
+import { Ingredient } from './shared/models/ingredient';
 import { ThemeService } from './core/theme.service';
 
 type Availability = 'all' | 'available' | 'unavailable';
