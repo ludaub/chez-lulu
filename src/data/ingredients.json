@@ -124,6 +124,12 @@
     "available": true
   },
   {
+    "id": "limoncello",
+    "name": "Limoncello",
+    "brand": "Pallini",
+    "available": false
+  },
+  {
     "id": "bergamot-liqueur",
     "name": "Liqueur de bergamote",
     "brand": "Italicus",
@@ -140,12 +146,6 @@
     "name": "Liqueur de cerise",
     "brand": "Heering",
     "available": false
-  },
-  {
-    "id": "white-mint-liqueur",
-    "name": "Liqueur de menthe blanche",
-    "brand": "Giffard Menthe-Pastille",
-    "available": true
   },
   {
     "id": "elderflower-liqueur",
@@ -169,6 +169,11 @@
     "name": "Marasquin",
     "brand": "Luxardo",
     "available": false
+  },
+  {
+    "id": "white-mint-liqueur",
+    "name": "Menthe-Pastille",
+    "available": true
   },
   {
     "id": "mezcal",
