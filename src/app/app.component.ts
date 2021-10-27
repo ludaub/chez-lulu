@@ -10,7 +10,7 @@ import { Cocktail } from './cocktail';
 import { Garnish } from './garnish';
 import { Glass } from './glass';
 import { Ingredient } from './ingredient';
-import { ThemeService } from './theme.service';
+import { ThemeService } from './core/theme.service';
 
 type Availability = 'all' | 'available' | 'unavailable';
 
