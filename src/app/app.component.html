@@ -23,8 +23,8 @@
       <mat-button-toggle-group
         class="toggle-group toggle-group-availability"
         name="toggle"
-        [disabled]="!cocktails.length"
-        [(ngModel)]="availability"
+        [disabled]="!app.cocktails.length"
+        [(ngModel)]="app.availability"
       >
         <mat-button-toggle class="toggle toggle-all" value="all">
           Tout <span class="availability-counter">({{ getCocktailsByAvailability('all').length }})</span>
@@ -64,15 +64,15 @@
     <ul class="cocktails">
       <li
         class="cocktail"
-        *ngFor="let cocktail of displayedCocktails; trackBy: identifyCocktail"
+        *ngFor="let cocktail of app.displayedCocktails; trackBy: identifyCocktail"
         (click)="openCocktailDetailDialog(cocktail)"
       >
-        <span class="cocktail-icon silhouette" [class.unavailable]="!isCocktailAvailable(cocktail)">{{
+        <span class="cocktail-icon silhouette" [class.unavailable]="!app.isCocktailAvailable(cocktail)">{{
           getGlassIconByCocktail(cocktail)
         }}</span>
 
         <div>
-          <span class="cocktail-name" [class.unavailable]="!isCocktailAvailable(cocktail)">
+          <span class="cocktail-name" [class.unavailable]="!app.isCocktailAvailable(cocktail)">
             <span
               class="cocktail-name-word"
               [class.uppercase]="isNumber(word)"
@@ -115,11 +115,11 @@
 <button
   mat-fab
   class="filters-fab"
-  [class.has-filters]="this.filters.length"
+  [class.has-filters]="this.app.filters.length"
   (click)="openfiltersDialog()"
-  [matBadge]="filters.length"
-  [matBadgeHidden]="!filters.length"
-  [disabled]="!cocktails.length"
+  [matBadge]="app.filters.length"
+  [matBadgeHidden]="!app.filters.length"
+  [disabled]="!app.cocktails.length"
 >
   <mat-icon>filter_list</mat-icon>
 </button>
@@ -128,7 +128,7 @@
   <h2 mat-dialog-title class="filters-dialog-title">Filtres</h2>
 
   <mat-dialog-content>
-    <mat-selection-list #filterList (click)="$event.stopPropagation()" [(ngModel)]="filters">
+    <mat-selection-list #filterList (click)="$event.stopPropagation()" [(ngModel)]="app.filters">
       <mat-list-option *ngFor="let ingredient of getFilterableIngredients()" [value]="ingredient.id">
         <span [class.unavailable]="!ingredient.available">
           {{ ingredient.name }} ({{ getCocktailsByIngredient(ingredient).length }})
@@ -141,7 +141,7 @@
     <button
       mat-button
       class="filters-dialog-button filters-dialog-reset-button"
-      [disabled]="!filters.length"
+      [disabled]="!app.filters.length"
       (click)="resetFilters()"
     >
       Réinitialiser
