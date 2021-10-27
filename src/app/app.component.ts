@@ -1,4 +1,4 @@
-import { Component, HostBinding, OnDestroy, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { Component, HostBinding, Injector, OnDestroy, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import { MatButtonToggleChange } from '@angular/material/button-toggle';
 import { MatDialog } from '@angular/material/dialog';
 
@@ -11,6 +11,7 @@ import { Cocktail } from './shared/models/cocktail';
 import { Garnish } from './shared/models/garnish';
 import { Ingredient } from './shared/models/ingredient';
 import { Availability } from './shared/typings/availability';
+import { Theme } from './shared/typings/theme';
 
 @Component({
   selector: 'app-root',
@@ -24,11 +25,14 @@ export class AppComponent implements OnInit, OnDestroy {
   private readonly _wordSeparatorsRegexp = /[ -]/;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
-  constructor(public app: AppService, public theme: ThemeService, private _dialog: MatDialog) {}
+  constructor(public app: AppService, private _dialog: MatDialog, private _injector: Injector) {
+    // Injects `ThemeService`, just to initialize it.
+    this._injector.get(ThemeService);
+  }
 
   ngOnInit(): void {
-    this.theme.theme$.pipe(distinctUntilChanged(), takeUntil(this._destroyed$)).subscribe((theme) => {
-      this._class = theme;
+    this.app.appliedTheme$.pipe(distinctUntilChanged(), takeUntil(this._destroyed$)).subscribe((theme) => {
+      this._class = theme as Theme;
     });
   }
 

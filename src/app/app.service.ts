@@ -8,6 +8,7 @@ import { Garnish } from './shared/models/garnish';
 import { Glass } from './shared/models/glass';
 import { Ingredient } from './shared/models/ingredient';
 import { Availability } from './shared/typings/availability';
+import { Theme } from './shared/typings/theme';
 
 @Injectable({
   providedIn: 'root',
@@ -108,6 +109,41 @@ export class AppService {
   }
   private readonly _filters = new BehaviorSubject<Array<Ingredient['id']>>([]);
   readonly filters$ = this._filters as Observable<Array<Ingredient['id']>>;
+
+  /**
+   * Application selected theme.
+   */
+  get selectedTheme(): Theme {
+    return this._selectedTheme.getValue();
+  }
+  set selectedTheme(theme: Theme) {
+    this._selectedTheme.next(theme);
+  }
+  private readonly _selectedTheme = new BehaviorSubject<Theme>('light-theme');
+  readonly selectedTheme$ = this._selectedTheme as Observable<Theme>;
+
+  /**
+   * Application applied theme (excludes system theme).
+   */
+  get appliedTheme(): Omit<Theme, 'system-theme'> {
+    return this._appliedTheme.getValue();
+  }
+  set appliedTheme(theme: Omit<Theme, 'system-theme'>) {
+    this._appliedTheme.next(theme);
+  }
+  private readonly _appliedTheme = new BehaviorSubject<Omit<Theme, 'system-theme'>>('light-theme');
+  readonly appliedTheme$ = this._appliedTheme as Observable<Omit<Theme, 'system-theme'>>;
+
+  /**
+   * Whether user has a system theme defined.
+   */
+  get hasSystemTheme() {
+    return this._hasSystemTheme;
+  }
+  set hasSystemTheme(has: boolean) {
+    this._hasSystemTheme = has;
+  }
+  private _hasSystemTheme = false;
 
   constructor(private _http: HttpClient) {
     forkJoin({

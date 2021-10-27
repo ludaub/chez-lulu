@@ -10,7 +10,7 @@
 
     <div class="theme-button-container">
       <button mat-icon-button [matMenuTriggerFor]="themeMenu">
-        <mat-icon class="theme-button-icon" *ngIf="theme.theme === 'light-theme'; else darkThemeIcon"
+        <mat-icon class="theme-button-icon" *ngIf="app.selectedTheme === 'light-theme'; else darkThemeIcon"
           >light_mode</mat-icon
         >
         <ng-template #darkThemeIcon>
@@ -50,10 +50,10 @@
     </div>
 
     <mat-menu #themeMenu="matMenu" class="theme-menu" xPosition="before" yPosition="below">
-      <mat-radio-group class="theme-radio-group" [(ngModel)]="theme.theme">
+      <mat-radio-group class="theme-radio-group" [(ngModel)]="app.selectedTheme">
         <mat-radio-button class="theme-radio-button" value="light-theme">Thème clair</mat-radio-button>
         <mat-radio-button class="theme-radio-button" value="dark-theme">Thème sombre</mat-radio-button>
-        <mat-radio-button class="theme-radio-button" *ngIf="theme.hasThemeMediaQuery" value="system-theme"
+        <mat-radio-button class="theme-radio-button" *ngIf="app.hasSystemTheme" value="system-theme"
           >Thème système</mat-radio-button
         >
       </mat-radio-group>
