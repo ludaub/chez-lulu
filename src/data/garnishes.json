@@ -45,6 +45,10 @@
   },
   {
     "id": "lime-wedge",
+    "name": "Une tranche de citron vert"
+  },
+  {
+    "id": "lime-wedge",
     "name": "Un quartier de citron vert"
   },
   {
@@ -82,6 +86,10 @@
   {
     "id": "pineapple-wedge",
     "name": "Un quartier d'ananas"
+  },
+  {
+    "id": "white-grape-stick",
+    "name": "Un raisin blanc sur cure-dent"
   },
   {
     "id": "thyme-sprig",

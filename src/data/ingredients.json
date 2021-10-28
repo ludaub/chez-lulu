@@ -148,12 +148,6 @@
     "available": false
   },
   {
-    "id": "elderflower-liqueur",
-    "name": "Liqueur de sureau",
-    "brand": "St-Germain",
-    "available": false
-  },
-  {
     "id": "whisky-liqueur",
     "name": "Liqueur de whisky",
     "brand": "Drambuie",
@@ -207,6 +201,11 @@
     "id": "aged-rum",
     "name": "Rhum vieux",
     "brand": "",
+    "available": false
+  },
+  {
+    "id": "elderflower-liqueur",
+    "name": "St-Germain",
     "available": false
   },
   {

@@ -180,6 +180,35 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "amber-room-2",
+    "name": "Amber Room No. 2",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "martini"
+  },
+  {
     "id": "americano",
     "name": "Americano",
     "recipe": "Verser tous les ingrédients dans le verre et compléter avec de la glace.",
@@ -202,6 +231,33 @@
     ],
     "garnishIds": ["orange-slice"],
     "glassId": "collins"
+  },
+  {
+    "id": "lamour-en-fuite",
+    "name": "L'Amour en Fuite",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi rincé à l'absinthe.",
+    "ingredientIds": [
+      {
+        "id": "absinthe"
+      },
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
   },
   {
     "id": "ante",
@@ -1493,6 +1549,30 @@
     "glassId": "coupe"
   },
   {
+    "id": "elder-fashion",
+    "name": "Elder Fashion",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["grapefruit-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "episcopal",
     "name": "Episcopal",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
@@ -1709,6 +1789,30 @@
     ],
     "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
+  },
+  {
+    "id": "garden-g-&-t",
+    "name": "Garden Gin Tonic",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 5,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "tonic-water",
+        "quantity": 6,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["mint-sprig", "lime-slice"],
+    "glassId": "collins"
   },
   {
     "id": "gen-tonique",
@@ -2024,6 +2128,35 @@
     "glassId": "nick-&-nora"
   },
   {
+    "id": "in-seine",
+    "name": "in-Seine",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["white-grape-stick"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "joy-division",
     "name": "Joy Division",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -2290,7 +2423,7 @@
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
     "ingredientIds": [
       {
-        "id": "bourbon",
+        "id": "bourbon-whiskey",
         "quantity": 6,
         "unit": "cl"
       },
@@ -2683,6 +2816,30 @@
     "glassId": "coupe"
   },
   {
+    "id": "elderflower-negroni",
+    "name": "Elderflower Negroni",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist", "lemon-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "negroni-tredici",
     "name": "Negroni Tredici",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -2808,6 +2965,30 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "o-flower-highball",
+    "name": "O' Flower Highball",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "scotch-whisky",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 1,
+        "unit": "cl"
+      },
+      {
+        "id": "soda-water",
+        "quantity": 7.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist", "mint-sprig"],
+    "glassId": "highball"
+  },
+  {
     "id": "oh-cecilie",
     "name": "Oh Cecilie!",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -2859,6 +3040,35 @@
       {
         "id": "aromatic-bitter",
         "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "elder-fashioned",
+    "name": "Elder Fashioned",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sugar-syrup",
+        "quantity": 0.25,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 1,
         "unit": "traits"
       }
     ],
@@ -2951,6 +3161,34 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "highball"
+  },
+  {
+    "id": "phish-hook",
+    "name": "Phish Hook",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "full-bodied-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "maraschino-liqueur",
+        "quantity": 0.5,
+        "unit": "cl"
+      }
+    ],
+    "glassId": "coupe"
   },
   {
     "id": "poets-dream",
@@ -3195,6 +3433,35 @@
     ],
     "garnishIds": ["burnt-lemon-wedge"],
     "glassId": "old-fashioned"
+  },
+  {
+    "id": "sainte-trinite",
+    "name": "Sainte Trinité",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "cognac",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 2,
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
   },
   {
     "id": "salome",
