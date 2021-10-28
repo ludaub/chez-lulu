@@ -59,6 +59,74 @@
     "glassId": "coupe"
   },
   {
+    "id": "alfonso-martini",
+    "name": "Alfonso Martini",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "martini"
+  },
+  {
+    "id": "alice-mine",
+    "name": "Alice Mine",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "london-dry-gin",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "amaroni",
     "name": "Amaroni",
     "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
@@ -424,6 +492,35 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "nick-&-nora"
+  },
+  {
+    "id": "boulevard",
+    "name": "Boulevard",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 7.5,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["discarded-orange-zest-twist", "maraschino-cherry"],
+    "glassId": "martini"
   },
   {
     "id": "bourbonella",
@@ -1657,6 +1754,25 @@
     "glassId": "collins"
   },
   {
+    "id": "grand-tonic",
+    "name": "Grand Tonic",
+    "recipe": "Verser le premier ingrédient dans le verre rempli de glace, compléter avec le tonic et mélanger.",
+    "ingredientIds": [
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "tonic-water",
+        "quantity": "*",
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-wedge"],
+    "glassId": "collins"
+  },
+  {
     "id": "milanese-g-&-t",
     "name": "Milanese Gin Tonic",
     "recipe": "Verser les deux premiers ingrédients dans le verre rempli de glace, compléter avec le tonic et mélanger.",
@@ -1677,7 +1793,7 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": ["orange-slice  "],
+    "garnishIds": ["orange-slice"],
     "glassId": "collins"
   },
   {
@@ -2009,6 +2125,30 @@
     "glassId": "nick-&-nora"
   },
   {
+    "id": "lorraine",
+    "name": "Lorraine",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "lucien-gaudin",
     "name": "Lucien Gaudin",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -2121,6 +2261,30 @@
     "glassId": "coupe"
   },
   {
+    "id": "dry-manhattan",
+    "name": "Dry Manhattan",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 2.5,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "elderflower-manhattan",
     "name": "Elderflower Manhattan",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -2179,6 +2343,35 @@
     "glassId": "coupe"
   },
   {
+    "id": "perfect-manhattan",
+    "name": "Perfect Manhattan",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 1.25,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 1.25,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["discarded-orange-zest-twist", "maraschino-cherry"],
+    "glassId": "coupe"
+  },
+  {
     "id": "preakness-manhattan",
     "name": "Preakness Manhattan",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -2210,6 +2403,38 @@
       }
     ],
     "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "ratpack-manhattan",
+    "name": "Ratpack Manhattan",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi rincé au Grand Marnier.",
+    "ingredientIds": [
+      {
+        "id": "cognac-orange-liqueur"
+      },
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist", "maraschino-cherry"],
     "glassId": "coupe"
   },
   {
@@ -3646,6 +3871,35 @@
       }
     ],
     "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "yellow-daisy",
+    "name": "Yellow Daisy",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 4,
+        "unit": "cl"
+      },
+      {
+        "id": "cognac-orange-liqueur",
+        "quantity": 2,
+        "unit": "cl"
+      },
+      {
+        "id": "absinthe",
+        "quantity": 3,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["grapefruit-zest-twist"],
     "glassId": "coupe"
   },
   {
