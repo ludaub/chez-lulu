@@ -152,7 +152,9 @@ export class AppService {
       glasses: this._http.get<Array<Glass>>('data/glasses.json'),
       ingredients: this._http.get<Array<Ingredient>>('data/ingredients.json'),
     }).subscribe((result) => {
-      this.cocktails = result.cocktails.filter((cocktail) => cocktail.displayed || cocktail.displayed === undefined);
+      this.cocktails = result.cocktails
+        .filter((cocktail) => cocktail.displayed || cocktail.displayed === undefined)
+        .sort((a, b) => a.name.localeCompare(b.name));
       this.garnishes = result.garnishes;
       this.glasses = result.glasses;
       this.ingredients = result.ingredients;
