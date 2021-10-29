@@ -4,8 +4,8 @@ import { ApplicationRef, Injectable } from '@angular/core';
 
 import { distinctUntilChanged } from 'rxjs/operators';
 
-import { AppService } from '../app.service';
-import { Theme } from '../shared/typings/theme';
+import { AppService } from '@app/app.service';
+import { AppliedTheme, Theme } from '@app/shared/typings/theme';
 
 @Injectable({
   providedIn: 'root',
@@ -30,7 +30,7 @@ export class ThemeService {
 
     if (localStorage.getItem('theme')) {
       this._app.selectedTheme = localStorage.getItem('theme') as Theme;
-      this._app.appliedTheme = localStorage.getItem('theme') as Theme;
+      this._app.appliedTheme = localStorage.getItem('theme') as AppliedTheme;
     }
 
     this._app.selectedTheme$.pipe(distinctUntilChanged()).subscribe((theme) => {
@@ -48,7 +48,7 @@ export class ThemeService {
 
     this._app.appliedTheme$.pipe(distinctUntilChanged()).subscribe((theme) => {
       this._overlayContainer.getContainerElement().classList.remove(...this._themes);
-      this._overlayContainer.getContainerElement().classList.add(theme as Theme);
+      this._overlayContainer.getContainerElement().classList.add(theme as AppliedTheme);
     });
   }
 }
