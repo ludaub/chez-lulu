@@ -1,5 +1,7 @@
 import 'jest-preset-angular/setup-jest';
 
+import '@ext/string.extension';
+
 const WARN_SUPPRESSING_PATTERNS = [/Could not find Angular Material core theme/, /Could not find HammerJS/];
 const warn = console.warn;
 
