@@ -31,28 +31,7 @@
   {
     "id": "benedictine-liqueur",
     "name": "Bénédictine",
-    "available": false
-  },
-  {
-    "id": "aromatic-bitter",
-    "name": "Bitter aromatique",
-    "brand": "Angostura",
-    "available": true,
-    "filterable": false
-  },
-  {
-    "id": "creole-bitter",
-    "name": "Bitter créole",
-    "brand": "Peychaud",
-    "available": true,
-    "filterable": false
-  },
-  {
-    "id": "orange-bitter",
-    "name": "Bitter orange",
-    "brand": "Regans'",
-    "available": true,
-    "filterable": false
+    "available": true
   },
   {
     "id": "bourbon-whiskey",
@@ -255,6 +234,27 @@
     "available": false
   },
   {
+    "id": "aromatic-bitter",
+    "name": "Bitter aromatique",
+    "brand": "Angostura",
+    "available": true,
+    "filterable": false
+  },
+  {
+    "id": "creole-bitter",
+    "name": "Bitter créole",
+    "brand": "Peychaud",
+    "available": true,
+    "filterable": false
+  },
+  {
+    "id": "orange-bitter",
+    "name": "Bitter orange",
+    "brand": "Regans'",
+    "available": true,
+    "filterable": false
+  },
+  {
     "id": "grenadine-syrup",
     "name": "Sirop de grenadine",
     "brand": "Giffard",
@@ -265,7 +265,7 @@
     "id": "sugar-syrup",
     "name": "Sirop de sucre",
     "brand": "Giffard",
-    "available": false,
+    "available": true,
     "filterable": false
   },
   {
