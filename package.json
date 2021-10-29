@@ -96,6 +96,9 @@
         "tsconfig": "<rootDir>/tsconfig.spec.json",
         "stringifyContentPathRegex": "\\.html$"
       }
+    },
+    "moduleNameMapper": {
+      "@app/(.*)": "<rootDir>/src/app/$1"
     }
   },
   "lint-staged": {
