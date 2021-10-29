@@ -67,24 +67,24 @@
         *ngFor="let cocktail of app.displayedCocktails; trackBy: identifyCocktail"
         (click)="openCocktailDetailDialog(cocktail)"
       >
-        <span class="cocktail-icon silhouette" [class.unavailable]="!app.isCocktailAvailable(cocktail)">{{
+        <span class="cocktail-icon silhouette" [class.unavailable]="!cocktail.isAvailable()">{{
           getGlassIconByCocktail(cocktail)
         }}</span>
 
         <div>
-          <span class="cocktail-name" [class.unavailable]="!app.isCocktailAvailable(cocktail)">
+          <span class="cocktail-name" [class.unavailable]="!cocktail.isAvailable()">
             <span
               class="cocktail-name-word"
-              [class.uppercase]="isNumber(word)"
-              *ngFor="let word of getWords(cocktail.name); let i = index"
+              [class.uppercase]="word.isNumber()"
+              *ngFor="let word of cocktail.name.getWords(); let i = index"
               ><!--
               This comment prevents from additional white space.
               -->{{ word
               }}<!--
               This comment prevents from additional white space.
               --><span
-                *ngIf="i < getWords(cocktail.name).length - 1"
-                [innerHTML]="getWordSeparator(cocktail.name, i)"
+                *ngIf="i < cocktail.name.getWords().length - 1"
+                [innerHTML]="cocktail.name.getWordSeparator(i)"
               ></span>
             </span>
           </span>
@@ -148,88 +148,4 @@
     </button>
     <button mat-button mat-dialog-close class="filters-dialog-button filters-dialog-close-button">Fermer</button>
   </mat-dialog-actions>
-</ng-template>
-
-<ng-template #cocktailDetailDialog let-cocktail>
-  <h2 mat-dialog-title class="cocktail-name">
-    <span
-      class="cocktail-name-word"
-      [class.uppercase]="isNumber(word)"
-      *ngFor="let word of getWords(cocktail.name); let i = index"
-      ><!--
-      This comment prevents from additional white space.
-      -->{{ word
-      }}<!--
-      This comment prevents from additional white space.
-      --><span *ngIf="i < getWords(cocktail.name).length - 1" [innerHTML]="getWordSeparator(cocktail.name, i)"></span>
-    </span>
-  </h2>
-
-  <mat-dialog-content>
-    <ul class="cocktail-ingredients">
-      <li class="cocktail-ingredient" *ngFor="let ingredient of cocktail.ingredients">
-        <span class="cocktail-ingredient-quantity">
-          {{ getCocktailIngredientQuantity(cocktail, ingredient) }}
-          <span class="cocktail-ingredient-quantity-unit">
-            {{ getCocktailIngredientUnit(cocktail, ingredient) }}
-          </span>
-        </span>
-        <span class="cocktail-ingredient-name">
-          <span *ngIf="ingredient.brand || ingredient.brand === ''; else noBrand">
-            {{ ingredient.name }}
-          </span>
-          <ng-template #noBrand>
-            <span class="cocktail-ingredient-name-brand">
-              <span
-                class="cocktail-ingredient-name-brand-word"
-                [class.uppercase]="isNumber(word)"
-                *ngFor="let word of getWords(ingredient.name); let i = index"
-                ><!--
-                This comment prevents from additional white space.
-                -->{{ word
-                }}<!--
-                This comment prevents from additional white space.
-                --><span
-                  *ngIf="i < getWords(ingredient.name).length - 1"
-                  [innerHTML]="getWordSeparator(ingredient.name, i)"
-                ></span>
-              </span>
-            </span>
-          </ng-template>
-          <span *ngIf="ingredient.brand" class="cocktail-ingredient-name-brand">
-            <span
-              class="cocktail-ingredient-name-brand-word"
-              [class.uppercase]="isNumber(word)"
-              *ngFor="let word of getWords(ingredient.brand); let i = index"
-              ><!--
-              This comment prevents from additional white space.
-              -->{{ word
-              }}<!--
-              This comment prevents from additional white space.
-              --><span
-                *ngIf="i < getWords(ingredient.brand).length - 1"
-                [innerHTML]="getWordSeparator(ingredient.brand, i)"
-              ></span>
-            </span>
-          </span>
-        </span>
-      </li>
-    </ul>
-    <p class="cocktail-recipe" *ngIf="cocktail.recipe">
-      {{ cocktail.recipe }}
-    </p>
-    <p class="cocktail-garnish" *ngIf="cocktail.garnishIds">
-      Décorer avec
-      <span class="cocktail-garnish-name" *ngFor="let garnishId of cocktail.garnishIds; let i = index"
-        >{{ getGarnishNameById(garnishId)
-        }}<!--
-          This comment prevents from additional white space.
-          --><span *ngIf="i === cocktail.garnishIds.length - 2; else garnishCommaSeparator">&nbsp;&&nbsp;</span>
-        <ng-template #garnishCommaSeparator><span *ngIf="i < cocktail.garnishIds.length - 1">,&nbsp;</span></ng-template
-        ><!--
-          This comment prevents from additional white space.
-        --></span
-      >.
-    </p>
-  </mat-dialog-content>
 </ng-template>

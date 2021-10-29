@@ -5,13 +5,13 @@ import { MatDialog } from '@angular/material/dialog';
 import { Subject } from 'rxjs';
 import { distinctUntilChanged, takeUntil } from 'rxjs/operators';
 
-import { AppService } from './app.service';
-import { ThemeService } from './core/theme.service';
-import { Cocktail } from './shared/models/cocktail';
-import { Garnish } from './shared/models/garnish';
-import { Ingredient } from './shared/models/ingredient';
-import { Availability } from './shared/typings/availability';
-import { Theme } from './shared/typings/theme';
+import { AppService } from '@app/app.service';
+import { CocktailDetailDialogComponent } from '@app/cocktails/cocktail-detail-dialog/cocktail-detail-dialog.component';
+import { Cocktail } from '@app/cocktails/shared/cocktail';
+import { ThemeService } from '@app/core/theme.service';
+import { Ingredient } from '@app/shared/models/ingredient';
+import { Availability } from '@app/shared/typings/availability';
+import { AppliedTheme } from '@app/shared/typings/theme';
 
 @Component({
   selector: 'app-root',
@@ -19,10 +19,8 @@ import { Theme } from './shared/typings/theme';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit, OnDestroy {
-  @ViewChild('cocktailDetailDialog') cocktailDetailDialog!: TemplateRef<{ cocktail: Cocktail }>;
   @ViewChild('filtersDialog') filtersDialog!: TemplateRef<any>;
-  @HostBinding('class') private _class!: string;
-  private readonly _wordSeparatorsRegexp = /[ -]/;
+  @HostBinding('class') private _class!: AppliedTheme;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
   constructor(public app: AppService, private _dialog: MatDialog, private _injector: Injector) {
@@ -32,7 +30,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.app.appliedTheme$.pipe(distinctUntilChanged(), takeUntil(this._destroyed$)).subscribe((theme) => {
-      this._class = theme as Theme;
+      this._class = theme;
     });
   }
 
@@ -44,10 +42,10 @@ export class AppComponent implements OnInit, OnDestroy {
         cocktails = this.app.cocktails;
         break;
       case 'available':
-        cocktails = this.app.cocktails.filter((cocktail) => this.isCocktailAvailable(cocktail));
+        cocktails = this.app.cocktails.filter((cocktail) => cocktail.isAvailable());
         break;
       case 'unavailable':
-        cocktails = this.app.cocktails.filter((cocktail) => !this.isCocktailAvailable(cocktail));
+        cocktails = this.app.cocktails.filter((cocktail) => !cocktail.isAvailable());
         break;
       default:
         return cocktails;
@@ -73,23 +71,6 @@ export class AppComponent implements OnInit, OnDestroy {
     return cocktail.id;
   }
 
-  getWords(value: string): Array<string> {
-    return value.split(this._wordSeparatorsRegexp);
-  }
-
-  getWordSeparator(value: string, index: number): string {
-    const indexes = [] as Array<number>;
-
-    // Get indexes of word separators characters from string value.
-    for (const [i, letter] of [...value].entries()) {
-      if (letter.match(this._wordSeparatorsRegexp)) {
-        indexes.push(i);
-      }
-    }
-
-    return value.charAt(indexes[index]) === ' ' ? '&nbsp;' : value.charAt(indexes[index]);
-  }
-
   getGlassIconByCocktail(cocktail: Cocktail): string {
     return this.app.glasses.find((glass) => glass.id === cocktail.glassId)?.icon ?? '';
   }
@@ -100,24 +81,8 @@ export class AppComponent implements OnInit, OnDestroy {
       .filter((ingredient) => ingredient.filterable || ingredient.filterable === undefined);
   }
 
-  isCocktailAvailable(cocktail: Cocktail): boolean {
-    return cocktail.ingredients.every((ingredient) => ingredient.available);
-  }
-
   isIngredientFiltered(ingredient: Ingredient): boolean {
     return this.app.filters.includes(ingredient.id);
-  }
-
-  getCocktailIngredientQuantity(cocktail: Cocktail, ingredient: Ingredient): number | string {
-    return cocktail.ingredientIds.find((ingredientId) => ingredientId.id === ingredient.id)?.quantity ?? '';
-  }
-
-  getCocktailIngredientUnit(cocktail: Cocktail, ingredient: Ingredient): string {
-    return cocktail.ingredientIds.find((ingredientId) => ingredientId.id === ingredient.id)?.unit ?? '';
-  }
-
-  getGarnishNameById(garnishId: Garnish['id']): Garnish['name'] {
-    return this.app.garnishes.find((garnish) => garnish.id === garnishId)?.name ?? '';
   }
 
   toggleFilter(event: MatButtonToggleChange): void {
@@ -125,7 +90,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   openCocktailDetailDialog(cocktail: Cocktail): void {
-    this._dialog.open(this.cocktailDetailDialog, { data: cocktail, panelClass: 'cocktail-detail' });
+    this._dialog.open(CocktailDetailDialogComponent, { data: cocktail, panelClass: 'cocktail-detail' });
   }
 
   openfiltersDialog(): void {
@@ -134,10 +99,6 @@ export class AppComponent implements OnInit, OnDestroy {
 
   resetFilters(): void {
     this.app.filters = [];
-  }
-
-  isNumber(value: string): boolean {
-    return !isNaN(Number(value));
   }
 
   ngOnDestroy(): void {
