@@ -313,6 +313,35 @@
     "glassId": "coupe"
   },
   {
+    "id": "archibalds-last-memory",
+    "name": "Archibald's Last Memory",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-fernet",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "benedictine-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "maraschino-liqueur",
+        "quantity": 0.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "argentina",
     "name": "Argentina",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -548,6 +577,25 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "nick-&-nora"
+  },
+  {
+    "id": "bonsoni",
+    "name": "Bonsoni",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "sweet-vermouth",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-fernet",
+        "quantity": 1.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
   },
   {
     "id": "boulevard",
@@ -1954,6 +2002,30 @@
     "glassId": "coupe"
   },
   {
+    "id": "hanky-panky",
+    "name": "Hanky Panky",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-fernet",
+        "quantity": 0.25,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "nick-&-nora"
+  },
+  {
     "id": "harvard-2",
     "name": "Harvard No. 2",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -2015,6 +2087,30 @@
     ],
     "garnishIds": ["orange-zest-twist", "maraschino-cherry"],
     "glassId": "coupe"
+  },
+  {
+    "id": "high-society",
+    "name": "High Society",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "scotch-whisky",
+        "quantity": 4,
+        "unit": "cl"
+      },
+      {
+        "id": "white-mint-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-fernet",
+        "quantity": 0.25,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["mint-leaf"],
+    "glassId": "nick-&-nora"
   },
   {
     "id": "highland-highball",
@@ -3161,6 +3257,25 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "highball"
+  },
+  {
+    "id": "padovani",
+    "name": "Padovani",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "scotch-whisky",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "quantity": 2.25,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "old-fashioned"
   },
   {
     "id": "phish-hook",

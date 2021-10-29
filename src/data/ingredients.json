@@ -108,6 +108,11 @@
     "available": false
   },
   {
+    "id": "amaro-fernet",
+    "name": "Fernet-Branca",
+    "available": false
+  },
+  {
     "id": "london-dry-gin",
     "name": "Gin",
     "brand": "Beefeater",
