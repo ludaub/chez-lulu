@@ -3,12 +3,12 @@ import { Injectable } from '@angular/core';
 
 import { BehaviorSubject, Observable, forkJoin } from 'rxjs';
 
-import { Cocktail } from './shared/models/cocktail';
-import { Garnish } from './shared/models/garnish';
-import { Glass } from './shared/models/glass';
-import { Ingredient } from './shared/models/ingredient';
-import { Availability } from './shared/typings/availability';
-import { Theme } from './shared/typings/theme';
+import { Cocktail } from '@app/cocktails/shared/cocktail';
+import { Garnish } from '@app/shared/models/garnish';
+import { Glass } from '@app/shared/models/glass';
+import { Ingredient } from '@app/shared/models/ingredient';
+import { Availability } from '@app/shared/typings/availability';
+import { AppliedTheme, Theme } from '@app/shared/typings/theme';
 
 @Injectable({
   providedIn: 'root',
@@ -125,14 +125,14 @@ export class AppService {
   /**
    * Application applied theme (excludes system theme).
    */
-  get appliedTheme(): Omit<Theme, 'system-theme'> {
+  get appliedTheme(): AppliedTheme {
     return this._appliedTheme.getValue();
   }
-  set appliedTheme(theme: Omit<Theme, 'system-theme'>) {
+  set appliedTheme(theme: AppliedTheme) {
     this._appliedTheme.next(theme);
   }
-  private readonly _appliedTheme = new BehaviorSubject<Omit<Theme, 'system-theme'>>('light-theme');
-  readonly appliedTheme$ = this._appliedTheme as Observable<Omit<Theme, 'system-theme'>>;
+  private readonly _appliedTheme = new BehaviorSubject<AppliedTheme>('light-theme');
+  readonly appliedTheme$ = this._appliedTheme as Observable<AppliedTheme>;
 
   /**
    * Whether user has a system theme defined.
@@ -154,16 +154,23 @@ export class AppService {
     }).subscribe((result) => {
       this.cocktails = result.cocktails
         .filter((cocktail) => cocktail.displayed || cocktail.displayed === undefined)
-        .sort((a, b) => a.name.localeCompare(b.name));
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .map(
+          (cocktail) =>
+            new Cocktail(
+              cocktail.id,
+              cocktail.name,
+              cocktail.recipe,
+              cocktail.ingredientIds,
+              cocktail.glassId,
+              cocktail.garnishIds
+            )
+        );
       this.garnishes = result.garnishes;
       this.glasses = result.glasses;
       this.ingredients = result.ingredients;
       this.availability = 'available'; // Triggers filtering.
     });
-  }
-
-  isCocktailAvailable(cocktail: Cocktail): boolean {
-    return cocktail.ingredients.every((ingredient) => ingredient.available);
   }
 
   private _filterCocktails(): void {
@@ -172,10 +179,10 @@ export class AppService {
         this.displayedCocktails = [...this.cocktails];
         break;
       case 'available':
-        this.displayedCocktails = this.cocktails.filter((cocktail) => this.isCocktailAvailable(cocktail));
+        this.displayedCocktails = this.cocktails.filter((cocktail) => cocktail.isAvailable());
         break;
       case 'unavailable':
-        this.displayedCocktails = this.cocktails.filter((cocktail) => !this.isCocktailAvailable(cocktail));
+        this.displayedCocktails = this.cocktails.filter((cocktail) => !cocktail.isAvailable());
         break;
       default:
         this.displayedCocktails = [];
