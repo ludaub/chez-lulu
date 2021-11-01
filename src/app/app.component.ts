@@ -43,36 +43,11 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   getCocktailsByAvailability(availability: Availability): Array<Cocktail> {
-    let cocktails = [] as Array<Cocktail>;
-
-    switch (availability) {
-      case 'all':
-        cocktails = this.app.cocktails;
-        break;
-      case 'available':
-        cocktails = this.app.cocktails.filter((cocktail) => cocktail.isAvailable());
-        break;
-      case 'unavailable':
-        cocktails = this.app.cocktails.filter((cocktail) => !cocktail.isAvailable());
-        break;
-      default:
-        return cocktails;
-    }
-
-    if (this.app.filters.length) {
-      cocktails = cocktails.filter((cocktail) => {
-        const ingredientIds = cocktail.ingredientIds.map((ingredientId) => ingredientId.id);
-        return this.app.filters.every((filter) => ingredientIds.includes(filter));
-      });
-    }
-
-    return cocktails;
+    return this._cocktailService.getByAvailability(availability);
   }
 
   getCocktailsByIngredient(ingredient: Ingredient): Array<Cocktail> {
-    return this.app.displayedCocktails.filter((cocktail) =>
-      cocktail.ingredientIds.map((ingredientId) => ingredientId.id).some((id) => id === ingredient.id)
-    );
+    return this._cocktailService.getByIngredient(ingredient);
   }
 
   identifyCocktail(index: number, cocktail: Cocktail): Cocktail['id'] {
@@ -91,10 +66,6 @@ export class AppComponent implements OnInit, OnDestroy {
 
   isIngredientFiltered(ingredient: Ingredient): boolean {
     return this.app.filters.includes(ingredient.id);
-  }
-
-  toggleFilter(event: MatButtonToggleChange): void {
-    event.source.buttonToggleGroup.value = null;
   }
 
   openCocktailDetailDialog(cocktail: Cocktail): void {
