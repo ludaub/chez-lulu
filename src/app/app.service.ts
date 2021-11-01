@@ -92,6 +92,7 @@ export class AppService {
   }
   set availability(availability: Availability) {
     this._availability.next(availability);
+    localStorage.setItem('availability', availability);
     this._filterCocktails();
   }
   private readonly _availability = new BehaviorSubject<Availability>('available');
@@ -169,7 +170,7 @@ export class AppService {
       this.garnishes = result.garnishes;
       this.glasses = result.glasses;
       this.ingredients = result.ingredients;
-      this.availability = 'available'; // Triggers filtering.
+      this.availability = (localStorage.getItem('availability') as Availability) ?? 'available'; // Triggers filtering.
     });
   }
 
