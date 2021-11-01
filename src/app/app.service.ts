@@ -93,7 +93,6 @@ export class AppService {
   set availability(availability: Availability) {
     this._availability.next(availability);
     localStorage.setItem('availability', availability);
-    this._filterCocktails();
   }
   private readonly _availability = new BehaviorSubject<Availability>('available');
   readonly availability$ = this._availability as Observable<Availability>;
@@ -106,7 +105,6 @@ export class AppService {
   }
   set filters(filters: Array<Ingredient['id']>) {
     this._filters.next(filters);
-    this._filterCocktails();
   }
   private readonly _filters = new BehaviorSubject<Array<Ingredient['id']>>([]);
   readonly filters$ = this._filters as Observable<Array<Ingredient['id']>>;
@@ -172,28 +170,5 @@ export class AppService {
       this.ingredients = result.ingredients;
       this.availability = (localStorage.getItem('availability') as Availability) ?? 'available'; // Triggers filtering.
     });
-  }
-
-  private _filterCocktails(): void {
-    switch (this.availability) {
-      case 'all':
-        this.displayedCocktails = [...this.cocktails];
-        break;
-      case 'available':
-        this.displayedCocktails = this.cocktails.filter((cocktail) => cocktail.isAvailable());
-        break;
-      case 'unavailable':
-        this.displayedCocktails = this.cocktails.filter((cocktail) => !cocktail.isAvailable());
-        break;
-      default:
-        this.displayedCocktails = [];
-    }
-
-    if (this.filters.length) {
-      this.displayedCocktails = this.displayedCocktails.filter((cocktail) => {
-        const ingredientIds = cocktail.ingredientIds.map((ingredientId) => ingredientId.id);
-        return this.filters.every((filter) => ingredientIds.includes(filter));
-      });
-    }
   }
 }

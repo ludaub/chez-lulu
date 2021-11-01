@@ -8,6 +8,7 @@ import { distinctUntilChanged, takeUntil } from 'rxjs/operators';
 import { AppService } from '@app/app.service';
 import { CocktailDetailDialogComponent } from '@app/cocktails/cocktail-detail-dialog/cocktail-detail-dialog.component';
 import { Cocktail } from '@app/cocktails/shared/cocktail';
+import { CocktailService } from './cocktails/shared/cocktail.service';
 import { ThemeService } from '@app/core/theme.service';
 import { Ingredient } from '@app/shared/models/ingredient';
 import { Availability } from '@app/shared/typings/availability';
@@ -23,7 +24,12 @@ export class AppComponent implements OnInit, OnDestroy {
   @HostBinding('class') private _class: AppliedTheme;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
-  constructor(public app: AppService, private _dialog: MatDialog, private _injector: Injector) {
+  constructor(
+    public app: AppService,
+    private _cocktailService: CocktailService,
+    private _dialog: MatDialog,
+    private _injector: Injector
+  ) {
     // Injects `ThemeService`, just to initialize it.
     this._injector.get(ThemeService);
 
