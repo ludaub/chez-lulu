@@ -8,6 +8,10 @@
     "name": "Un quartier de pomme"
   },
   {
+    "id": "berries",
+    "name": "Des fruits rouges"
+  },
+  {
     "id": "maraschino-cherry",
     "name": "Une cerise au marasquin"
   },
@@ -90,6 +94,10 @@
   {
     "id": "white-grape-stick",
     "name": "Un raisin blanc sur cure-dent"
+  },
+  {
+    "id": "rosemary-sprig",
+    "name": "Une tige de romarin"
   },
   {
     "id": "thyme-sprig",

@@ -77,6 +77,12 @@
     "available": true
   },
   {
+    "id": "blackcurrant-liqueur",
+    "name": "Crème de cassis",
+    "brand": "Lejay",
+    "available": false
+  },
+  {
     "id": "amaro-carciofo",
     "name": "Cynar",
     "available": false
@@ -128,7 +134,7 @@
   {
     "id": "cherry-liqueur",
     "name": "Liqueur de cerise",
-    "brand": "Heering",
+    "brand": "Cherry Rocher",
     "available": false
   },
   {
