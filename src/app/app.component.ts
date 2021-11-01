@@ -20,12 +20,14 @@ import { AppliedTheme } from '@app/shared/typings/theme';
 })
 export class AppComponent implements OnInit, OnDestroy {
   @ViewChild('filtersDialog') filtersDialog!: TemplateRef<any>;
-  @HostBinding('class') private _class!: AppliedTheme;
+  @HostBinding('class') private _class: AppliedTheme;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
   constructor(public app: AppService, private _dialog: MatDialog, private _injector: Injector) {
     // Injects `ThemeService`, just to initialize it.
     this._injector.get(ThemeService);
+
+    this._class = this.app.appliedTheme;
   }
 
   ngOnInit(): void {
