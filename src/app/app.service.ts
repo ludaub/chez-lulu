@@ -105,6 +105,7 @@ export class AppService {
   }
   set filters(filters: Array<Ingredient['id']>) {
     this._filters.next(filters);
+    localStorage.setItem('filters', JSON.stringify(filters));
   }
   private readonly _filters = new BehaviorSubject<Array<Ingredient['id']>>([]);
   readonly filters$ = this._filters as Observable<Array<Ingredient['id']>>;
@@ -168,6 +169,7 @@ export class AppService {
       this.garnishes = result.garnishes;
       this.glasses = result.glasses;
       this.ingredients = result.ingredients;
+      this.filters = JSON.parse(localStorage.getItem('filters') ?? '[]');
       this.availability = (localStorage.getItem('availability') as Availability) ?? 'available'; // Triggers filtering.
     });
   }
