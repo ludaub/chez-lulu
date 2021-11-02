@@ -1,5 +1,4 @@
 import { Component, HostBinding, Injector, OnDestroy, OnInit, TemplateRef, ViewChild } from '@angular/core';
-import { MatButtonToggleChange } from '@angular/material/button-toggle';
 import { MatDialog } from '@angular/material/dialog';
 
 import { Subject } from 'rxjs';
@@ -8,8 +7,9 @@ import { distinctUntilChanged, takeUntil } from 'rxjs/operators';
 import { AppService } from '@app/app.service';
 import { CocktailDetailDialogComponent } from '@app/cocktails/cocktail-detail-dialog/cocktail-detail-dialog.component';
 import { Cocktail } from '@app/cocktails/shared/cocktail';
-import { CocktailService } from './cocktails/shared/cocktail.service';
+import { CocktailService } from '@app/cocktails/shared/cocktail.service';
 import { ThemeService } from '@app/core/theme.service';
+import { FiltersDialogComponent } from '@app/core/filters-dialog/filters-dialog.component';
 import { Ingredient } from '@app/shared/models/ingredient';
 import { Availability } from '@app/shared/typings/availability';
 import { AppliedTheme } from '@app/shared/typings/theme';
@@ -20,7 +20,6 @@ import { AppliedTheme } from '@app/shared/typings/theme';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit, OnDestroy {
-  @ViewChild('filtersDialog') filtersDialog!: TemplateRef<any>;
   @HostBinding('class') private _class: AppliedTheme;
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
@@ -46,22 +45,12 @@ export class AppComponent implements OnInit, OnDestroy {
     return this._cocktailService.getByAvailability(availability);
   }
 
-  getCocktailsByIngredient(ingredient: Ingredient): Array<Cocktail> {
-    return this._cocktailService.getByIngredient(ingredient);
-  }
-
   identifyCocktail(index: number, cocktail: Cocktail): Cocktail['id'] {
     return cocktail.id;
   }
 
   getGlassIconByCocktail(cocktail: Cocktail): string {
     return this.app.glasses.find((glass) => glass.id === cocktail.glassId)?.icon ?? '';
-  }
-
-  getFilterableIngredients(): Array<Ingredient> {
-    return this.app.ingredients
-      .filter((ingredient) => this.getCocktailsByIngredient(ingredient).length > 0)
-      .filter((ingredient) => ingredient.filterable || ingredient.filterable === undefined);
   }
 
   isIngredientFiltered(ingredient: Ingredient): boolean {
@@ -73,11 +62,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   openfiltersDialog(): void {
-    this._dialog.open(this.filtersDialog, { panelClass: 'filters-dialog' });
-  }
-
-  resetFilters(): void {
-    this.app.filters = [];
+    this._dialog.open(FiltersDialogComponent, { panelClass: 'filters-dialog' });
   }
 
   ngOnDestroy(): void {

@@ -123,29 +123,3 @@
 >
   <mat-icon>filter_list</mat-icon>
 </button>
-
-<ng-template #filtersDialog>
-  <h2 mat-dialog-title class="filters-dialog-title">Filtres</h2>
-
-  <mat-dialog-content>
-    <mat-selection-list #filterList (click)="$event.stopPropagation()" [(ngModel)]="app.filters">
-      <mat-list-option *ngFor="let ingredient of getFilterableIngredients()" [value]="ingredient.id">
-        <span [class.unavailable]="!ingredient.available">
-          {{ ingredient.name }} ({{ getCocktailsByIngredient(ingredient).length }})
-        </span>
-      </mat-list-option>
-    </mat-selection-list>
-  </mat-dialog-content>
-
-  <mat-dialog-actions align="center">
-    <button
-      mat-button
-      class="filters-dialog-button filters-dialog-reset-button"
-      [disabled]="!app.filters.length"
-      (click)="resetFilters()"
-    >
-      Réinitialiser
-    </button>
-    <button mat-button mat-dialog-close class="filters-dialog-button filters-dialog-close-button">Fermer</button>
-  </mat-dialog-actions>
-</ng-template>

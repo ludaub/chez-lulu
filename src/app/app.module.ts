@@ -3,11 +3,12 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 
 import { AppComponent } from '@app/app.component';
 import { CocktailDetailDialogComponent } from '@app/cocktails/cocktail-detail-dialog/cocktail-detail-dialog.component';
+import { FiltersDialogComponent } from '@app/core/filters-dialog/filters-dialog.component';
 import { SharedModule } from '@app/shared/shared.module';
 import { environment } from '@env/environment';
 
 @NgModule({
-  declarations: [AppComponent, CocktailDetailDialogComponent],
+  declarations: [AppComponent, CocktailDetailDialogComponent, FiltersDialogComponent],
   imports: [
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
