@@ -622,6 +622,35 @@
     "glassId": "coupe"
   },
   {
+    "id": "bottechia",
+    "name": "Bottechia",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-carciofo",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-fernet",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "salt",
+        "quantity": 1,
+        "unit": "pincée"
+      }
+    ],
+    "garnishIds": ["grapefruit-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "boulevard",
     "name": "Boulevard",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -2481,6 +2510,30 @@
     "glassId": "wine"
   },
   {
+    "id": "little-italy",
+    "name": "Little Italy",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-carciofo",
+        "quantity": 1.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["maraschino-cherry"],
+    "glassId": "coupe"
+  },
+  {
     "id": "london-gypsy",
     "name": "London Gypsy",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -3218,16 +3271,16 @@
   },
   {
     "id": "cherry-negroni",
-    "name": "cherry Negroni",
+    "name": "Cherry Negroni",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
     "ingredientIds": [
       {
-        "id": "cherry-liqueur",
+        "id": "london-dry-gin",
         "quantity": 2,
         "unit": "cl"
       },
       {
-        "id": "london-dry-gin",
+        "id": "cherry-liqueur",
         "quantity": 2,
         "unit": "cl"
       },
@@ -3330,6 +3383,35 @@
       }
     ],
     "garnishIds": ["discarded-lemon-zest-twist", "orange-wedge"],
+    "glassId": "old-fashioned"
+  },
+  {
+    "id": "rhubarb-negroni",
+    "name": "Rhubarb Negroni",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-rabarbaro",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "old-fashioned"
   },
   {
@@ -3932,38 +4014,6 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "nick-&-nora"
-  },
-  {
-    "id": "ragtime",
-    "name": "Ragtime",
-    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi rincé à l'absinthe.",
-    "ingredientIds": [
-      {
-        "id": "absinthe"
-      },
-      {
-        "id": "rye-whiskey",
-        "quantity": 4.5,
-        "unit": "cl"
-      },
-      {
-        "id": "amaro",
-        "quantity": 3,
-        "unit": "cl"
-      },
-      {
-        "id": "bittersweet-aperitivo",
-        "quantity": 3,
-        "unit": "cl"
-      },
-      {
-        "id": "creole-bitter",
-        "quantity": 1,
-        "unit": "trait"
-      }
-    ],
-    "garnishIds": ["orange-zest-twist"],
-    "glassId": "coupe"
   },
   {
     "id": "ragtime",

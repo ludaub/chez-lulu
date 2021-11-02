@@ -14,7 +14,13 @@
   {
     "id": "amaro",
     "name": "Amaro",
-    "brand": "Montenegro",
+    "brand": "Averna",
+    "available": false
+  },
+  {
+    "id": "amaro-rabarbaro",
+    "name": "Amaro Rabarbaro",
+    "brand": "Zucca",
     "available": false
   },
   {
@@ -134,7 +140,7 @@
   {
     "id": "cherry-liqueur",
     "name": "Liqueur de cerise",
-    "brand": "Cherry Rocher",
+    "brand": "Heering",
     "available": false
   },
   {
@@ -286,5 +292,19 @@
     "name": "Tonic",
     "brand": "Fever Tree",
     "available": true
+  },
+  {
+    "id": "salt",
+    "name": "Sel",
+    "brand": "",
+    "available": true,
+    "filterable": false
+  },
+  {
+    "id": "pepper",
+    "name": "Poivre",
+    "brand": "",
+    "available": true,
+    "filterable": false
   }
 ]
