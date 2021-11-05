@@ -1726,6 +1726,35 @@
     "glassId": "coupe"
   },
   {
+    "id": "fancy-free",
+    "name": "Fancy Free",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "bourbon-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "maraschino-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 3,
+        "unit": "traits"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "fin-de-siecle",
     "name": "Fin de Siècle",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -3646,6 +3675,30 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "old-pal",
+    "name": "Old Pal",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-slice"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "opera",
     "name": "Opera",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -4167,6 +4220,35 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "rob-roy",
+    "name": "Rob Roy",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "scotch-whisky",
+        "quantity": 5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      },
+      {
+        "id": "creole-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["maraschino-cherry"],
+    "glassId": "coupe"
+  },
+  {
     "id": "sainte-trinite",
     "name": "Sainte Trinité",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -4561,6 +4643,35 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "flute"
+  },
+  {
+    "id": "toronto",
+    "name": "Toronto",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 5,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-fernet",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "sugar-syrup",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["maraschino-cherry"],
+    "glassId": "coupe"
   },
   {
     "id": "tratto-limoncello",

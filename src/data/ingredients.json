@@ -3,308 +3,361 @@
     "id": "absinthe",
     "name": "Absinthe",
     "brand": "Pernod",
-    "available": false
+    "available": false,
+    "categoryId": "spirit"
   },
   {
     "id": "amaretto-liqueur",
     "name": "Amaretto",
     "brand": "Disaronno Originale",
-    "available": true
+    "available": true,
+    "categoryId": "liqueur"
   },
   {
     "id": "amaro",
     "name": "Amaro",
     "brand": "Averna",
-    "available": false
+    "available": false,
+    "categoryId": "amaro"
   },
   {
     "id": "amaro-rabarbaro",
     "name": "Amaro Rabarbaro",
     "brand": "Zucca",
-    "available": false
+    "available": false,
+    "categoryId": "amaro"
   },
   {
     "id": "americano-bianco",
     "name": "Americano Bianco",
     "brand": "Cocchi",
-    "available": true
+    "available": true,
+    "categoryId": "aperitif"
   },
   {
     "id": "bittersweet-aperitivo",
     "name": "Aperol",
-    "available": true
+    "available": true,
+    "categoryId": "amaro"
   },
   {
     "id": "benedictine-liqueur",
     "name": "Bénédictine",
-    "available": true
+    "available": true,
+    "categoryId": "liqueur"
   },
   {
     "id": "bourbon-whiskey",
     "name": "Bourbon",
     "brand": "Maker's Mark",
-    "available": true
+    "available": true,
+    "categoryId": "spirit"
   },
   {
     "id": "byrrh",
     "name": "Byrrh",
-    "available": true
+    "available": true,
+    "categoryId": "aperitif"
   },
   {
     "id": "calvados",
     "name": "Calvados",
     "brand": "Christian Drouin Sélection",
-    "available": true
+    "available": true,
+    "categoryId": "spirit"
   },
   {
     "id": "italian-red-bitter-liqueur",
     "name": "Campari",
-    "available": true
+    "available": true,
+    "categoryId": "amaro"
   },
   {
     "id": "yellow-chartreuse",
     "name": "Chartreuse jaune",
-    "available": true
+    "available": true,
+    "categoryId": "liqueur"
   },
   {
     "id": "green-chartreuse",
     "name": "Chartreuse verte",
-    "available": true
+    "available": true,
+    "categoryId": "liqueur"
   },
   {
     "id": "cognac",
     "name": "Cognac",
     "brand": "Pierre Ferrand 1840",
-    "available": false
+    "available": true,
+    "categoryId": "spirit"
   },
   {
     "id": "triple-sec-liqueur",
     "name": "Cointreau",
-    "available": true
+    "available": true,
+    "categoryId": "liqueur"
   },
   {
     "id": "blackcurrant-liqueur",
     "name": "Crème de cassis",
     "brand": "Lejay",
-    "available": false
+    "available": false,
+    "categoryId": "liqueur"
   },
   {
     "id": "amaro-carciofo",
     "name": "Cynar",
-    "available": false
+    "available": false,
+    "categoryId": "amaro"
   },
   {
     "id": "red-dubonnet",
     "name": "Dubonnet rouge",
-    "available": false
+    "available": true,
+    "categoryId": "aperitif"
   },
   {
     "id": "amaro-fernet",
     "name": "Fernet-Branca",
-    "available": false
+    "available": false,
+    "categoryId": "amaro"
   },
   {
     "id": "london-dry-gin",
     "name": "Gin",
     "brand": "Beefeater",
-    "available": true
+    "available": true,
+    "categoryId": "spirit"
   },
   {
     "id": "cognac-orange-liqueur",
     "name": "Grand Marnier",
-    "available": true
+    "available": true,
+    "categoryId": "liqueur"
   },
   {
     "id": "white-lillet",
     "name": "Lillet blanc",
-    "available": true
+    "available": true,
+    "categoryId": "aperitif"
   },
   {
     "id": "limoncello",
     "name": "Limoncello",
     "brand": "Pallini",
-    "available": false
+    "available": false,
+    "categoryId": "liqueur"
   },
   {
     "id": "bergamot-liqueur",
     "name": "Liqueur de bergamote",
     "brand": "Italicus",
-    "available": false
+    "available": false,
+    "categoryId": "liqueur"
   },
   {
     "id": "coffee-liqueur",
     "name": "Liqueur de café",
     "brand": "Mr Black",
-    "available": false
+    "available": false,
+    "categoryId": "liqueur"
   },
   {
     "id": "cherry-liqueur",
     "name": "Liqueur de cerise",
     "brand": "Heering",
-    "available": false
+    "available": false,
+    "categoryId": "liqueur"
   },
   {
     "id": "whisky-liqueur",
     "name": "Liqueur de whisky",
     "brand": "Drambuie",
-    "available": false
+    "available": false,
+    "categoryId": "liqueur"
   },
   {
     "id": "mandarin-liqueur",
     "name": "Mandarine Napoléon",
-    "available": true
+    "available": true,
+    "categoryId": "liqueur"
   },
   {
     "id": "maraschino-liqueur",
     "name": "Marasquin",
     "brand": "Luxardo",
-    "available": false
+    "available": false,
+    "categoryId": "liqueur"
   },
   {
     "id": "white-mint-liqueur",
     "name": "Menthe-Pastille",
-    "available": true
+    "available": true,
+    "categoryId": "liqueur"
   },
   {
     "id": "mezcal",
     "name": "Mezcal",
     "brand": "Del Maguey Vida",
-    "available": false
+    "available": false,
+    "categoryId": "spirit"
   },
   {
     "id": "amer",
     "name": "Picon",
-    "available": true
+    "available": true,
+    "categoryId": "amaro"
   },
   {
     "id": "full-bodied-vermouth",
     "name": "Punt E Mes",
-    "available": false
+    "available": false,
+    "categoryId": "vermouth"
   },
   {
     "id": "light-rum",
     "name": "Rhum blanc",
     "brand": "Havana Club 3 ans",
-    "available": true
+    "available": true,
+    "categoryId": "spirit"
   },
   {
     "id": "agricole-rum",
     "name": "Rhum blanc agricole",
     "brand": "",
-    "available": false
+    "available": false,
+    "categoryId": "spirit"
   },
   {
     "id": "aged-rum",
     "name": "Rhum vieux",
     "brand": "",
-    "available": false
+    "available": false,
+    "categoryId": "spirit"
   },
   {
     "id": "elderflower-liqueur",
     "name": "St-Germain",
-    "available": false
+    "available": false,
+    "categoryId": "liqueur"
   },
   {
     "id": "gentian-liqueur",
     "name": "Suze",
-    "available": true
+    "available": true,
+    "categoryId": "liqueur"
   },
   {
     "id": "dry-vermouth",
     "name": "Vermouth sec",
     "brand": "Dolin",
-    "available": true
+    "available": true,
+    "categoryId": "vermouth"
   },
   {
     "id": "white-vermouth",
     "name": "Vermouth blanc",
     "brand": "Dolin",
-    "available": false
+    "available": false,
+    "categoryId": "vermouth"
   },
   {
     "id": "sweet-vermouth",
     "name": "Vermouth doux",
     "brand": "Cocchi",
-    "available": true
+    "available": true,
+    "categoryId": "vermouth"
   },
   {
     "id": "rye-whiskey",
     "name": "Rye whiskey",
     "brand": "Rittenhouse",
-    "available": true
+    "available": true,
+    "categoryId": "spirit"
   },
   {
     "id": "scotch-whisky",
     "name": "Scotch whisky",
     "brand": "Monkey Shoulder",
-    "available": true
+    "available": true,
+    "categoryId": "spirit"
   },
   {
     "id": "peated-whisky",
     "name": "Scotch whisky tourbé",
     "brand": "Laphroaig 10 ans",
-    "available": false
+    "available": false,
+    "categoryId": "spirit"
   },
   {
     "id": "aromatic-bitter",
     "name": "Bitter aromatique",
     "brand": "Angostura",
     "available": true,
-    "filterable": false
+    "filterable": false,
+    "categoryId": "bitter"
   },
   {
     "id": "creole-bitter",
     "name": "Bitter créole",
     "brand": "Peychaud",
     "available": true,
-    "filterable": false
+    "filterable": false,
+    "categoryId": "bitter"
   },
   {
     "id": "orange-bitter",
     "name": "Bitter orange",
     "brand": "Regans'",
     "available": true,
-    "filterable": false
+    "filterable": false,
+    "categoryId": "bitter"
   },
   {
     "id": "grenadine-syrup",
     "name": "Sirop de grenadine",
     "brand": "Giffard",
     "available": false,
-    "filterable": false
+    "filterable": false,
+    "categoryId": "syrup"
   },
   {
     "id": "sugar-syrup",
     "name": "Sirop de sucre",
     "brand": "Giffard",
     "available": true,
-    "filterable": false
+    "filterable": false,
+    "categoryId": "syrup"
   },
   {
     "id": "soda-water",
     "name": "Eau gazeuse",
     "brand": "",
     "available": true,
-    "filterable": false
+    "filterable": false,
+    "categoryId": "tonic-water"
   },
   {
     "id": "tonic-water",
     "name": "Tonic",
     "brand": "Fever Tree",
-    "available": true
+    "available": true,
+    "categoryId": "tonic-water"
   },
   {
     "id": "salt",
     "name": "Sel",
     "brand": "",
     "available": true,
-    "filterable": false
+    "filterable": false,
+    "categoryId": "herb-spice"
   },
   {
     "id": "pepper",
     "name": "Poivre",
     "brand": "",
     "available": true,
-    "filterable": false
+    "filterable": false,
+    "categoryId": "herb-spice"
   }
 ]
