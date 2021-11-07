@@ -155,7 +155,7 @@ export class AppService {
   /**
    * Whether user has a system theme defined.
    */
-  get hasSystemTheme() {
+  get hasSystemTheme(): boolean {
     return this._hasSystemTheme;
   }
   set hasSystemTheme(has: boolean) {
