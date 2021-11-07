@@ -1,0 +1,39 @@
+[
+  {
+    "id": "spirit",
+    "name": "Spiritueux"
+  },
+  {
+    "id": "liqueur",
+    "name": "Liqueurs"
+  },
+  {
+    "id": "vermouth",
+    "name": "Vermouths"
+  },
+  {
+    "id": "amaro",
+    "name": "Amers"
+  },
+  {
+    "id": "aperitif",
+    "name": "Apéritifs"
+  },
+  {
+    "id": "bitter",
+    "name": "Bitters"
+  },
+  {
+    "id": "syrup",
+    "name": "Sirops"
+  },
+  {
+    "id": "tonic-water",
+    "name": "Eaux & Tonics"
+  },
+  {
+    "id": "herb-spice",
+    "name": "Herbes & Épices",
+    "filterable": false
+  }
+]

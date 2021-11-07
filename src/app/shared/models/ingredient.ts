@@ -1,3 +1,5 @@
+import { Category } from '@app/shared/models/category';
+
 export interface Ingredient {
   id: string;
   name: string;
@@ -6,7 +8,10 @@ export interface Ingredient {
 
   /**
    * Ingredient will be considered as filterable if let undefined;
-   * has to be explicitly set to false to be unfilterable.
+   * has to be explicitly set to `false` to be unfilterable.
    */
   filterable?: boolean;
+
+  categoryId: Category['id'];
+  category?: Category;
 }
