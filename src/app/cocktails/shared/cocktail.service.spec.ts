@@ -17,7 +17,7 @@ describe('CocktailService', () => {
     service = TestBed.inject(CocktailService);
   });
 
-  test('the service is created', () => {
+  it('should create the service', () => {
     expect(service).toBeTruthy();
   });
 });

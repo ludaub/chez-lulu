@@ -24,7 +24,7 @@ describe('CocktailDetailDialogComponent', () => {
     fixture.detectChanges();
   });
 
-  test('the component is created', () => {
+  it('should create the component', () => {
     expect(component).toBeTruthy();
   });
 });
