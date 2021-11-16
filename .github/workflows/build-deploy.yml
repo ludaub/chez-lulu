@@ -21,7 +21,7 @@ jobs:
       - name: Generate coverage badges
         uses: emibcn/clover-coverage-badges-action@v1
         with:
-          coverage-clover-path: .coverage/coverage-summary.json
+          coverage-summary-path: ./coverage/coverage-summary.json
       - name: Build
         run: npm run build:prod
       - name: Deploy
