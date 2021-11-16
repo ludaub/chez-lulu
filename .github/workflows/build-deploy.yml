@@ -22,6 +22,7 @@ jobs:
         uses: emibcn/clover-coverage-badges-action@v1
         with:
           coverage-summary-path: ./coverage/coverage-summary.json
+          github_token: '${{ secrets.GITHUB_TOKEN }}'
       - name: Build
         run: npm run build:prod
       - name: Deploy
