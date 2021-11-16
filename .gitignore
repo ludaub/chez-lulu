@@ -32,10 +32,11 @@ chrome-profiler-events*.json
 
 # misc
 /.angular/cache
+/.coverage
 /.sass-cache
 /connect.lock
-/coverage
 /libpeerconnection.log
+.eslintcache
 npm-debug.log
 yarn-error.log
 testem.log
@@ -44,5 +45,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
-.eslintcache

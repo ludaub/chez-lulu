@@ -19,9 +19,9 @@ jobs:
       - name: Tests
         run: npm run test:ci
       - name: Generate coverage badges
-        uses: jpb06/jest-badges-action@latest
+        uses: emibcn/clover-coverage-badges-action@v1
         with:
-          branches: master
+          coverage-clover-path: .coverage/coverage-summary.json
       - name: Build
         run: npm run build:prod
       - name: Deploy
