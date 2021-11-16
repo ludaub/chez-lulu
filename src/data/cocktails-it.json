@@ -1,0 +1,45 @@
+[
+  {
+    "id": "americano",
+    "name": "Americano",
+    "recipe": "Verser tous les ingrédients dans le verre et compléter avec de la glace.",
+    "ingredientIds": [
+      {
+        "id": "italian-red-bitter-liqueur",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "soda-water",
+        "quantity": 7.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-slice"],
+    "glassId": "collins"
+  },
+  {
+    "id": "bonzoni",
+    "name": "Bonzoni",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-fernet",
+        "quantity": 4.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["maraschino-cherry"],
+    "glassId": "coupe"
+  }
+]
