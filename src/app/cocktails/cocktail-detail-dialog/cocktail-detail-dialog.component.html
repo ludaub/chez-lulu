@@ -47,7 +47,7 @@
           <span
             class="cocktail-ingredient-name-brand-word"
             [class.uppercase]="word.isNumber()"
-            *ngFor="let word of ingredient.brand?.getWords(); let i = index"
+            *ngFor="let word of ingredient.brand!.getWords(); let i = index"
             ><!--
             This comment prevents from additional white space.
             -->{{ word
