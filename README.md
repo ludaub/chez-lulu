@@ -1,6 +1,6 @@
 # Chez Lulu
 
-![Code coverage](./badges/coverage-global%20coverage.svg)
+![Code coverage](./badges/coverage/coverage.svg)
 ![Build and deploy](https://github.com/ludaub/chez-lulu/actions/workflows/build-deploy.yml/badge.svg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
