@@ -9,11 +9,11 @@
   }
 
   .title {
-    color: #f3e5f5;
+    color: #e8f5e9;
     display: flex;
     font-family: 'Pacifico', cursive;
     text-align: center;
-    text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9, 0 0 48px #d500f9;
+    text-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676, 0 0 48px #00e676;
   }
 
   @media screen and (min-width: 320px) {
@@ -73,8 +73,8 @@
 
   .theme-button-container {
     .theme-button-icon {
-      color: #f3e5f5;
-      text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
+      color: #e8f5e9;
+      text-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676;
     }
   }
 
@@ -103,14 +103,14 @@
     color: #fafafa !important;
 
     &.has-filters {
-      background-color: #f3e5f5 !important;
-      box-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9 !important;
+      background-color: #e8f5e9 !important;
+      box-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676 !important;
       color: #303030 !important;
     }
 
     .mat-badge-content {
-      background-color: #f3e5f5 !important;
-      box-shadow: 0 0 3px #f3e5f5, 0 0 6px #f3e5f5, 0 0 9px #d500f9, 0 0 12px #d500f9 !important;
+      background-color: #e8f5e9 !important;
+      box-shadow: 0 0 3px #e8f5e9, 0 0 6px #e8f5e9, 0 0 9px #00e676, 0 0 12px #00e676 !important;
       color: #303030 !important;
     }
   }

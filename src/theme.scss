@@ -6,32 +6,32 @@
 
 @include mat.core();
 
-$dark-theme-purple: (
-  50: #fae0fe,
-  100: #f2b3fd,
-  200: #ea80fc,
-  300: #e24dfb,
-  400: #db26fa,
-  500: #d500f9,
-  600: #d000f8,
-  700: #ca00f7,
-  800: #c400f6,
-  900: #ba00f5,
-  A100: #fff,
-  A200: #f9e8ff,
-  A400: #ebb5ff,
-  A700: #e49cff,
+$dark-theme-green: (
+  50: #e0fcef,
+  100: #b3f8d6,
+  200: #80f3bb,
+  300: #4dee9f,
+  400: #26ea8b,
+  500: #00e676,
+  600: #00e36e,
+  700: #00df63,
+  800: #00db59,
+  900: #00d546,
+  A100: #fcfffd,
+  A200: #c9ffd7,
+  A400: #96ffb2,
+  A700: #7dff9f,
   contrast: (
     50: #000,
     100: #000,
     200: #000,
     300: #000,
-    400: #fff,
-    500: #fff,
-    600: #fff,
-    700: #fff,
-    800: #fff,
-    900: #fff,
+    400: #000,
+    500: #000,
+    600: #000,
+    700: #000,
+    800: #000,
+    900: #000,
     A100: #000,
     A200: #000,
     A400: #000,
@@ -72,8 +72,8 @@ $light-theme-red: (
   ),
 );
 
-$dark-theme-primary: mat.define-palette($dark-theme-purple, 500);
-$dark-theme-accent: mat.define-palette($dark-theme-purple, 500);
+$dark-theme-primary: mat.define-palette($dark-theme-green, 500);
+$dark-theme-accent: mat.define-palette($dark-theme-green, 500);
 
 $dark-theme: mat.define-dark-theme(
   (
@@ -123,18 +123,18 @@ $light-theme: mat.define-light-theme(
   }
 
   .mat-pseudo-checkbox-checked {
-    background-color: #f3e5f5 !important;
-    box-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
-    color: #d500f9 !important;
+    background-color: #e8f5e9 !important;
+    box-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676;
+    color: #00e676 !important;
   }
 
   .mat-radio-checked .mat-radio-inner-circle {
-    background-color: #f3e5f5 !important;
+    background-color: #e8f5e9 !important;
   }
 
   .mat-radio-checked .mat-radio-outer-circle {
-    border-color: #f3e5f5 !important;
-    box-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
+    border-color: #e8f5e9 !important;
+    box-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676;
   }
 
   .toggle-group .mat-button-toggle {
@@ -145,11 +145,11 @@ $light-theme: mat.define-light-theme(
   }
 
   .toggle-group .mat-button-toggle-checked {
-    color: #f3e5f5 !important;
+    color: #e8f5e9 !important;
   }
 
   .mat-button-toggle-checked .mat-button-toggle-label-content {
-    text-shadow: 0 0 6px #f3e5f5, 0 0 12px #f3e5f5, 0 0 18px #d500f9, 0 0 24px #d500f9;
+    text-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676;
   }
 
   .theme-menu .theme-radio-button {
