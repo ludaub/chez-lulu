@@ -137,15 +137,21 @@ $light-theme: mat.define-light-theme(
     box-shadow: 0 0 6px #e8f5e9, 0 0 12px #e8f5e9, 0 0 18px #00e676, 0 0 24px #00e676;
   }
 
+  .toggle-group {
+    border-color: #6d6d6d !important;
+  }
+
   .toggle-group .mat-button-toggle {
-    background-color: transparent;
     color: #8d8d8d;
     font-family: 'Exo 2', sans-serif;
-    letter-spacing: 8px;
   }
 
   .toggle-group .mat-button-toggle-checked {
     color: #e8f5e9 !important;
+  }
+
+  .mat-button-toggle + .mat-button-toggle::before {
+    color: #8d8d8d;
   }
 
   .mat-button-toggle-checked .mat-button-toggle-label-content {
@@ -157,7 +163,7 @@ $light-theme: mat.define-light-theme(
   }
 
   .cocktail-detail .cocktail-ingredient {
-    border-bottom: dotted #6d6d6d;
+    border-color: #6d6d6d;
   }
 
   // stylelint-disable selector-max-compound-selectors
@@ -171,11 +177,7 @@ $light-theme: mat.define-light-theme(
   }
 
   .filters-dialog .mat-list-item {
-    border-bottom: dotted #6d6d6d;
-  }
-
-  .filters-dialog .mat-list-item:last-of-type {
-    border: 0;
+    border-color: #6d6d6d !important;
   }
 }
 
@@ -223,17 +225,12 @@ $light-theme: mat.define-light-theme(
   }
 
   .toggle-group {
-    border: 0;
-    border-bottom: 4px double #bcaaa4;
-    border-radius: 0;
+    border-color: #bcaaa4 !important;
   }
 
   .toggle-group .mat-button-toggle {
-    background-color: transparent;
-    border: 0 !important;
     color: #bcaaa4;
     font-family: 'Libre Franklin', sans-serif;
-    letter-spacing: 8px;
   }
 
   .toggle-group .mat-button-toggle-checked {
@@ -242,36 +239,6 @@ $light-theme: mat.define-light-theme(
 
   .mat-button-toggle + .mat-button-toggle::before {
     color: #bcaaa4;
-    content: '\029EB';
-    position: absolute;
-  }
-
-  @media screen and (min-width: 320px) {
-    .mat-button-toggle + .mat-button-toggle::before {
-      bottom: 1px;
-      left: -4px;
-    }
-  }
-
-  @media screen and (min-width: 375px) {
-    .mat-button-toggle + .mat-button-toggle::before {
-      bottom: 1px;
-      left: -5px;
-    }
-  }
-
-  @media screen and (min-width: 425px) {
-    .mat-button-toggle + .mat-button-toggle::before {
-      bottom: 1px;
-      left: -6px;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-    .mat-button-toggle + .mat-button-toggle::before {
-      bottom: 8px;
-      left: -7px;
-    }
   }
 
   .cocktail-detail .cocktail-name {
@@ -280,7 +247,7 @@ $light-theme: mat.define-light-theme(
 
   // stylelint-disable no-descending-specificity
   .cocktail-detail .cocktail-ingredient {
-    border-bottom: 4px double #bcaaa4;
+    border-color: #bcaaa4;
   }
   // stylelint-enable no-descending-specificity
 
@@ -305,14 +272,8 @@ $light-theme: mat.define-light-theme(
     color: #260e04;
   }
 
-  // stylelint-disable no-descending-specificity
   .filters-dialog .mat-list-item {
-    border-bottom: 4px double #bcaaa4;
-  }
-  // stylelint-enable no-descending-specificity
-
-  .filters-dialog .mat-list-item:last-of-type {
-    border: 0;
+    border-color: #bcaaa4 !important;
   }
 
   .filters-dialog .mat-pseudo-checkbox {
