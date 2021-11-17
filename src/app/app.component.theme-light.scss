@@ -80,6 +80,10 @@
       border-color: #bcaaa4 !important;
     }
 
+    .cocktails .cocktail:focus {
+      background-color: #0000001f;
+    }
+
     .cocktails .cocktail-name {
       color: #7f0000;
     }

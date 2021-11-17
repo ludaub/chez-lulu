@@ -145,6 +145,10 @@
     font-family: 'Libre Baskerville', serif;
   }
 
+  .cocktails .cocktail:focus {
+    outline: none;
+  }
+
   @media screen and (min-width: 320px) {
     .cocktails .cocktail {
       padding: 12px 0;

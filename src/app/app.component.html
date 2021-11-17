@@ -1,5 +1,5 @@
 <div class="container">
-  <mat-toolbar class="toolbar" role="heading">
+  <mat-toolbar class="toolbar" role="heading" aria-level="1">
     <div class="title-container">
       <h1 class="title">
         <span class="title-chez">Chez</span>
@@ -9,7 +9,7 @@
     </div>
 
     <div class="theme-button-container">
-      <button mat-icon-button [matMenuTriggerFor]="themeMenu">
+      <button mat-icon-button [matMenuTriggerFor]="themeMenu" aria-label="Choisir un thème">
         <mat-icon class="theme-button-icon" *ngIf="app.selectedTheme === 'light-theme'; else darkThemeIcon"
           >light_mode</mat-icon
         >
@@ -66,6 +66,11 @@
         class="cocktail"
         *ngFor="let cocktail of app.displayedCocktails; trackBy: identifyCocktail"
         (click)="openCocktailDetailDialog(cocktail)"
+        (keyup.enter)="openCocktailDetailDialog(cocktail)"
+        (keyup.space)="openCocktailDetailDialog(cocktail)"
+        aria-haspopup="dialog"
+        role="button"
+        tabindex="0"
       >
         <span class="cocktail-icon silhouette" [class.unavailable]="!cocktail.isAvailable()">{{
           getGlassIconByCocktail(cocktail)
@@ -120,6 +125,8 @@
   [matBadge]="app.filters.length"
   [matBadgeHidden]="!app.filters.length"
   [disabled]="!app.cocktails.length"
+  aria-haspopup="dialog"
+  aria-label="Ouvrir la fenêtre des filtres"
 >
   <mat-icon>filter_list</mat-icon>
 </button>
