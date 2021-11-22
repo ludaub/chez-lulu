@@ -7,11 +7,38 @@
     "categoryId": "spirit"
   },
   {
-    "id": "anisette-liqueur",
-    "name": "Anisette",
-    "brand": "Marie Brizard",
-    "available": false,
+    "id": "amaretto-liqueur",
+    "name": "Amaretto",
+    "brand": "Disaronno Originale",
+    "available": true,
     "categoryId": "liqueur"
+  },
+  {
+    "id": "amaro",
+    "name": "Amaro",
+    "brand": "Averna",
+    "available": false,
+    "categoryId": "amaro"
+  },
+  {
+    "id": "amaro-rabarbaro",
+    "name": "Amaro Rabarbaro",
+    "brand": "Zucca",
+    "available": false,
+    "categoryId": "amaro"
+  },
+  {
+    "id": "americano-bianco",
+    "name": "Americano Bianco",
+    "brand": "Cocchi",
+    "available": true,
+    "categoryId": "aperitif"
+  },
+  {
+    "id": "bittersweet-aperitivo",
+    "name": "Aperol",
+    "available": true,
+    "categoryId": "amaro"
   },
   {
     "id": "benedictine-liqueur",
@@ -40,7 +67,7 @@
     "categoryId": "spirit"
   },
   {
-    "id": "italian-red-bitter",
+    "id": "italian-red-bitter-liqueur",
     "name": "Campari",
     "available": true,
     "categoryId": "amaro"
@@ -78,13 +105,6 @@
     "categoryId": "liqueur"
   },
   {
-    "id": "orange-curacao-liqueur",
-    "name": "Curaçao",
-    "brand": "Pierre Ferrand",
-    "available": false,
-    "categoryId": "liqueur"
-  },
-  {
     "id": "amaro-carciofo",
     "name": "Cynar",
     "available": false,
@@ -116,30 +136,50 @@
     "categoryId": "liqueur"
   },
   {
-    "id": "kirsch",
-    "name": "Kirsch",
-    "brand": "Jacobert",
-    "available": false,
-    "categoryId": "spirit"
-  },
-  {
     "id": "white-lillet",
     "name": "Lillet blanc",
     "available": true,
     "categoryId": "aperitif"
   },
   {
-    "id": "cherry-liqueur",
-    "name": "Liqueur de cerise",
-    "brand": "Cherry Rocher",
+    "id": "limoncello",
+    "name": "Limoncello",
+    "brand": "Pallini",
     "available": false,
     "categoryId": "liqueur"
   },
   {
-    "id": "apricot-liqueur",
-    "name": "Liqueur d'Abricot",
-    "brand": "Merlet",
+    "id": "bergamot-liqueur",
+    "name": "Liqueur de bergamote",
+    "brand": "Italicus",
     "available": false,
+    "categoryId": "liqueur"
+  },
+  {
+    "id": "coffee-liqueur",
+    "name": "Liqueur de café",
+    "brand": "Mr Black",
+    "available": false,
+    "categoryId": "liqueur"
+  },
+  {
+    "id": "cherry-liqueur",
+    "name": "Liqueur de cerise",
+    "brand": "Heering",
+    "available": false,
+    "categoryId": "liqueur"
+  },
+  {
+    "id": "whisky-liqueur",
+    "name": "Liqueur de whisky",
+    "brand": "Drambuie",
+    "available": false,
+    "categoryId": "liqueur"
+  },
+  {
+    "id": "mandarin-liqueur",
+    "name": "Mandarine Napoléon",
+    "available": true,
     "categoryId": "liqueur"
   },
   {
@@ -156,16 +196,11 @@
     "categoryId": "liqueur"
   },
   {
-    "id": "green-mint-liqueur",
-    "name": "Peppermint",
-    "available": true,
-    "categoryId": "liqueur"
-  },
-  {
-    "id": "anise-liqueur",
-    "name": "Pernod",
+    "id": "mezcal",
+    "name": "Mezcal",
+    "brand": "Del Maguey Vida",
     "available": false,
-    "categoryId": "liqueur"
+    "categoryId": "spirit"
   },
   {
     "id": "amer",
@@ -180,32 +215,25 @@
     "categoryId": "vermouth"
   },
   {
-    "id": "irish-whiskey",
-    "name": "Irish whiskey",
-    "brand": "Jameson",
-    "available": false,
-    "categoryId": "spirit"
-  },
-  {
-    "id": "rye-whiskey",
-    "name": "Rye whiskey",
-    "brand": "Rittenhouse",
+    "id": "light-rum",
+    "name": "Rhum blanc",
+    "brand": "Havana Club 3 ans",
     "available": true,
     "categoryId": "spirit"
   },
   {
-    "id": "scotch-whisky",
-    "name": "Scotch whisky",
-    "brand": "Monkey Shoulder",
-    "available": true,
+    "id": "agricole-rum",
+    "name": "Rhum blanc agricole",
+    "brand": "",
+    "available": false,
     "categoryId": "spirit"
   },
   {
-    "id": "sloe-gin",
-    "name": "Sloe gin",
-    "brand": "Beefeater",
+    "id": "aged-rum",
+    "name": "Rhum vieux",
+    "brand": "",
     "available": false,
-    "categoryId": "liqueur"
+    "categoryId": "spirit"
   },
   {
     "id": "elderflower-liqueur",
@@ -222,7 +250,7 @@
   {
     "id": "dry-vermouth",
     "name": "Vermouth sec",
-    "brand": "Noilly Prat",
+    "brand": "Dolin",
     "available": true,
     "categoryId": "vermouth"
   },
@@ -239,6 +267,27 @@
     "brand": "Cocchi",
     "available": true,
     "categoryId": "vermouth"
+  },
+  {
+    "id": "rye-whiskey",
+    "name": "Rye whiskey",
+    "brand": "Rittenhouse",
+    "available": true,
+    "categoryId": "spirit"
+  },
+  {
+    "id": "scotch-whisky",
+    "name": "Scotch whisky",
+    "brand": "Monkey Shoulder",
+    "available": true,
+    "categoryId": "spirit"
+  },
+  {
+    "id": "peated-whisky",
+    "name": "Scotch whisky tourbé",
+    "brand": "Laphroaig 10 ans",
+    "available": false,
+    "categoryId": "spirit"
   },
   {
     "id": "aromatic-bitter",
@@ -273,26 +322,10 @@
     "categoryId": "syrup"
   },
   {
-    "id": "orgeat-syrup",
-    "name": "Sirop d'orgeat",
-    "brand": "Giffard",
-    "available": false,
-    "filterable": false,
-    "categoryId": "syrup"
-  },
-  {
     "id": "sugar-syrup",
     "name": "Sirop de sucre",
     "brand": "Giffard",
     "available": true,
-    "filterable": false,
-    "categoryId": "syrup"
-  },
-  {
-    "id": "gum-syrup",
-    "name": "Sirop de gomme",
-    "brand": "Giffard",
-    "available": false,
     "filterable": false,
     "categoryId": "syrup"
   },
@@ -302,13 +335,6 @@
     "brand": "",
     "available": true,
     "filterable": false,
-    "categoryId": "water"
-  },
-  {
-    "id": "ginger-ale",
-    "name": "Ginger Ale",
-    "brand": "Fever Tree",
-    "available": false,
     "categoryId": "water"
   },
   {

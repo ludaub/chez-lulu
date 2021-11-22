@@ -12,12 +12,12 @@
     "name": "Vermouths"
   },
   {
-    "id": "amaro",
-    "name": "Amers"
-  },
-  {
     "id": "aperitif",
     "name": "Apéritifs"
+  },
+  {
+    "id": "amaro",
+    "name": "Amers"
   },
   {
     "id": "bitter",
