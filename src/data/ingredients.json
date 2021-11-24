@@ -104,9 +104,16 @@
   },
   {
     "id": "london-dry-gin",
-    "name": "Gin",
+    "name": "London Dry gin",
     "brand": "Beefeater",
     "available": true,
+    "categoryId": "spirit"
+  },
+  {
+    "id": "old-tom-gin",
+    "name": "Old Tom gin",
+    "brand": "Hayman's",
+    "available": false,
     "categoryId": "spirit"
   },
   {
