@@ -2,7 +2,7 @@
   {
     "id": "americano",
     "name": "Americano",
-    "recipe": "Verser tous les ingrédients dans le verre et compléter avec de la glace.",
+    "recipe": "Verser les deux premiers ingrédients dans le verre rempli de glace, compléter avec l'eau gazeuse et mélanger.",
     "ingredientIds": [
       {
         "id": "italian-red-bitter-liqueur",
@@ -15,9 +15,7 @@
         "unit": "cl"
       },
       {
-        "id": "soda-water",
-        "quantity": 7.5,
-        "unit": "cl"
+        "id": "soda-water"
       }
     ],
     "garnishIds": ["orange-slice"],

@@ -7,6 +7,27 @@
     "categoryId": "spirit"
   },
   {
+    "id": "amaretto-liqueur",
+    "name": "Amaretto",
+    "brand": "Disaronno Originale",
+    "available": true,
+    "categoryId": "liqueur"
+  },
+  {
+    "id": "amaro",
+    "name": "Amaro",
+    "brand": "Averna",
+    "available": false,
+    "categoryId": "amaro"
+  },
+  {
+    "id": "amaro-rabarbaro",
+    "name": "Amaro Rabarbaro",
+    "brand": "Zucca",
+    "available": false,
+    "categoryId": "amaro"
+  },
+  {
     "id": "anisette-liqueur",
     "name": "Anisette",
     "brand": "Marie Brizard",

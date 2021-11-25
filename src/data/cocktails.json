@@ -24,6 +24,28 @@
     "glassId": "coupe"
   },
   {
+    "id": "americano",
+    "name": "Americano",
+    "recipe": "Verser les deux premiers ingrédients dans le verre rempli de glace, compléter avec l'eau gazeuse et mélanger.",
+    "ingredientIds": [
+      {
+        "id": "italian-red-bitter",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "soda-water"
+      }
+    ],
+    "garnishIds": ["orange-slice"],
+    "glassId": "collins"
+  },
+  {
     "id": "angel-face",
     "name": "Angel Face",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -99,6 +121,35 @@
     ],
     "garnishIds": ["maraschino-cherry"],
     "glassId": "old-fashioned"
+  },
+  {
+    "id": "bedford",
+    "name": "Bedford",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "red-dubonnet",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 0.5,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
   },
   {
     "id": "bensonhurst",
@@ -183,6 +234,64 @@
     "glassId": "coupe"
   },
   {
+    "id": "bitter-stripper",
+    "name": "Bitter Stripper",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "white-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "gentian-liqueur",
+        "quantity": 0.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "black-feather",
+    "name": "Black Feather",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "calvados",
+        "quantity": 6,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "triple-sec-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "aromatic-bitter",
+        "quantity": 1,
+        "unit": "trait"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "blackthorn",
     "name": "Blackthorn",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -246,7 +355,7 @@
         "unit": "cl"
       },
       {
-        "id": "italian-red-bitter-liqueur",
+        "id": "italian-red-bitter",
         "quantity": 3,
         "unit": "cl"
       }
@@ -281,6 +390,43 @@
       }
     ],
     "garnishIds": ["maraschino-cherry"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "brooklyn-heights",
+    "name": "Brooklyn Heights",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi rincé au Campari.",
+    "ingredientIds": [
+      {
+        "id": "italian-red-bitter"
+      },
+      {
+        "id": "rye-whiskey",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "maraschino-liqueur",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "dry-vermouth",
+        "quantity": 1.5,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-bitter",
+        "quantity": 2,
+        "unit": "traits"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -515,13 +661,13 @@
         "unit": "cl"
       },
       {
-        "id": "triple-sec-liqueur",
-        "quantity": 1.5,
+        "id": "red-dubonnet",
+        "quantity": 3,
         "unit": "cl"
       },
       {
-        "id": "red-dubonnet",
-        "quantity": 3,
+        "id": "triple-sec-liqueur",
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
@@ -1176,7 +1322,7 @@
         "unit": "cl"
       },
       {
-        "id": "italian-red-bitter-liqueur",
+        "id": "italian-red-bitter",
         "quantity": 3,
         "unit": "cl"
       },
