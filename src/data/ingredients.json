@@ -108,7 +108,7 @@
   {
     "id": "amaro-carciofo",
     "name": "Cynar",
-    "available": false,
+    "available": true,
     "categoryId": "amaro"
   },
   {
@@ -174,7 +174,7 @@
     "id": "maraschino-liqueur",
     "name": "Marasquin",
     "brand": "Luxardo",
-    "available": false,
+    "available": true,
     "categoryId": "liqueur"
   },
   {
@@ -204,7 +204,7 @@
   {
     "id": "full-bodied-vermouth",
     "name": "Punt E Mes",
-    "available": false,
+    "available": true,
     "categoryId": "vermouth"
   },
   {
