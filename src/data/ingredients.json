@@ -92,9 +92,23 @@
     "categoryId": "liqueur"
   },
   {
+    "id": "cacao-liqueur",
+    "name": "Crème de cacao",
+    "brand": "Tempus Fugit",
+    "available": false,
+    "categoryId": "liqueur"
+  },
+  {
     "id": "blackcurrant-liqueur",
     "name": "Crème de cassis",
     "brand": "Lejay",
+    "available": false,
+    "categoryId": "liqueur"
+  },
+  {
+    "id": "violet-liqueur",
+    "name": "Crème de violette",
+    "brand": "Benoit Serres",
     "available": false,
     "categoryId": "liqueur"
   },
@@ -149,6 +163,13 @@
     "brand": "Jacobert",
     "available": false,
     "categoryId": "spirit"
+  },
+  {
+    "id": "kummel-liqueur",
+    "name": "Kummel",
+    "brand": "Combier",
+    "available": false,
+    "categoryId": "liqueur"
   },
   {
     "id": "white-lillet",
