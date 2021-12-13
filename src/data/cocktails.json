@@ -327,12 +327,12 @@
       },
       {
         "id": "dry-vermouth",
-        "quantity": 3,
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
         "id": "violet-liqueur",
-        "quantity": 0.5,
+        "quantity": 1.5,
         "unit": "cl"
       },
       {
@@ -827,6 +827,35 @@
       }
     ],
     "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "el-presidente",
+    "name": "El Presidente",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "light-rum",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "white-vermouth",
+        "quantity": 2.25,
+        "unit": "cl"
+      },
+      {
+        "id": "orange-curacao-liqueur",
+        "quantity": 0.75,
+        "unit": "cl"
+      },
+      {
+        "id": "grenadine-syrup",
+        "quantity": 0.25,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
     "glassId": "coupe"
   },
   {
@@ -1620,6 +1649,30 @@
     "garnishIds": ["lemon-zest-twist"]
   },
   {
+    "id": "san-martin",
+    "name": "San Martin",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "quantity": 0.5,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "sanctuary",
     "name": "Sanctuary",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -1786,12 +1839,12 @@
     "ingredientIds": [
       {
         "id": "cognac",
-        "quantity": 5,
+        "quantity": 6,
         "unit": "cl"
       },
       {
         "id": "white-mint-liqueur",
-        "quantity": 2,
+        "quantity": 2.25,
         "unit": "cl"
       }
     ],
