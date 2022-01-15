@@ -1,4 +1,4 @@
-import { Component, HostBinding, Injector, OnDestroy, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { Component, HostBinding, Injector, OnDestroy, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 
 import { Subject } from 'rxjs';
@@ -8,8 +8,8 @@ import { AppService } from '@app/app.service';
 import { CocktailDetailDialogComponent } from '@app/cocktails/cocktail-detail-dialog/cocktail-detail-dialog.component';
 import { Cocktail } from '@app/cocktails/shared/cocktail';
 import { CocktailService } from '@app/cocktails/shared/cocktail.service';
-import { ThemeService } from '@app/core/theme.service';
-import { FiltersDialogComponent } from '@app/core/filters-dialog/filters-dialog.component';
+import { FiltersDialogComponent } from '@app/core/filters/filters-dialog/filters-dialog.component';
+import { ThemeService } from '@app/core/theme/theme.service';
 import { Ingredient } from '@app/shared/models/ingredient';
 import { Availability } from '@app/shared/typings/availability';
 import { AppliedTheme } from '@app/shared/typings/theme';

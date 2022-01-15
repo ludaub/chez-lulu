@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FiltersDialogComponent } from '@app/core/filters-dialog/filters-dialog.component';
+import { FiltersDialogComponent } from '@app/core/filters/filters-dialog/filters-dialog.component';
 import { SharedModule } from '@app/shared/shared.module';
 
 describe('FiltersDialogComponent', () => {
