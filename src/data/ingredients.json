@@ -229,23 +229,9 @@
     "categoryId": "vermouth"
   },
   {
-    "id": "irish-whiskey",
-    "name": "Irish whiskey",
-    "brand": "Jameson",
-    "available": false,
-    "categoryId": "spirit"
-  },
-  {
-    "id": "rye-whiskey",
-    "name": "Rye whiskey",
-    "brand": "Rittenhouse",
-    "available": true,
-    "categoryId": "spirit"
-  },
-  {
-    "id": "scotch-whisky",
-    "name": "Scotch whisky",
-    "brand": "Monkey Shoulder",
+    "id": "light-rum",
+    "name": "Rhum blanc",
+    "brand": "Havana Club 3 ans",
     "available": true,
     "categoryId": "spirit"
   },
@@ -267,6 +253,27 @@
     "name": "Suze",
     "available": true,
     "categoryId": "liqueur"
+  },
+  {
+    "id": "irish-whiskey",
+    "name": "Irish whiskey",
+    "brand": "Jameson",
+    "available": false,
+    "categoryId": "spirit"
+  },
+  {
+    "id": "rye-whiskey",
+    "name": "Rye whiskey",
+    "brand": "Rittenhouse",
+    "available": true,
+    "categoryId": "spirit"
+  },
+  {
+    "id": "scotch-whisky",
+    "name": "Scotch whisky",
+    "brand": "Monkey Shoulder",
+    "available": true,
+    "categoryId": "spirit"
   },
   {
     "id": "dry-vermouth",
