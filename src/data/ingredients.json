@@ -35,6 +35,12 @@
     "categoryId": "liqueur"
   },
   {
+    "id": "bittersweet-aperitivo",
+    "name": "Aperol",
+    "available": true,
+    "categoryId": "amaro"
+  },
+  {
     "id": "benedictine-liqueur",
     "name": "Bénédictine",
     "available": true,
