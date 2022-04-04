@@ -718,7 +718,6 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [],
     "glassId": "coupe"
   },
   {
@@ -1127,35 +1126,6 @@
     "glassId": "coupe"
   },
   {
-    "id": "cornwall-negroni",
-    "name": "Cornwall Negroni",
-    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
-    "ingredientIds": [
-      {
-        "id": "london-dry-gin",
-        "quantity": 4.5,
-        "unit": "cl"
-      },
-      {
-        "id": "italian-red-bitter",
-        "quantity": 1.5,
-        "unit": "cl"
-      },
-      {
-        "id": "full-bodied-vermouth",
-        "quantity": 1.5,
-        "unit": "cl"
-      },
-      {
-        "id": "orange-bitter",
-        "quantity": 2,
-        "unit": "traits"
-      }
-    ],
-    "garnishIds": ["orange-zest-twist"],
-    "glassId": "coupe"
-  },
-  {
     "id": "corpse-reviver-1",
     "name": "Corpse Reviver No. 1",
     "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
@@ -1207,6 +1177,30 @@
     ],
     "garnishIds": ["lemon-zest-twist"],
     "glassId": "coupe"
+  },
+  {
+    "id": "cynar-negroni",
+    "name": "Cynar Negroni",
+    "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
+    "ingredientIds": [
+      {
+        "id": "london-dry-gin",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "amaro-carciofo",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-wedge"],
+    "glassId": "old-fashioned"
   },
   {
     "id": "dandy",
@@ -1601,7 +1595,6 @@
         "unit": "cl"
       }
     ],
-    "garnishIds": [],
     "glassId": "coupe"
   },
   {
@@ -2390,6 +2383,30 @@
     "glassId": "old-fashioned"
   },
   {
+    "id": "old-gal",
+    "name": "Old Gal",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre rempli de glace.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "italian-red-bitter",
+        "quantity": 3,
+        "unit": "cl"
+      },
+      {
+        "id": "white-vermouth",
+        "quantity": 3,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-slice"],
+    "glassId": "old-fashioned"
+  },
+  {
     "id": "old-hickory",
     "name": "Old Hickory",
     "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
@@ -3017,7 +3034,6 @@
         "unit": "trait"
       }
     ],
-    "garnishIds": [],
     "glassId": "coupe"
   },
   {
