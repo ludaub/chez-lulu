@@ -1179,6 +1179,30 @@
     "glassId": "coupe"
   },
   {
+    "id": "cuban-liberal",
+    "name": "Cuban Liberal",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "light-rum",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "amer",
+        "quantity": 0.75,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
     "id": "cynar-negroni",
     "name": "Cynar Negroni",
     "recipe": "Verser tous les ingrédients dans le verre rempli de glace et mélanger.",
@@ -1966,6 +1990,30 @@
       }
     ],
     "garnishIds": ["orange-zest-twist"],
+    "glassId": "coupe"
+  },
+  {
+    "id": "liberal",
+    "name": "Liberal",
+    "recipe": "Mélanger tous les ingrédients avec de la glace et filtrer dans le verre refroidi.",
+    "ingredientIds": [
+      {
+        "id": "rye-whiskey",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "sweet-vermouth",
+        "quantity": 4.5,
+        "unit": "cl"
+      },
+      {
+        "id": "amer",
+        "quantity": 0.75,
+        "unit": "cl"
+      }
+    ],
+    "garnishIds": ["lemon-zest-twist", "maraschino-cherry"],
     "glassId": "coupe"
   },
   {

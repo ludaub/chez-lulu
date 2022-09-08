@@ -17,7 +17,7 @@
     "id": "amaro",
     "name": "Amaro",
     "brand": "Averna",
-    "available": false,
+    "available": true,
     "categoryId": "amaro"
   },
   {
