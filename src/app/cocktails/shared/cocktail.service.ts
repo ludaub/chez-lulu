@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { AppService } from '@app/app.service';
+import { AppStore } from '@app/app.store.service';
 import { Cocktail } from '@app/cocktails/shared/cocktail';
 import { Ingredient } from '@app/shared/models/ingredient';
 import { Availability } from '@app/shared/typings/availability';
@@ -9,9 +9,9 @@ import { Availability } from '@app/shared/typings/availability';
   providedIn: 'root',
 })
 export class CocktailService {
-  constructor(private _app: AppService) {
-    this._app.availability$.subscribe((availability) => this._filter());
-    this._app.filters$.subscribe((filters) => this._filter());
+  constructor(private _store: AppStore) {
+    this._store.availability$.subscribe(() => this._filter());
+    this._store.filters$.subscribe(() => this._filter());
   }
 
   getByAvailability(availability: Availability): Array<Cocktail> {
@@ -19,22 +19,22 @@ export class CocktailService {
 
     switch (availability) {
       case 'all':
-        cocktails = this._app.cocktails;
+        cocktails = this._store.cocktails;
         break;
       case 'available':
-        cocktails = this._app.cocktails.filter((cocktail) => cocktail.isAvailable());
+        cocktails = this._store.cocktails.filter((cocktail) => cocktail.isAvailable());
         break;
       case 'unavailable':
-        cocktails = this._app.cocktails.filter((cocktail) => !cocktail.isAvailable());
+        cocktails = this._store.cocktails.filter((cocktail) => !cocktail.isAvailable());
         break;
       default:
         return cocktails;
     }
 
-    if (this._app.filters.length) {
+    if (this._store.filters.length) {
       cocktails = cocktails.filter((cocktail) => {
         const ingredientIds = cocktail.ingredientIds.map((ingredientId) => ingredientId.id);
-        return this._app.filters.every((filter) => ingredientIds.includes(filter));
+        return this._store.filters.every((filter) => ingredientIds.includes(filter));
       });
     }
 
@@ -42,30 +42,30 @@ export class CocktailService {
   }
 
   getByIngredient(ingredient: Ingredient): Array<Cocktail> {
-    return this._app.displayedCocktails.filter((cocktail) =>
+    return this._store.displayedCocktails.filter((cocktail) =>
       cocktail.ingredientIds.map((ingredientId) => ingredientId.id).some((id) => id === ingredient.id)
     );
   }
 
   private _filter(): void {
-    switch (this._app.availability) {
+    switch (this._store.availability) {
       case 'all':
-        this._app.displayedCocktails = [...this._app.cocktails];
+        this._store.displayedCocktails = [...this._store.cocktails];
         break;
       case 'available':
-        this._app.displayedCocktails = this._app.cocktails.filter((cocktail) => cocktail.isAvailable());
+        this._store.displayedCocktails = this._store.cocktails.filter((cocktail) => cocktail.isAvailable());
         break;
       case 'unavailable':
-        this._app.displayedCocktails = this._app.cocktails.filter((cocktail) => !cocktail.isAvailable());
+        this._store.displayedCocktails = this._store.cocktails.filter((cocktail) => !cocktail.isAvailable());
         break;
       default:
-        this._app.displayedCocktails = [];
+        this._store.displayedCocktails = [];
     }
 
-    if (this._app.filters.length) {
-      this._app.displayedCocktails = this._app.displayedCocktails.filter((cocktail) => {
+    if (this._store.filters.length) {
+      this._store.displayedCocktails = this._store.displayedCocktails.filter((cocktail) => {
         const ingredientIds = cocktail.ingredientIds.map((ingredientId) => ingredientId.id);
-        return this._app.filters.every((filter) => ingredientIds.includes(filter));
+        return this._store.filters.every((filter) => ingredientIds.includes(filter));
       });
     }
   }

@@ -1,10 +1,10 @@
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
 
-import { AppService } from '@app/app.service';
+import { AppStore } from '@app/app.store.service';
 
-describe('AppService', () => {
-  let service: AppService;
+describe('AppStore', () => {
+  let service: AppStore;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -14,7 +14,7 @@ describe('AppService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(AppService);
+    service = TestBed.inject(AppStore);
   });
 
   it('should create the service', () => {

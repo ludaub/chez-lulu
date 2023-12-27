@@ -14,7 +14,7 @@ import { AppliedTheme, Theme } from '@app/shared/typings/theme';
 @Injectable({
   providedIn: 'root',
 })
-export class AppService {
+export class AppStore {
   /**
    * Cocktails data.
    */

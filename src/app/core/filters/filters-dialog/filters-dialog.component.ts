@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { AppService } from '@app/app.service';
+import { AppStore } from '@app/app.store.service';
 import { Cocktail } from '@app/cocktails/shared/cocktail';
 import { CocktailService } from '@app/cocktails/shared/cocktail.service';
 import { Ingredient } from '@app/shared/models/ingredient';
@@ -10,10 +10,10 @@ import { Ingredient } from '@app/shared/models/ingredient';
   templateUrl: './filters-dialog.component.html',
 })
 export class FiltersDialogComponent {
-  constructor(public app: AppService, private _cocktailService: CocktailService) {}
+  constructor(public store: AppStore, private _cocktailService: CocktailService) {}
 
   getFilterableIngredients(): Array<Ingredient> {
-    return this.app.ingredients
+    return this.store.ingredients
       .filter((ingredient) => this._cocktailService.getByIngredient(ingredient).length > 0)
       .filter((ingredient) => ingredient.filterable || ingredient.filterable === undefined);
   }
@@ -23,6 +23,6 @@ export class FiltersDialogComponent {
   }
 
   resetFilters(): void {
-    this.app.filters = [];
+    this.store.filters = [];
   }
 }

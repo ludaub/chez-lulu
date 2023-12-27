@@ -4,7 +4,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { Subject } from 'rxjs';
 import { distinctUntilChanged, takeUntil } from 'rxjs/operators';
 
-import { AppService } from '@app/app.service';
+import { AppStore } from '@app/app.store.service';
 import { CocktailDetailDialogComponent } from '@app/cocktails/cocktail-detail-dialog/cocktail-detail-dialog.component';
 import { Cocktail } from '@app/cocktails/shared/cocktail';
 import { CocktailService } from '@app/cocktails/shared/cocktail.service';
@@ -24,7 +24,7 @@ export class AppComponent implements OnInit, OnDestroy {
   private readonly _destroyed$: Subject<null> = new Subject<null>();
 
   constructor(
-    public app: AppService,
+    public store: AppStore,
     private _cocktailService: CocktailService,
     private _dialog: MatDialog,
     private _injector: Injector
@@ -32,11 +32,11 @@ export class AppComponent implements OnInit, OnDestroy {
     // Injects `ThemeService`, just to initialize it.
     this._injector.get(ThemeService);
 
-    this._class = this.app.appliedTheme;
+    this._class = this.store.appliedTheme;
   }
 
   ngOnInit(): void {
-    this.app.appliedTheme$.pipe(distinctUntilChanged(), takeUntil(this._destroyed$)).subscribe((theme) => {
+    this.store.appliedTheme$.pipe(distinctUntilChanged(), takeUntil(this._destroyed$)).subscribe((theme) => {
       this._class = theme;
     });
   }
@@ -50,11 +50,11 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   getGlassIconByCocktail(cocktail: Cocktail): string {
-    return this.app.glasses.find((glass) => glass.id === cocktail.glassId)?.icon ?? '';
+    return this.store.glasses.find((glass) => glass.id === cocktail.glassId)?.icon ?? '';
   }
 
   isIngredientFiltered(ingredient: Ingredient): boolean {
-    return this.app.filters.includes(ingredient.id);
+    return this.store.filters.includes(ingredient.id);
   }
 
   openCocktailDetailDialog(cocktail: Cocktail): void {

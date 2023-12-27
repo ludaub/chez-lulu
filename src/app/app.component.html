@@ -10,7 +10,7 @@
 
     <div class="theme-button-container">
       <button mat-icon-button [matMenuTriggerFor]="themeMenu" aria-label="Choisir un thème">
-        <mat-icon class="theme-button-icon" *ngIf="app.selectedTheme === 'light-theme'; else darkThemeIcon"
+        <mat-icon class="theme-button-icon" *ngIf="store.selectedTheme === 'light-theme'; else darkThemeIcon"
           >light_mode</mat-icon
         >
         <ng-template #darkThemeIcon>
@@ -23,8 +23,8 @@
       <mat-button-toggle-group
         class="toggle-group toggle-group-availability"
         name="toggle"
-        [disabled]="!app.cocktails.length"
-        [(ngModel)]="app.availability"
+        [disabled]="!store.cocktails.length"
+        [(ngModel)]="store.availability"
       >
         <mat-button-toggle class="toggle toggle-all" value="all">
           Tout <span class="availability-counter">({{ getCocktailsByAvailability('all').length }})</span>
@@ -50,10 +50,10 @@
     </div>
 
     <mat-menu #themeMenu="matMenu" class="theme-menu" overlapTrigger="true" xPosition="before" yPosition="below">
-      <mat-radio-group class="theme-radio-group" [(ngModel)]="app.selectedTheme">
+      <mat-radio-group class="theme-radio-group" [(ngModel)]="store.selectedTheme">
         <mat-radio-button class="theme-radio-button" value="light-theme">Thème clair</mat-radio-button>
         <mat-radio-button class="theme-radio-button" value="dark-theme">Thème sombre</mat-radio-button>
-        <mat-radio-button class="theme-radio-button" *ngIf="app.hasSystemTheme" value="system-theme"
+        <mat-radio-button class="theme-radio-button" *ngIf="store.hasSystemTheme" value="system-theme"
           >Thème système</mat-radio-button
         >
       </mat-radio-group>
@@ -64,7 +64,7 @@
     <ul class="cocktails">
       <li
         class="cocktail"
-        *ngFor="let cocktail of app.displayedCocktails; trackBy: identifyCocktail"
+        *ngFor="let cocktail of store.displayedCocktails; trackBy: identifyCocktail"
         (click)="openCocktailDetailDialog(cocktail)"
         (keyup.enter)="openCocktailDetailDialog(cocktail)"
         (keyup.space)="openCocktailDetailDialog(cocktail)"
@@ -120,11 +120,11 @@
 <button
   mat-fab
   class="filters-fab"
-  [class.has-filters]="this.app.filters.length"
+  [class.has-filters]="this.store.filters.length"
   (click)="openfiltersDialog()"
-  [matBadge]="app.filters.length"
-  [matBadgeHidden]="!app.filters.length"
-  [disabled]="!app.cocktails.length"
+  [matBadge]="store.filters.length"
+  [matBadgeHidden]="!store.filters.length"
+  [disabled]="!store.cocktails.length"
   aria-haspopup="dialog"
   aria-label="Ouvrir la fenêtre des filtres"
 >

@@ -1,7 +1,7 @@
 <h2 mat-dialog-title class="filters-dialog-title">Filtres</h2>
 
 <mat-dialog-content>
-  <mat-selection-list #filterList (click)="$event.stopPropagation()" [(ngModel)]="app.filters">
+  <mat-selection-list #filterList (click)="$event.stopPropagation()" [(ngModel)]="store.filters">
     <mat-list-option *ngFor="let ingredient of getFilterableIngredients()" [value]="ingredient.id">
       <span [class.unavailable]="!ingredient.available">
         {{ ingredient.name }} ({{ getCocktailsByIngredient(ingredient).length }})
@@ -14,7 +14,7 @@
   <button
     mat-button
     class="filters-dialog-button filters-dialog-reset-button"
-    [disabled]="!app.filters.length"
+    [disabled]="!store.filters.length"
     (click)="resetFilters()"
   >
     Réinitialiser

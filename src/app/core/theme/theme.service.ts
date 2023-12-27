@@ -4,7 +4,7 @@ import { ApplicationRef, Injectable } from '@angular/core';
 
 import { distinctUntilChanged } from 'rxjs/operators';
 
-import { AppService } from '@app/app.service';
+import { AppStore } from '@app/app.store.service';
 import { AppliedTheme, Theme } from '@app/shared/typings/theme';
 
 @Injectable({
@@ -14,26 +14,26 @@ export class ThemeService {
   private _themes = ['dark-theme', 'light-theme'];
 
   constructor(
-    private _app: AppService,
     private _appRef: ApplicationRef,
     private _media: MediaMatcher,
-    private _overlayContainer: OverlayContainer
+    private _overlayContainer: OverlayContainer,
+    private _store: AppStore
   ) {
     const darkModeQuery = this._media.matchMedia('(prefers-color-scheme: dark)');
     const lightModeQuery = this._media.matchMedia('(prefers-color-scheme: light)');
-    this._app.hasSystemTheme = darkModeQuery.matches || lightModeQuery.matches;
+    this._store.hasSystemTheme = darkModeQuery.matches || lightModeQuery.matches;
 
     const listener = (event: MediaQueryListEvent): void => {
-      this._app.appliedTheme = event.matches ? 'dark-theme' : 'light-theme';
+      this._store.appliedTheme = event.matches ? 'dark-theme' : 'light-theme';
       this._appRef.tick();
     };
 
     if (localStorage.getItem('theme')) {
-      this._app.selectedTheme = localStorage.getItem('theme') as Theme;
-      this._app.appliedTheme = localStorage.getItem('theme') as AppliedTheme;
+      this._store.selectedTheme = localStorage.getItem('theme') as Theme;
+      this._store.appliedTheme = localStorage.getItem('theme') as AppliedTheme;
     }
 
-    this._app.selectedTheme$.pipe(distinctUntilChanged()).subscribe((theme) => {
+    this._store.selectedTheme$.pipe(distinctUntilChanged()).subscribe((theme) => {
       localStorage.setItem('theme', theme);
 
       if (theme === 'system-theme') {
@@ -43,10 +43,10 @@ export class ThemeService {
         darkModeQuery.removeEventListener('change', listener);
       }
 
-      this._app.appliedTheme = theme;
+      this._store.appliedTheme = theme;
     });
 
-    this._app.appliedTheme$.pipe(distinctUntilChanged()).subscribe((theme) => {
+    this._store.appliedTheme$.pipe(distinctUntilChanged()).subscribe((theme) => {
       this._overlayContainer.getContainerElement().classList.remove(...this._themes);
       this._overlayContainer.getContainerElement().classList.add(theme as AppliedTheme);
     });
